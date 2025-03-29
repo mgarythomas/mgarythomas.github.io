@@ -1,0 +1,131 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Gary Thomas",
+        "label": "Architect",
+        "image": "",
+        "email": "gary@mgarythomas.com",
+        "phone": "+61 416 234 510",
+        "url": "http://mgarythomas.com",
+        "summary": "Gary is originally from the UK, but has lived in Australia and New Zealand for the last 20 years. He originally studied Computer Science at Stafforshire University (or North Staffs Polytechnic as it was known back then) before starting his first job as a technologist (software engineer) at GPT in Liverpool, UK.",
+        "location": {
+            "address": "Centennial Park",
+            "postalCode": "2021",
+            "city": "Sydney",
+            "countryCode": "AU",
+            "region": "New South Wales"
+        },
+        "profiles": [
+            {
+                "network": "SoundCloud",
+                "username": "dandymusicnl",
+                "url": "https://soundcloud.example.com/dandymusicnl"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Pied Piper",
+            "location": "Palo Alto, CA",
+            "description": "Awesome compression company",
+            "position": "CEO/President",
+            "url": "http://piedpiper.example.com",
+            "startDate": "2013-12-01",
+            "endDate": "2014-12-01",
+            "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+            "highlights": [
+                "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+                "Successfully won Techcrunch Disrupt",
+                "Optimized an algorithm that holds the current world record for Weisman Scores"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "CoderDojo",
+            "position": "Teacher",
+            "url": "http://coderdojo.example.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Global movement of free coding clubs for young people.",
+            "highlights": [
+                "Awarded 'Teacher of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Stafforshire University (North Staffs Polytechnic)",
+            "url": "https://www.staffs.ac.uk/",
+            "area": "Computer Science",
+            "studyType": "Higher Diploma",
+            "startDate": "1986-09-01",
+            "endDate": "1988-07-01"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Video compression for 3d media",
+            "publisher": "Hooli",
+            "releaseDate": "2014-10-01",
+            "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+            "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Erlich Bachman",
+            "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Miss Direction",
+            "description": "A mapping engine that misguides you",
+            "highlights": [
+                "Won award at AIHacks 2016",
+                "Built by all women team of newbie programmers",
+                "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+            ],
+            "keywords": [
+                "GoogleMaps",
+                "Chrome Extension",
+                "Javascript"
+            ],
+            "startDate": "2016-08-24",
+            "endDate": "2016-08-24",
+            "url": "missdirection.example.com",
+            "roles": [
+                "Team lead",
+                "Designer"
+            ],
+            "entity": "Smoogle",
+            "type": "application"
+        }
+    ]
+}
