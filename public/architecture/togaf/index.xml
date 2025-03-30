@@ -9,27 +9,85 @@
     <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/architecture/togaf/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Scope</title>
+      <link>http://localhost:1313/architecture/togaf/scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/scope/</guid>
+      <description>&lt;h1 id=&#34;architecture-scope&#34;&gt;Architecture Scope&lt;/h1&gt;
+&lt;h2 id=&#34;dimensions&#34;&gt;Dimensions&lt;/h2&gt;
+&lt;p&gt;4 dimensions define the limit and the scope of an architecture:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;em&gt;Enterprise&lt;/em&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;em&gt;Domain&lt;/em&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;em&gt;Period&lt;/em&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Breadth&lt;/td&gt;
+          &lt;td&gt;Depth&lt;/td&gt;
+          &lt;td&gt;BDAT&lt;/td&gt;
+          &lt;td&gt;Planning Horizon&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;- What is the full extent of the enterprise?&lt;/td&gt;
+          &lt;td&gt;- What level of detail will the architecture cover?&lt;/td&gt;
+          &lt;td&gt;- What domains will the architecture cover?&lt;/td&gt;
+          &lt;td&gt;- What time period for the architecture vision?&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;- How much will the architecture cover?&lt;/td&gt;
+          &lt;td&gt;- How much architecture is enough?&lt;/td&gt;
+          &lt;td&gt;- Business&lt;/td&gt;
+          &lt;td&gt;- Can we cover the period to a required level of detail?&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;- Organisations&lt;/td&gt;
+          &lt;td&gt;- What is the boundary between solution and delivery?&lt;/td&gt;
+          &lt;td&gt;- Data&lt;/td&gt;
+          &lt;td&gt;- Do we have enough information?&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;- Business Units&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;- Application&lt;/td&gt;
+          &lt;td&gt;- Do we have enough resources to complete the architecture?&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;- Departments&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;- Technology&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;- Processes&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Levels</title>
+      <link>http://localhost:1313/architecture/togaf/levels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/levels/</guid>
+      <description>TOGAF Levels</description>
+    </item>
+    <item>
       <title>TOGAF Architecture Development Method (ADM)</title>
       <link>http://localhost:1313/architecture/togaf/adm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/togaf/adm/</guid>
       <description>&lt;h2 id=&#34;togaf-architecture-development-method-adm&#34;&gt;TOGAF Architecture Development Method (ADM)&lt;/h2&gt;
 &lt;p&gt;TOGAF uses a &amp;ldquo;crop circle&amp;rdquo; diagram to show the progress of the different phases of the ADM.&lt;/p&gt;
-&lt;p&gt;Prior to commencing the ADM, the Preliminary phase should be completed, which will provide the framework and principles for the ADM.&lt;/p&gt;
+&lt;p&gt;Prior to commencing the ADM, the Preliminary phase should be completed, which will provide the framework and principles for the ADM. The phases may occur in parallel.&lt;/p&gt;
 &lt;p&gt;The circle theme is used to show the possible iterations of the architecture over time.&lt;/p&gt;
 &lt;p&gt;Requirements are in the centre as they will be updated and managed throughout the ADM phases.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Enterprise Meta Model</title>
-      <link>http://localhost:1313/architecture/togaf/enterprisemetamodel/</link>
-      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/architecture/togaf/enterprisemetamodel/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;The meta model defines the entities within an organisation and the relationships between them.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;TOGAF ADM Cycle&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/architecture/togaf/enterpriseMetaModel.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;TOGAF provides templates for documents but does not constrain the notation used for the models and artifacts.
-This could be defined as part of the preliminary phase of the architecture&lt;/p&gt;
-&lt;p&gt;Examles are ArchiMate, Business Process Model and Notation (BPMN), and Unified Modeling Language (UML).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecture Content Framework</title>
@@ -46,32 +104,79 @@ This could be defined as part of the preliminary phase of the architecture&lt;/p
 &lt;p&gt;There are multiple different frameworks for describing architecture content - TOGAF, Zachman, DoDAF and NAF, to name a few.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ADM Deliverables by Phase</title>
-      <link>http://localhost:1313/architecture/togaf/deliverablesphase/</link>
+      <title>Enterprise Meta Model</title>
+      <link>http://localhost:1313/architecture/togaf/enterprisemetamodel/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/enterprisemetamodel/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The meta model defines the entities within an organisation and the relationships between them.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;TOGAF ADM Cycle&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/architecture/togaf/enterpriseMetaModel.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;TOGAF provides templates for documents but does not constrain the notation used for the models and artifacts.
+This could be defined as part of the preliminary phase of the architecture&lt;/p&gt;
+&lt;p&gt;Examles are ArchiMate, Business Process Model and Notation (BPMN), and Unified Modeling Language (UML).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Repository</title>
+      <link>http://localhost:1313/architecture/togaf/architecturerepository/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/architecture/togaf/deliverablesphase/</guid>
-      <description>&lt;h2 id=&#34;togaf-architecture-development-method-adm---deliverables&#34;&gt;TOGAF Architecture Development Method (ADM) - Deliverables&lt;/h2&gt;
-&lt;h3 id=&#34;preliminary&#34;&gt;Preliminary&lt;/h3&gt;
-&lt;h4 id=&#34;objectives&#34;&gt;Objectives&lt;/h4&gt;
-&lt;p&gt;The objectives for the Preliminary phase are:&lt;/p&gt;
+      <guid>http://localhost:1313/architecture/togaf/architecturerepository/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Architecture Repository is a central repository for all architecture artifacts and work products. It stores different classes of architectural output at different levels.&lt;/p&gt;
+&lt;p&gt;Part of the Enterprise Repository of artifacts.&lt;/p&gt;
+&lt;p&gt;This is often implement by modelling software (e.g. BizzDesign), analytic tools, file repositories or document/content management systems.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;TOGAF ADM Cycle&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/architecture/togaf/ArchitectureRepository.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Architecture Landscape&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;The architectural representation of assets deployed within the enterprise at a particular point in time - This will reflect the baseline, transition(s) and target states often at multiple levels of detail.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Capability</title>
+      <link>http://localhost:1313/architecture/togaf/architecturecapability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/architecturecapability/</guid>
+      <description>The structure and categorisation of assets</description>
+    </item>
+    <item>
+      <title>Enterprise Continuum</title>
+      <link>http://localhost:1313/architecture/togaf/enterprisecontinuum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/enterprisecontinuum/</guid>
+      <description>The structure and categorisation of assets</description>
+    </item>
+    <item>
+      <title>Architecture Governance</title>
+      <link>http://localhost:1313/architecture/togaf/architecturegovernance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/architecturegovernance/</guid>
+      <description>&lt;h1 id=&#34;governance&#34;&gt;Governance&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Architecture Governance&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/architecture/togaf/architectureGovernance.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Within TOGAF the focus is on Architecture Governance and how it supports other forms of governance within an enterprise.&lt;/p&gt;
+&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;
+&lt;p&gt;Given the focus on architecture governance within TOGAF, we can define governance as the system by which the current and future state are directed and controlled.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Prepare the organization for successful architecture projects&lt;/li&gt;
-&lt;li&gt;Establish the foundation for architecture capability, principles and framework&lt;/li&gt;
-&lt;li&gt;Define the scope and constraints for architecture projects&lt;/li&gt;
+&lt;li&gt;A committed and hierarchical decision-making process with a defined structure of relationships to direct and control the enterprise to achieve stated goals.&lt;/li&gt;
+&lt;li&gt;Enables the equality of concerns and transparency (making sure all Stakeholders concerns are reflected), protecting the rights and interests of the business.&lt;/li&gt;
+&lt;li&gt;It can be used to drive a set of behaviours controlled via measurements and metrics.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;deliverables&#34;&gt;Deliverables&lt;/h4&gt;
+&lt;h3 id=&#34;customisation&#34;&gt;Customisation&lt;/h3&gt;
+&lt;p&gt;A customised governance approach should define - How, When, Why and What?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Board</title>
+      <link>http://localhost:1313/architecture/togaf/architectureboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/architectureboard/</guid>
+      <description>&lt;h1 id=&#34;architecture-board&#34;&gt;Architecture Board&lt;/h1&gt;
+&lt;p&gt;The cross-enterprise architecture board is the highest level of architecture governance and is represnted by architecture stakeholders.&lt;/p&gt;
+&lt;h2 id=&#34;role&#34;&gt;Role&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Architecture Capability Assessment&lt;/li&gt;
-&lt;li&gt;Architecture Capability Gap Analysis&lt;/li&gt;
-&lt;li&gt;Organisational Model for Enterprise Architecture&lt;/li&gt;
-&lt;li&gt;Architecture Framework - tailored for organisation and customisations of ADM&lt;/li&gt;
-&lt;li&gt;Architecture Principles&lt;/li&gt;
-&lt;li&gt;Architecture Governance Framework&lt;/li&gt;
-&lt;li&gt;Architecture Request for Work (Scope)&lt;/li&gt;
+&lt;li&gt;The Group of executives responsible for the review and maintenance of the architecture and to oversee the implementation of the strategy within &lt;em&gt;Phase H - Architecture Change Management&lt;/em&gt; of the ADM.&lt;/li&gt;
+&lt;li&gt;Possesses identifiable and articulated responsibilities, decision-making capabilities, remit and authority limits.&lt;/li&gt;
+&lt;li&gt;Distinguishes between &lt;em&gt;local&lt;/em&gt; (domain experts, line responsibility) and &lt;em&gt;global&lt;/em&gt; (organisation-wide responsiblity) &lt;em&gt;representatives in larger enterprises&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Scope may be Global, Regional or Business Line&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;phase-a---architecture-vision&#34;&gt;Phase A - Architecture Vision&lt;/h3&gt;
-&lt;h4 id=&#34;objectives-1&#34;&gt;Objectives&lt;/h4&gt;
-&lt;p&gt;The objectives for the Architecture Vision phase are:&lt;/p&gt;</description>
+&lt;h2 id=&#34;general-responsibilities&#34;&gt;General Responsibilities&lt;/h2&gt;
+&lt;p&gt;The board is reponsible and accountable for achieving different goals:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

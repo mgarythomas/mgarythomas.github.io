@@ -1,7 +1,7 @@
 ---
 title: "TOGAF Architecture Development Method (ADM)"
 draft: true
-weight: 10
+weight: 30
 ShowToc: false
 TocOpen: false
 ---
@@ -10,7 +10,7 @@ TocOpen: false
 
 TOGAF uses a "crop circle" diagram to show the progress of the different phases of the ADM.
 
-Prior to commencing the ADM, the Preliminary phase should be completed, which will provide the framework and principles for the ADM.
+Prior to commencing the ADM, the Preliminary phase should be completed, which will provide the framework and principles for the ADM. The phases may occur in parallel.
 
 The circle theme is used to show the possible iterations of the architecture over time.
 

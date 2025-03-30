@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deliverables on mgarythomas</title>
+    <link>http://localhost:1313/architecture/togaf/deliverables/</link>
+    <description>Recent content in Deliverables on mgarythomas</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-uk</language>
+    <atom:link href="http://localhost:1313/architecture/togaf/deliverables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADM Deliverables by Phase</title>
+      <link>http://localhost:1313/architecture/togaf/deliverables/deliverablesphase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/deliverables/deliverablesphase/</guid>
+      <description>&lt;h2 id=&#34;togaf-architecture-development-method-adm---deliverables&#34;&gt;TOGAF Architecture Development Method (ADM) - Deliverables&lt;/h2&gt;
+&lt;h3 id=&#34;preliminary&#34;&gt;Preliminary&lt;/h3&gt;
+&lt;h4 id=&#34;objectives&#34;&gt;Objectives&lt;/h4&gt;
+&lt;p&gt;The objectives for the Preliminary phase are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prepare the organization for successful architecture projects&lt;/li&gt;
+&lt;li&gt;Establish the foundation for architecture capability, principles and framework&lt;/li&gt;
+&lt;li&gt;Define the scope and constraints for architecture projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;deliverables&#34;&gt;Deliverables&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Architecture Capability Assessment&lt;/li&gt;
+&lt;li&gt;Architecture Capability Gap Analysis&lt;/li&gt;
+&lt;li&gt;Organisational Model for Enterprise Architecture&lt;/li&gt;
+&lt;li&gt;Architecture Framework - tailored for organisation and customisations of ADM&lt;/li&gt;
+&lt;li&gt;Architecture Principles&lt;/li&gt;
+&lt;li&gt;Architecture Governance Framework&lt;/li&gt;
+&lt;li&gt;Architecture Request for Work (Scope)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-a---architecture-vision&#34;&gt;Phase A - Architecture Vision&lt;/h3&gt;
+&lt;h4 id=&#34;objectives-1&#34;&gt;Objectives&lt;/h4&gt;
+&lt;p&gt;The objectives for the Architecture Vision phase are:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

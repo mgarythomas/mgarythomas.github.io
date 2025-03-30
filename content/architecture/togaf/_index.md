@@ -9,7 +9,7 @@ TocOpen: true
 
 # TOGAF Architecture Framework
 
-This doesn't represent my personal view of architecture, but the TOGAF Standard, and is a summary of the notes I made while studying and prior to sitting the TOGAF certification exam.
+This content relates to the TOGAF Standard, and is a summary of the notes I made while studying and prior to sitting the TOGAF certification exam.
 
 ## Definition of Architecture
  The TOGAF Standard enhances the ISO/IEC/IEEE 42010:2011 terminology
