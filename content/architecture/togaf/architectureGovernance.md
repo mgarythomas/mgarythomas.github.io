@@ -1,7 +1,7 @@
 ---
 title: "Architecture Governance"
 draft: true
-weight: 80
+weight: 110
 ShowToc: false
 TocOpen: false
 ---

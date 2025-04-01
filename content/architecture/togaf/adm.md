@@ -1,7 +1,7 @@
 ---
 title: "TOGAF Architecture Development Method (ADM)"
 draft: true
-weight: 30
+weight: 60
 ShowToc: false
 TocOpen: false
 ---

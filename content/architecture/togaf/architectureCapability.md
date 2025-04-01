@@ -2,7 +2,7 @@
 title: "Architecture Capability"
 description: "The structure and categorisation of assets"
 draft: true
-weight: 70
+weight: 130
 ShowToc: false
 TocOpen: false
 ---

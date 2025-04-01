@@ -2,7 +2,10 @@
 title: "Architecture Content Framework"
 date: 2025-03-26
 draft: false
-weight: 40
+weight: 70
+ShowToc: false
+TocOpen: false
+
 ---
 
 ## Overview

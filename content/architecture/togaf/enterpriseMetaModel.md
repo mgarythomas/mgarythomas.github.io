@@ -2,7 +2,7 @@
 title: "Enterprise Meta Model"
 date: 2025-03-26
 draft: false
-weight: 50
+weight: 80
 ---
 
 ## Overview

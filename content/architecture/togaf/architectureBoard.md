@@ -1,7 +1,7 @@
 ---
 title: "Architecture Board"
 draft: true
-weight: 90
+weight: 120
 ShowToc: false
 TocOpen: false
 ---

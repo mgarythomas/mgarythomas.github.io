@@ -72,11 +72,60 @@
 &lt;/table&gt;</description>
     </item>
     <item>
-      <title>Levels</title>
+      <title>Architecture Levels</title>
       <link>http://localhost:1313/architecture/togaf/levels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/togaf/levels/</guid>
-      <description>TOGAF Levels</description>
+      <description>The different levels of an architecture within the TOGAF standard</description>
+    </item>
+    <item>
+      <title>Architecture Partitioning</title>
+      <link>http://localhost:1313/architecture/togaf/partitioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/partitioning/</guid>
+      <description>&lt;h1 id=&#34;architecture-partitioning&#34;&gt;Architecture Partitioning&lt;/h1&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The TOGAF standard provides a framework for partitioning an architecture into different components.&lt;/p&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;p&gt;A divided subset of an Architecture facilitates its development and management. A specific form of abstraction.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Defined boundaries, govrernance and ownership&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;This may lead to serveral architecture partions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;One owning team&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Architecture are partitioned such that there is a single team owning the Architecture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Multiple Architecture Partitions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;A single team may own multiple partitions, &lt;em&gt;but&lt;/em&gt; a single Architecture cannot be owned by multiple teams.&lt;/li&gt;
+&lt;li&gt;The team will execute the ADM to define, govern and realise the Architecture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Adopt a partitioning model that reflects the Enterprise Operating Model.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;
+&lt;p&gt;The theory is that partitioning will simplify the development and management of Architectures - Note if this is not the case the review the approach and alignment to the Enterprise Operating Model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Abstraction</title>
+      <link>http://localhost:1313/architecture/togaf/abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/abstraction/</guid>
+      <description>Architecture Abstration Levels</description>
+    </item>
+    <item>
+      <title>Building Blocks</title>
+      <link>http://localhost:1313/architecture/togaf/buildingblocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/buildingblocks/</guid>
+      <description>TOGAF Building Blocks (BB) of the Architecture</description>
     </item>
     <item>
       <title>TOGAF Architecture Development Method (ADM)</title>
@@ -129,13 +178,6 @@ This could be defined as part of the preliminary phase of the architecture&lt;/p
 &lt;p&gt;The architectural representation of assets deployed within the enterprise at a particular point in time - This will reflect the baseline, transition(s) and target states often at multiple levels of detail.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Architecture Capability</title>
-      <link>http://localhost:1313/architecture/togaf/architecturecapability/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/architecture/togaf/architecturecapability/</guid>
-      <description>The structure and categorisation of assets</description>
-    </item>
-    <item>
       <title>Enterprise Continuum</title>
       <link>http://localhost:1313/architecture/togaf/enterprisecontinuum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -177,6 +219,13 @@ This could be defined as part of the preliminary phase of the architecture&lt;/p
 &lt;/ul&gt;
 &lt;h2 id=&#34;general-responsibilities&#34;&gt;General Responsibilities&lt;/h2&gt;
 &lt;p&gt;The board is reponsible and accountable for achieving different goals:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Capability</title>
+      <link>http://localhost:1313/architecture/togaf/architecturecapability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/togaf/architecturecapability/</guid>
+      <description>The structure and categorisation of assets</description>
     </item>
   </channel>
 </rss>

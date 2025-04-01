@@ -1,6 +1,6 @@
 ---
-title: "Levels"
-summary: TOGAF Levels
+title: "Architecture Levels"
+summary: "The different levels of an architecture within the TOGAF standard"
 draft: true
 weight: 20
 ShowToc: true

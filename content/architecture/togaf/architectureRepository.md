@@ -1,7 +1,7 @@
 ---
 title: "Architecture Repository"
 draft: true
-weight: 60
+weight: 90
 ---
 
 ## Overview
