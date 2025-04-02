@@ -24,6 +24,5 @@ All of these have some validity as most architects will have had one or more of 
 
 I think the best way to define an architect is by their role and responsibilities. An architect is responsible for the overall design and structure of a system or solution. They are responsible for ensuring that the system or solution is designed in a way that is scalable, maintainable, and secure. They are also responsible for ensuring that the system or solution is designed in a way that is cost-effective and meets the needs of the organization.
 
-What 
 
 

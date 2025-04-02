@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Foundations Group Border -->
+  <rect x="40" y="80" width="290" height="230" rx="10" ry="10" fill="none" stroke="#5d6d7e" stroke-width="2" stroke-dasharray="5,3"/>
+  <rect x="40" y="65" width="110" height="25" rx="5" ry="5" fill="#f8f9fa"/>
+  <text x="95" y="83" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold" fill="#5d6d7e">Foundations</text>
+
+  <!-- Enabling Growth Group Border -->
+  <rect x="340" y="80" width="440" height="230" rx="10" ry="10" fill="none" stroke="#5d6d7e" stroke-width="2" stroke-dasharray="5,3"/>
+  <rect x="340" y="65" width="140" height="25" rx="5" ry="5" fill="#f8f9fa"/>
+  <text x="410" y="83" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold" fill="#5d6d7e">Enabling Growth</text>
+
+  <!-- Column 1: Control Risk -->
+  <rect x="50" y="100" width="120" height="200" rx="8" ry="8" fill="#d4e6f1" stroke="#a9cce3" stroke-width="2"/>
+  <text x="110" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Control Risk</text>
+  
+  <!-- Column 2: Lower Complexity -->
+  <rect x="200" y="100" width="120" height="200" rx="8" ry="8" fill="#a9cce3" stroke="#7fb3d5" stroke-width="2"/>
+  <text x="260" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Lower</text>
+  <text x="260" y="215" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Complexity</text>
+  
+  <!-- Column 3: Timeliness & Responsiveness -->
+  <rect x="350" y="100" width="120" height="200" rx="8" ry="8" fill="#7fb3d5" stroke="#5499c7" stroke-width="2"/>
+  <text x="410" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Timeliness &amp;</text>
+  <text x="410" y="215" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Responsiveness</text>
+  
+  <!-- Column 4: Enable Innovation -->
+  <rect x="500" y="100" width="120" height="200" rx="8" ry="8" fill="#5499c7" stroke="#2980b9" stroke-width="2"/>
+  <text x="560" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Enable</text>
+  <text x="560" y="215" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Innovation</text>
+  
+  <!-- Column 5: Growth -->
+  <rect x="650" y="100" width="120" height="200" rx="8" ry="8" fill="#2980b9" stroke="#1b4f72" stroke-width="2"/>
+  <text x="710" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff">Growth</text>
+  
+  <!-- No connecting arrows -->
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold">Business Strategy Categorisation</text>
+</svg>
