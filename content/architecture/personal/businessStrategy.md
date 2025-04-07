@@ -7,7 +7,6 @@ ShowToc: false
 TocOpen: false
 ---
 
-#Business Strategy
 One of the earliest points in the Architecture journey is the understanding of the overarching business strategy.
 
 If technology is the enabler of business strategy, then the business strategy is the driver for many of the technology choices.
