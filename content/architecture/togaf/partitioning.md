@@ -4,6 +4,9 @@ draft: true
 weight: 30
 ShowToc: false
 TocOpen: false
+tags: ["partitioning"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture Partitioning
@@ -15,7 +18,7 @@ The TOGAF standard provides a framework for partitioning an architecture into di
 ## Approach
 A divided subset of an Architecture facilitates its development and management. A specific form of abstraction.
 
-1. Defined boundaries, govrernance and ownership
+1. Defined boundaries, governance and ownership
  - This may lead to serveral architecture partions
 2. One owning team
  - Architecture are partitioned such that there is a single team owning the Architecture

@@ -5,6 +5,9 @@ draft: true
 weight: 40
 ShowToc: false
 TocOpen: false
+tags: ["abstraction"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture Abstraction

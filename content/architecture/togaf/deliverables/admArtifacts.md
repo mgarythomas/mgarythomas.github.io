@@ -5,6 +5,9 @@ draft: true
 weight: 100
 ShowToc: false
 TocOpen: false
+tags: ["artifacts"]
+categories: ["architecture", "togaf","deliverables"]
+author: "Gary Thomas"
 --- 
 
 

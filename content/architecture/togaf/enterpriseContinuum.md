@@ -5,6 +5,9 @@ draft: true
 weight: 100
 ShowToc: false
 TocOpen: false
+tags: ["Enterprise Continuum"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Enterprise Continuum

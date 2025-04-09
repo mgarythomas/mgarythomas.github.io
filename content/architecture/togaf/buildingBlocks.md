@@ -5,6 +5,9 @@ draft: true
 weight: 50
 ShowToc: false
 TocOpen: false
+tags: ["Building Blocks","ABB","SBB"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Building Blocks

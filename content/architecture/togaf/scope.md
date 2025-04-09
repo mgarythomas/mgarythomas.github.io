@@ -4,6 +4,9 @@ draft: true
 weight: 10
 ShowToc: false
 TocOpen: false
+tags: ["scope"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture Scope

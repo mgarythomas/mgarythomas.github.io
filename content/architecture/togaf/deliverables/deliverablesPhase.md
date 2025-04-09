@@ -4,6 +4,9 @@ draft: true
 weight: 40
 ShowToc: true
 TocOpen: true
+tags: ["artifacts"]
+categories: ["architecture", "togaf","deliverables"]
+author: "Gary Thomas"
 ---
 ## TOGAF Architecture Development Method (ADM) - Deliverables
 

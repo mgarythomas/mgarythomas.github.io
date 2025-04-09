@@ -14,14 +14,7 @@ weight: 1  # Order in lists
 
 ## Introduction
 
-This is my initial blog post about the creation of this site.
+This is the start of the site.
 
-I want to add some text here.
+A collection of research and thought.
 
-This is a starting point.
-
-### Adding Code
-
-```python
-def hello_world():
-    print("Hello, world!")

@@ -2,6 +2,9 @@
 title: "Architecture Repository"
 draft: true
 weight: 90
+tags: ["repository"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 ## Overview

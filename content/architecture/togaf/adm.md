@@ -4,6 +4,9 @@ draft: true
 weight: 60
 ShowToc: false
 TocOpen: false
+tags: ["adm"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 ## TOGAF Architecture Development Method (ADM)

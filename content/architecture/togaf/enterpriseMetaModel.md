@@ -3,6 +3,9 @@ title: "Enterprise Meta Model"
 date: 2025-03-26
 draft: false
 weight: 80
+tags: ["meta","model","metamodel"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 ## Overview

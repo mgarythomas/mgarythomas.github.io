@@ -3,6 +3,9 @@ title: "Architecture"
 summary: Architecture Overview
 draft: true
 weight: 20
+tags: ["definition"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture

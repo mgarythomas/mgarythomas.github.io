@@ -4,6 +4,9 @@ draft: true
 weight: 110
 ShowToc: false
 TocOpen: false
+tags: ["governance"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Governance

@@ -5,6 +5,9 @@ draft: true
 weight: 130
 ShowToc: false
 TocOpen: false
+tags: ["capabilities"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture Capability

@@ -5,6 +5,9 @@ draft: true
 weight: 20
 ShowToc: true
 TocOpen: true
+tags: ["levels"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture Levels

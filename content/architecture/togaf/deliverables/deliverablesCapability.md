@@ -4,11 +4,14 @@ draft: true
 weight: 20
 ShowToc: false
 TocOpen: false
+tags: ["deliverables"]
+categories: ["architecture", "togaf","deliverables"]
+author: "Gary Thomas"
 ---
 
 ## Overview
 
-The Archtiecture Development Framework(ADF) can be used to iteratively deliver and Enterprise Architecture Capability.
+The Architecture Development Framework(ADF) can be used to iteratively deliver and Enterprise Architecture Capability.
 
 |Capability Topic|ADM|Level|Enterprise Deliverables|EA Capability Deliverables|
 |---|---|---|---|---|

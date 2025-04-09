@@ -4,6 +4,9 @@ draft: true
 weight: 120
 ShowToc: false
 TocOpen: false
+tags: ["board"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # Architecture Board

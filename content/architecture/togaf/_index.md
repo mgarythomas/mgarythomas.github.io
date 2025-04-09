@@ -5,6 +5,9 @@ draft: true
 weight: 10
 ShowToc: true
 TocOpen: true
+tags: ["domain","state"]
+categories: ["architecture", "togaf"]
+author: "Gary Thomas"
 ---
 
 # TOGAF Architecture Framework
