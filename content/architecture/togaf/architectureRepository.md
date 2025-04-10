@@ -17,31 +17,31 @@ This is often implement by modelling software (e.g. BizzDesign), analytic tools,
 
 ![TOGAF ADM Cycle](/images/architecture/togaf/ArchitectureRepository.png)
 
-<u>Architecture Landscape</u>
+### Architecture Landscape
 
 The architectural representation of assets deployed within the enterprise at a particular point in time - This will reflect the baseline, transition(s) and target states often at multiple levels of detail.
 
-<u>Architecture Capability</u>
+### Architecture Capability
 
 Parameters, structures and processes that support governance of the Architecture Repository.
 
-<u>Architecture Metadata</u>
+### Architecture Metadata
 
 An application of the architecture framework that has been tailored to the organisation with the corresponding metamodel.
 
-<u>Standards Library</u>
+### Standards Library
 
 The *Standards* with which new architectures and implementations must comply. This will include industry and regulatory standards and guidelines. It should also cover selected products and services from suppliers that are available for use in architectures.
 
-<u>Solutions Landscape</u>
+### Solutions Landscape
 
 This contains the architectural representation of the Solution Building Blocks (SBB) that support the architecture landscape including those that are deployed or planned.
 
-<u>Reference Landscape</u>
+### Reference Landscape
 
 Guidelines, templates, and patterns and other forms of reference material to support and accelerate the creation of new and consistent architectures.
 
-<u>Governance Repository</u>
+### Governance Repository
 
 The record of governance activity across the enterprise.
 

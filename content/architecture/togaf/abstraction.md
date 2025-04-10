@@ -12,7 +12,7 @@ author: "Gary Thomas"
 
 # Architecture Abstraction
 
-The concept of absstraction is a means to enable reasoning about an Architecture. Dividing a problem into smaller problems is a common approach to making an Architecture easier to model and create solutions for.
+The concept of abstraction is a means to enable reasoning about an Architecture. Dividing a problem into smaller problems is a common approach to making an Architecture easier to model and create solutions for.
 
 We can have one or more of the abstraction levels at each of the Strategic, Segment or Capability Architecture.
 

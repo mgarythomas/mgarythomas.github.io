@@ -15,11 +15,6 @@
         },
         "profiles": [
             {
-                "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/mgarythomas/",
-                "username": "mgarythomas    "
-            },
-            {
                 "network": "X",
                 "url": "https://x.com/mgarythomas",
                 "username": "mgarythomas"

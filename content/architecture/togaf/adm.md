@@ -1,5 +1,6 @@
 ---
 title: "TOGAF Architecture Development Method (ADM)"
+date: 2025-03-10
 draft: true
 weight: 60
 ShowToc: false
@@ -7,6 +8,7 @@ TocOpen: false
 tags: ["adm"]
 categories: ["architecture", "togaf"]
 author: "Gary Thomas"
+url: "/architecture/togaf/adm"
 ---
 
 ## TOGAF Architecture Development Method (ADM)

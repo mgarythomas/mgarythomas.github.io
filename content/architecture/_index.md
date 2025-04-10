@@ -12,9 +12,9 @@ author: "Gary Thomas"
 
 ## What is architecture?
 
-I am not sure, I have heard so many subjective definitions. 
+I have heard so many subjective definitions. 
 
-The most consistent elements of the definition relate to it being a shared understanding of a system or systems and their components. This means that features of an architecture would also include:
+The most consistent elements of these definition relate to it being a shared understanding of a system or systems and their components. This means that features of an architecture would also include:
 - The structure of the various components including the infrastructure they require
 - The relationships between the components how they integrate and the means of interaction and communication
 - The standards, principles and guidelines governing the design and evolution of the system
@@ -34,5 +34,7 @@ What I have found through many different architecture assignments is that archit
 Yet, if we are harmonising the business strategy with the technology strategy and architecture *our Stakeholders are both business and technology*. We must present views that are understandable by both, though not necessarily in a single view.
 
 I am not arguing against the use of views, this is a necessity to provide the levels of detail required by the different stakeholders, but repeatedly I see architects focus on the concerns of the business **OR**  the concerns of the technology and are not good at harmonising both.
+
+I have provided a summary of the [purpose](/architecture/togaf/purpose) of an enterprise architecure as defined in the TOGAF Standard.
 
 This section contains information about various architecture frameworks and approaches:
