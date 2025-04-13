@@ -69,7 +69,7 @@ params:
     imageUrl: "/images/guggenheim-ad2.jpg"
     imageWidth: 480
     imageHeight: 270
-    imageTitle: architecture - a work in progresså
+    imageTitle: architecture - a work in progress
     buttons:
       - name: Posts
         url: posts
@@ -84,8 +84,6 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
 

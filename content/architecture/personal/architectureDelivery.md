@@ -23,7 +23,9 @@ Critically, the development of a target architecture is based on having collecte
 
 ## Parallel
 
-With a team working on an architecture it is often possible to work on different tasks in parallel. As TOGAF also indicated the processes of defining the Business Capabilities and capturing current application and data states may well happen in parallel.
+With a team working on an architecture it is often possible to work on different tasks in parallel. As TOGAF also indicated the processes of defining the Business Capabilities and capturing current application and data states may well happen in parallel. In TOGAF the ADM should not be understood as a processes model. The ADM
+graphic (The crop circle picture) is a stylized representation showing essential information flows and is not a representation of
+activity sequence
 
 Critically all of these process happen prior to the development of the Target State.
 

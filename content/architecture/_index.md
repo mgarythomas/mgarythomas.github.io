@@ -8,9 +8,7 @@ categories: ["architecture", "togaf"]
 author: "Gary Thomas"
 ---
 
-# Architecture
-
-## What is architecture?
+# What is architecture?
 
 I have heard so many subjective definitions. 
 
@@ -27,7 +25,7 @@ The most consistent elements of these definition relate to it being a shared und
 > 
 > (Source: ISO/IEC/IEEE 42010: 2011)
 
-## Why do we have architecture?
+# Why do we have architecture?
 It is to communicate to all the stakeholders what the system is, how it works, and how it is expected to perform. It is also an alignment between the Business Strategy and Requirements and the Technology Architecture that is to realise that strategy and requirement.
 
 What I have found through many different architecture assignments is that architects seem to define the views of their architecture for the benefit of other architects - I am looking at you Archimate!

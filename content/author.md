@@ -11,3 +11,10 @@ TocOpen: false
 
 {{< json-resume "basics" >}}
 
+## Experience
+
+{{< json-resume "work" >}}
+
+## Education
+
+{{< json-resume "education" >}}

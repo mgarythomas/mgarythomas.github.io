@@ -1,7 +1,8 @@
 ---
 title: "Personal"
-summary: Personal Architecture Approach
-weight: 10
+summary: Personal Views on an Architecture Approach
+weight: 100
+draft: true
 ---
 
 # Personal Architecture Approach

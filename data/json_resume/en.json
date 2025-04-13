@@ -5,7 +5,6 @@
         "label": "Head of Technology and Architecture",
         "image": "/images/gary-ghibli-2.png",
         "email": "gary@mgarythomas.com",
-        "phone": "+61 999 999 999",
         "url": "http://mgarythomas.com",
         "summary": "Gary is originally from the UK, but has lived in Australia and New Zealand for the last 20 years. He originally studied Computer Science at Stafforshire University (or North Staffs Polytechnic as it was known back then) before starting his first job as a technologist (software engineer) at GPT in Liverpool, UK.",
         "location": {
@@ -14,16 +13,6 @@
             "region": "New South Wales"
         },
         "profiles": [
-            {
-                "network": "X",
-                "url": "https://x.com/mgarythomas",
-                "username": "mgarythomas"
-            },
-            {
-                "network": "GitHub",
-                "url": "https://github.com/mgarythomas",
-                "username": "mgarythomas"
-            }
         ]
     },
     "work": [
