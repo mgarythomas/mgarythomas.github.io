@@ -14,7 +14,8 @@
 
   <!-- Column 1: Control Risk -->
   <rect x="50" y="100" width="120" height="200" rx="8" ry="8" fill="#d4e6f1" stroke="#a9cce3" stroke-width="2"/>
-  <text x="110" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Control Risk</text>
+  <text x="110" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Control Risk &amp; </text>
+  <text x="110" y="215" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Optimise Cost</text>
   
   <!-- Column 2: Lower Complexity -->
   <rect x="200" y="100" width="120" height="200" rx="8" ry="8" fill="#a9cce3" stroke="#7fb3d5" stroke-width="2"/>

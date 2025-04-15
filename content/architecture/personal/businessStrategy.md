@@ -23,7 +23,7 @@ There are foundational requirements for all business strategy initiatives:
 ### Foundational
 *Controlling Risk* which is often related to regulatory frameworks
 e.g. Basel III&IV or CPS 230, 234
-Then there is *Lowering Complexity* which is sometimes referred to as *Simplification*, but rationale for thinking about it slightly differently is that some business processes are complex and may not necesarily be simplified. What is true in a lot of larger organisations is that some complexity is accidental or incremental, from the addition of steps or processes over time. 
+Then there is *Lowering Complexity* which is sometimes referred to as *Simplification*, but rationale for thinking about it slightly differently is that some business processes are complex and may not necesarily be simplified. What is true in a lot of larger organisations is that some complexity is accidental or incremental, from the addition of steps or processes over time.We could also include here *Cost Optimisation* as this is another foundational requirement which will support strategy.
 
 ### Enabling
 *Timeliness & Responsiveness*, this can relate to both the speed at which business services and capabilties can be executed as well as the ability to respond to market changes and evolving customer needs.
