@@ -1,10 +1,14 @@
 ---
 title: "Business Strategy and Architecture"
 summary: "Business Strategy"
+url: "/architecture/businessStrategy"
+weight: 1
 draft: true
-weight: 10
 ShowToc: false
 TocOpen: false
+tags: ["strategy", "business"]
+categories: ["architecture"]
+author: "Gary Thomas"
 ---
 
 One of the earliest points in the Architecture journey is the understanding of the overarching business strategy.
@@ -16,7 +20,7 @@ In order to simplify the engagement when trying to get a clear understanding of 
 
 While not exhaustive a simple view of the spectrum of Business Strategy can be categorised as follows:
 
-![Business Strategy Categories](/images/architecture/businessStrategy.svg)
+![Business Strategy Categories](/architecture/personal/business-strategy/businessStrategy.svg)
 
 There are foundational requirements for all business strategy initiatives:
 
@@ -35,6 +39,3 @@ Which leads us into
 
 One of the clear outcomes from many engagements is that whatever strategies are identified, you must have metrics to measure the success of the strategy.
 How will we know that the Architecture is delivering the right things? What metrics will we use?
-
-
-

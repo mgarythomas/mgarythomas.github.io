@@ -2,11 +2,11 @@
 title: "Delivery"
 summary: "An approach to Strategy and Architecture Delivery"
 draft: true
-weight: 30
+weight: 3
 url: "/architecture/delivery"
 ShowToc: false
 TocOpen: false
-tags: ["methodology", "strategy"]
+tags: ["delivery", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
 ---
@@ -19,7 +19,7 @@ I should point out that this was developed alongside a previous co-worker and is
 
 Critically, the development of a target architecture is based on having collected artifacts and defined the baseline for business, application and technology.
 
-![methodology](/images/architecture/architectureDelivery.png)
+![methodology](/architecture/personal/architecture-delivery/architectureDelivery.png)
 
 ## Parallel
 
