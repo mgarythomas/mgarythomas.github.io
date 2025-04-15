@@ -66,7 +66,7 @@ params:
     enabled: true  # needs to be explicitly set
     title: mgarythomas
     subtitle: "To begin at the beginning"
-    imageUrl: "/images/guggenheim-ad2.jpg"
+    imageUrl: "/images/guggenheimAd2.jpg"
     imageWidth: 480
     imageHeight: 270
     imageTitle: architecture - a work in progress
@@ -83,9 +83,9 @@ params:
 
   socialIcons:
     - name: x
-      url: "https://x.com/"
+      url: "https://x.com/mgarythomas"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/mgarythomas"
 
   analytics:
     google:
@@ -122,37 +122,37 @@ menu:
       name: home
       url: /
       weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: architecture
+      name: architecture
+      url: /architecture/
       weight: 20
     - identifier: blog
       name: blog
       url: /posts/
       weight: 30
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 40
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 40
-    - identifier: architecture
-      name: architecture
-      url: /architecture/
       weight: 50
     - identifier: personal
       name: Personal
       url: /architecture/personal/
       parent: architecture
-      weight: 1
+      weight: 21
     - identifier: togaf
       name: TOGAF
       url: /architecture/togaf/
       parent: architecture
-      weight: 2
+      weight: 22
     - identifier: leanix
       name: LeanIX
       url: /architecture/leanix/
       parent: architecture
-      weight: 3
+      weight: 23
     - identifier: about
       name: about
       url: /about/
