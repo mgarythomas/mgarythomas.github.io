@@ -1,8 +1,14 @@
 ---
 title: "Personal"
 summary: Personal Views on an Architecture Approach
-weight: 100
-draft: true
+weight: 1
+draft: true 
+ShowToc: false
+TocOpen: false
+url: "/architecture/personal"
+tags: ["personal", "architecture"]
+categories: ["architecture"]
+author: "Gary Thomas"
 ---
 
 # Personal Architecture Approach

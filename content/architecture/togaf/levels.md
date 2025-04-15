@@ -20,4 +20,4 @@ The TOGAF standard defines 3 levels of architecture:
 - *Segment Architecture* - Supports direction setting and the development of architecture roadmaps to programme of portfolio level
 - *Capability Architecture* - Supports the development of effective architecture roadmaps realising capability increments
 
-![TOGAF Architecture Levels](/images/architecture/togaf/ArchitectureLevels.png)
+![TOGAF Architecture Levels](/images/architecture/togaf/architectureLevels.png)

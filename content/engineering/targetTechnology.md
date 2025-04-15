@@ -29,4 +29,4 @@ I want to track a list of technology to implement and review for future purposes
 | [LangGraph](https://www.langchain.com/langgraph) | A framework for building agents to handle complex tasks |
 | Apache Ray| Compute engine for Python workloads |
 | [PydanticAI](https://ai.pydantic.dev/)| Python agent framework to build GenAI applications |
-
+| [n8n](https://n8n.io/)| Python agent framework to build AI workflow automation |

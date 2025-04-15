@@ -15,7 +15,7 @@ Part of the Enterprise Repository of artifacts.
 
 This is often implement by modelling software (e.g. BizzDesign), analytic tools, file repositories or document/content management systems.
 
-![TOGAF ADM Cycle](/images/architecture/togaf/ArchitectureRepository.png)
+![TOGAF ADM Cycle](/images/architecture/togaf/architectureRepository.png)
 
 ### Architecture Landscape
 

@@ -22,7 +22,7 @@ Without being too prescriptive, a building block should meet the following crite
 - Can be defined at various levels of detail depending on the objective of the Architecture and also the Phase.
 - There is a general benefit of composing functionality through building blocks in that it should improve integration and interoperability through defined interfaces and contracts. It may also improve reusability and flexibility through the creation of new re-usable applictions or components.
 
-![TOGAF Building Blocks](/images/architecture/togaf/BuildingBlocks.gif)
+![TOGAF Building Blocks](/images/architecture/togaf/buildingBlocks.gif)
 
 ## Criteria
 
@@ -34,7 +34,7 @@ The following list is not exhaustive but serves as a basis for determing the cor
 - Should have defined boundaries and specification
 - Loosely coupled to the implementation i.e. It is possible to realize a building block in different ways.
 
-![TOGAF Building Blocks Phases](/images/architecture/togaf/BuildingBlocks-Phases.gif)
+![TOGAF Building Blocks Phases](/images/architecture/togaf/buildingBlocksPhases.gif)
 
 ## Architecture Building Blocks (ABB)
 
@@ -46,5 +46,5 @@ Solution Components that realise the required capability (as defined in an ABB) 
 
 As shown below:
 
-![TOGAF ABB to SBB Building Blocks](/images/architecture/togaf/ABB-SBBRelationship.svg)
+![TOGAF ABB to SBB Building Blocks](/images/architecture/togaf/abbSbbRelationship.svg)
 

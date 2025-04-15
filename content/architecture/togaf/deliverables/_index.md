@@ -9,4 +9,4 @@ TocOpen: false
 
 # TOGAF Deliverables
 
-![Deliverables](/images/architecture/togaf/ADMArtifacts.png)
+![Deliverables](/images/architecture/togaf/admArtifacts.png)
