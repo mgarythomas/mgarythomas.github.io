@@ -17,8 +17,9 @@ Content about personal architecture approach goes here.
 
 ## What is an Architect?
 
-I have thought about this so many times, but never really answered it to my. You read job applications and they seem to vary significantly in what is considered to be an architect. 
-Often the definition is prexifed by a discriminator - Software, Solution, System, Enterprise, Integration, Network or Infrastructure. Admittedly, I think the last two are the most specific in detail.
+I have thought about this so many times, but never really answered it to my satisfaction. You read job applications and they seem to vary significantly in what is considered to be an architect.
+
+Often the definition is prexifed by a discriminator - Software, Solution, System, Enterprise, Integration, Network or Infrastructure. Admittedly, I think the last two are the most specific in detail but the others aim to show a distinction. Having now interviewed for a number of roles, different organisations have a very different understanding of what an architect is.
 
 What it does emphasize is that there are many types of architects, each with their own unique responsibilities and focus operating at different levels of abstraction and specialization. I think that [Gregor Hohpe](https://www.gregoryhohpe.com/) has a great [article](https://www.gregoryhohpe.com/2019/01/21/what-is-an-architect/) on this topic. In his book The Software Architecture Elevator he also defines what an architect is not:
 

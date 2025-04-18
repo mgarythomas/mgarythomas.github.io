@@ -10,7 +10,10 @@ author: "Gary Thomas"
 
 # What is architecture?
 
-I have heard so many subjective definitions. 
+It is quite difficult to provide a definition for a fundamental concept like architecture. As it will form the basis for everything that follows it needs to be clear and hopefully unambiguous. As a previous colleague not unreasonably said "Is architecture even a thing?".
+We seems to jumpt co classify different types of architecture - enterprise, application, cloud, system, etc, while  fundamentally missing the definition of what it is and how it distinguishes itself from its near neighbour **design**. I like that Robert C. Martin ("Uncle Bob") argues that there is no distinction between architecture and design. That an architect for a building will go from not just the outline of the building to some of the very low-level details, which is something that an architect of technology and software will also do.
+
+The low-level details and the high-level details are the same, the only difference is the scale at which we are looking at the system. What becomes very apparent in practice is that some developers can look at the micro-level and focus on the design of specifics without being able to envisage the macro-level of the whole system.
 
 The most consistent elements of these definition relate to it being a shared understanding of a system or systems and their components. This means that features of an architecture would also include:
 - The structure of the various components including the infrastructure they require
