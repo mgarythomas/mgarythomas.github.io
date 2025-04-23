@@ -19,11 +19,12 @@ I am attempting to keep a track on all of the different tools that I have been p
 | Windsurf | Another VS Code fork similar to Cusor but different implementation |
 |v0 by Vercel | Seems to do a lot with the Vercel/Next.js framework. Converts natural language prompts into fully functional React components. It helps developers create UI components quickly using frameworks like Tailwind CSS. This tool enables rapid prototyping, making designing and iterating on user interfaces easier without writing extensive code. Also integrates with Figma |
 | GitHub | Probably the first tool I used and it has come quite a long way quickly, like a lot of the competition. It is good in that it helps/forces me to keep all the code in one place. Doesn't have the same design/UI tools and focus |
-| Lovable | Good for non-technical, but maybe not for everyone who like to see the code. I haven't looked at this yet, maybe because I have focussed more on the coding type apps |
+| Lovable | Good for non-technical, but maybe not for everyone who likes to see the code. I haven't looked at this yet, maybe because I have focussed more on the coding type apps |
 | Replit | A browser based tool that I haven't used in anger. Something to look into, but it looks quite cool |
 | Creatr | Another AI no-code platform not sure what its distinguishing features are and I haven't used it |
 | Cody | AI assistant that can integrate into multiple different IDEs |
 | Tempo | Another AI powered tool with a focus on creating React apps |
+ [n8n](https://n8n.io/) | AI workflow Automation |
 
 ## Product Design
 
