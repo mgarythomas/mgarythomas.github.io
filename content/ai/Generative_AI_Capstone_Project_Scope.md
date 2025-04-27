@@ -1,4 +1,13 @@
 
+---
+title: "Generative AI Capstone Project"
+summary: "AI-Powered Learning Assistant for English Language Learners"
+draft: true
+tags: ["ai", "generative", "capstone"]
+categories: ["ai"]
+author: "Gary Thomas"
+date: 2025-04-26
+---
 # Generative AI Capstone Project  
 ## AI-Powered Learning Assistant for English Language Learners
 

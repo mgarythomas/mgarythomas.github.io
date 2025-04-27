@@ -15,7 +15,7 @@ I am attempting to keep a track on all of the different tools that I have been p
 | Tool | Description |
 |------|-------------|
 | Bolt.new | Figma tool that has a lot of support for design. A focus on building web and mobile applications directly in the browser. It runs on StackBlitz’s WebContainers, allowing developers to build full-stack applications without installing any software. |
-| Cursor | VS Code fork with a lot of support for coding and AI integration|
+| Cursor | VS Code fork with a lot of support for coding and AI integration - I switched to Windsurf.|
 | Windsurf | Another VS Code fork similar to Cusor but different implementation |
 |v0 by Vercel | Seems to do a lot with the Vercel/Next.js framework. Converts natural language prompts into fully functional React components. It helps developers create UI components quickly using frameworks like Tailwind CSS. This tool enables rapid prototyping, making designing and iterating on user interfaces easier without writing extensive code. Also integrates with Figma |
 | GitHub | Probably the first tool I used and it has come quite a long way quickly, like a lot of the competition. It is good in that it helps/forces me to keep all the code in one place. Doesn't have the same design/UI tools and focus |
