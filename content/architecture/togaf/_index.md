@@ -11,7 +11,7 @@ author: "Gary Thomas"
 ---
 
 # Overview
-This content relates to the TOGAF Standard, and is a summary of the notes I made while studying and prior to sitting the TOGAF certification exam.
+This content relates to the TOGAF Standard. The following represent a set of notes I created while originally studying the TOGAF Standard. They are not intended to be an exhaustive summary, but an overview of some of the main points.
 
 The Open Group Architecture Framework (TOGAF) is a framework for the development and management of enterprise architectures. (See [Purpose](/architecture/togaf/purpose) for some rationale as to why this is important)
 
@@ -53,34 +53,6 @@ The TOGAF standard divides an Enterprise Architecture into 4 Different domains:
 - *Data Architecture* - Describes the structure of an organisation's conceptual, logical & physical data assets, data management resources
 - *Application Architecture* - Provides a blueprint for the individual applications to be deployed, their interactions and their relationships to the core business processes of the organisation.
 - *Technology Architecture* - Describes the digital architecture and logical software and hardware components and capabilities and standards that are required to support the deployment of business, data and application services.
-
-# Architecture States
-
-An Enterprise Architecture may describe multiple different states:
-
-## 1. Baseline Architecture (As-Is)
-- Represents the current state of the architecture.
-- Documents existing systems, technologies, and business processes.
-
-## 2. Target Architecture (To-Be)
-- Defines the desired future state.
-- Aligns with business and IT strategy.
-
-## 3. Transition Architectures
-- Intermediate steps between As-Is and To-Be states.
-- Used for phased implementation to manage complexity.
-
-## 4. Resting Architecture (steady state)
-- Major design effort are completed and the organisation is an operational and governance phase
-- In iterations, this may precede another iteration of the architecture (phases)
-- Value may be delivered to the organisation from this state
-
-## 5. Candidate Architecture
-- A future (Target) state of the architecture that has not been approved by Stakeholders
-
-# Architecture Roadmap
-- Defines the plan to move from Baseline to Target.
-- Includes timelines, dependencies, and implementation priorities.
 
 # Tailoring
 

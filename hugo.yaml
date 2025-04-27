@@ -138,21 +138,6 @@ menu:
       name: tags
       url: /tags/
       weight: 50
-    - identifier: personal
-      name: Personal
-      url: /architecture/personal/
-      parent: architecture
-      weight: 21
-    - identifier: togaf
-      name: TOGAF
-      url: /architecture/togaf/
-      parent: architecture
-      weight: 22
-    - identifier: leanix
-      name: LeanIX
-      url: /architecture/leanix/
-      parent: architecture
-      weight: 23
     - identifier: about
       name: about
       url: /about/
