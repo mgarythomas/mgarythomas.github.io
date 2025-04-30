@@ -1,12 +1,12 @@
 ---
 title: "TOGAF Architecture Principles"
 date: 2025-04-10
-draft: true
+draft: false
 weight: 60
 ShowToc: false
 TocOpen: false
-tags: ["principles"]
-categories: ["architecture", "togaf"]
+tags: ["principles", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 url: "/architecture/togaf/principles"
 ---

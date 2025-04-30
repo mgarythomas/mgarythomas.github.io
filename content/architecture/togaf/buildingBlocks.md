@@ -1,12 +1,12 @@
 ---
 title: "Building Blocks"
 description: "TOGAF Building Blocks (BB) of the Architecture"
-draft: true
+draft: false
 weight: 50
 ShowToc: false
 TocOpen: false
-tags: ["Building Blocks","ABB","SBB"]
-categories: ["architecture", "togaf"]
+tags: ["Building Blocks","ABB","SBB", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

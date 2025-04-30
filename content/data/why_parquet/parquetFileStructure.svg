@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Parquet File Structure</text>
+  
+  <!-- Main file container -->
+  <rect x="50" y="70" width="700" height="380" fill="#e9ecef" stroke="#343a40" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- File Header -->
+  <rect x="80" y="100" width="640" height="40" fill="#4dabf7" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="125" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">File Header (PAR1 Magic Number)</text>
+  
+  <!-- Row Groups -->
+  <rect x="80" y="160" width="640" height="190" fill="#c5f6fa" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="180" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Row Groups</text>
+  
+  <!-- Column Chunks within Row Group -->
+  <rect x="100" y="195" width="600" height="140" fill="#d0ebff" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Column 1 -->
+  <rect x="120" y="215" width="170" height="105" fill="#74c0fc" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="205" y="235" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Column Chunk 1</text>
+  
+  <!-- Pages for Column 1 -->
+  <rect x="130" y="245" width="150" height="25" fill="#e7f5ff" stroke="#343a40" stroke-width="1"/>
+  <text x="205" y="262" font-family="Arial" font-size="12" text-anchor="middle">Page Header</text>
+  
+  <rect x="130" y="275" width="150" height="25" fill="#e7f5ff" stroke="#343a40" stroke-width="1"/>
+  <text x="205" y="292" font-family="Arial" font-size="12" text-anchor="middle">Page Data (Compressed)</text>
+  
+  <!-- Column 2 -->
+  <rect x="315" y="215" width="170" height="105" fill="#74c0fc" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="235" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Column Chunk 2</text>
+  
+  <!-- Pages for Column 2 -->
+  <rect x="325" y="245" width="150" height="25" fill="#e7f5ff" stroke="#343a40" stroke-width="1"/>
+  <text x="400" y="262" font-family="Arial" font-size="12" text-anchor="middle">Page Header</text>
+  
+  <rect x="325" y="275" width="150" height="25" fill="#e7f5ff" stroke="#343a40" stroke-width="1"/>
+  <text x="400" y="292" font-family="Arial" font-size="12" text-anchor="middle">Page Data (Compressed)</text>
+  
+  <!-- Column 3 -->
+  <rect x="510" y="215" width="170" height="105" fill="#74c0fc" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="595" y="235" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Column Chunk 3</text>
+  
+  <!-- Pages for Column 3 -->
+  <rect x="520" y="245" width="150" height="25" fill="#e7f5ff" stroke="#343a40" stroke-width="1"/>
+  <text x="595" y="262" font-family="Arial" font-size="12" text-anchor="middle">Page Header</text>
+  
+  <rect x="520" y="275" width="150" height="25" fill="#e7f5ff" stroke="#343a40" stroke-width="1"/>
+  <text x="595" y="292" font-family="Arial" font-size="12" text-anchor="middle">Page Data (Compressed)</text>
+  
+  <!-- File Metadata -->
+  <rect x="80" y="370" width="640" height="60" fill="#ffc078" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="395" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">File Metadata</text>
+  <text x="400" y="415" font-family="Arial" font-size="12" text-anchor="middle">(Schema, Row Groups, Column Metadata, Statistics)</text>
+  
+  <!-- Footer -->
+  <rect x="80" y="450" width="640" height="30" fill="#ff8787" stroke="#343a40" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="470" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Footer (Metadata Length + PAR1 Magic Number)</text>
+</svg>

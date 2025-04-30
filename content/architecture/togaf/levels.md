@@ -1,12 +1,12 @@
 ---
 title: "Architecture Levels"
 summary: "The different levels of an architecture within the TOGAF standard"
-draft: true
+draft: false
 weight: 20
 ShowToc: true
 TocOpen: true
-tags: ["levels","landscape"]
-categories: ["architecture", "togaf"]
+tags: ["levels","landscape", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

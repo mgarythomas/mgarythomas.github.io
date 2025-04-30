@@ -1,11 +1,12 @@
 ---
 title: "TOGAF Architecture Development Method (ADM)"
 date: 2025-04-10
-draft: true
+draft: false
+weight: 40
 ShowToc: false
 TocOpen: false
-tags: ["purpose","Enterprise Architecture"]
-categories: ["architecture", "togaf"]
+tags: ["purpose","adm", "togaf", "enterprise"]
+categories: ["architecture"]
 author: "Gary Thomas"
 url: "/architecture/togaf/purpose"
 ---

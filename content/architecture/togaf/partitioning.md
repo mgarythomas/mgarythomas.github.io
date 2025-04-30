@@ -1,11 +1,11 @@
 ---
 title: "Architecture Partitioning"
-draft: true
+draft: false
 weight: 30
 ShowToc: false
 TocOpen: false
-tags: ["partitioning"]
-categories: ["architecture", "togaf"]
+tags: ["partitioning", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

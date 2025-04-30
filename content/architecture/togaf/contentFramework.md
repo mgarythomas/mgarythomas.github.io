@@ -5,8 +5,8 @@ draft: false
 weight: 70
 ShowToc: false
 TocOpen: false
-tags: ["Content Framework"]
-categories: ["architecture", "togaf"]
+tags: ["content framework", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 
 ---

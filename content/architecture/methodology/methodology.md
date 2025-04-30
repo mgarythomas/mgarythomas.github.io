@@ -26,4 +26,4 @@ While TOGAF has a phased view and iterations, for simplicity I have broken down 
 
 *Note that key TOGAF terms are shown in red, these are a mix of phases and artifacts.*
 
-![Methodology](/architecture/personal/methodology/methodology.png)
+![Methodology](/architecture/methodology/methodology.png)

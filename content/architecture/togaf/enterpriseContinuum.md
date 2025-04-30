@@ -1,12 +1,12 @@
 ---
 title: "Enterprise Continuum"
 description: "The structure and categorisation of assets"
-draft: true
+draft: false
 weight: 100
 ShowToc: false
 TocOpen: false
-tags: ["Enterprise Continuum"]
-categories: ["architecture", "togaf"]
+tags: ["enterprise continuum", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

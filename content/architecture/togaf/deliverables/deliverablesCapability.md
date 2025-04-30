@@ -1,11 +1,11 @@
 ---
 title: "Architecture Capability Deliverables - Development"
-draft: true
+draft: false
 weight: 20
 ShowToc: false
 TocOpen: false
-tags: ["deliverables"]
-categories: ["architecture", "togaf","deliverables"]
+tags: ["deliverables", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

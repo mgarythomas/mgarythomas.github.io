@@ -2,12 +2,12 @@
 title: "TOGAF Standard"
 summary: "The TOGAF Standard - Structure and Documents"
 date: 2025-04-10
-draft: true
+draft: false
 weight: 60
 ShowToc: false
 TocOpen: false
-tags: ["adm"]
-categories: ["architecture", "togaf"]
+tags: ["adm", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 url: "/architecture/togaf/standard"
 ---

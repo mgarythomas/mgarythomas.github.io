@@ -1,12 +1,12 @@
 ---
 title: "Architecture Abstraction"
 description: "Architecture Abstration Levels"
-draft: true
+draft: false
 weight: 40
 ShowToc: false
 TocOpen: false
-tags: ["abstraction"]
-categories: ["architecture", "togaf"]
+tags: ["abstraction", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

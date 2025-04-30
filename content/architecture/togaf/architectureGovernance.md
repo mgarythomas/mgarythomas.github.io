@@ -1,11 +1,11 @@
 ---
 title: "Architecture Governance"
-draft: true
+draft: false
 weight: 110
 ShowToc: false
 TocOpen: false
-tags: ["governance"]
-categories: ["architecture", "togaf"]
+tags: ["governance", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

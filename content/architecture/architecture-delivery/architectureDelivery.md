@@ -19,7 +19,7 @@ I should point out that this was developed alongside a previous co-worker and is
 
 Critically, the development of a target architecture is based on having collected artifacts and defined the baseline for business, application and technology.
 
-![methodology](/architecture/personal/architecture-delivery/architectureDelivery.png)
+![methodology](/architecture/architecture-delivery/architectureDelivery.png)
 
 ## Parallel
 

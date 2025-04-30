@@ -1,11 +1,11 @@
 ---
 title: "ADM Deliverables by Phase"
-draft: true
+draft: false
 weight: 40
 ShowToc: true
 TocOpen: true
-tags: ["artifacts"]
-categories: ["architecture", "togaf","deliverables"]
+tags: ["artifacts", "togaf", "deliverables"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 ## TOGAF Architecture Development Method (ADM) - Deliverables

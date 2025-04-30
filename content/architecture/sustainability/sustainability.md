@@ -5,7 +5,7 @@ weight: 4
 draft: true 
 ShowToc: false
 TocOpen: false
-url: "/architecture/personal/sustainability"
+url: "/architecture/sustainability"
 tags: ["personal", "sustainability"]
 categories: ["architecture"]
 author: "Gary Thomas"
@@ -13,7 +13,7 @@ author: "Gary Thomas"
 
 An architecture strategy for enabling sustainability ensures that technology systems contribute positively to environmental, social, and economic outcomes. Below are seven key elements to consider:
 
-![Framework](/architecture/personal/sustainability/sustainabilityModel.png)
+![Framework](/architecture/sustainability/sustainabilityModel.png)
 
 ## 1. Strategic Goals
 Align IT architecture with ESG (Environmental, Social, Governance) and net-zero targets by reducing carbon footprint, promoting green infrastructure, and enabling transparency in sustainability reporting.

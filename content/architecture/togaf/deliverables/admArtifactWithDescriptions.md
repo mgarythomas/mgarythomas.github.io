@@ -1,12 +1,12 @@
 ---
 title: "TOGAF ADM Artifacts with Descriptions"
 date: 2025-04-04
-draft: true
+draft: false
 weight: 100
 ShowToc: false
 TocOpen: false
-tags: ["artifacts"]
-categories: ["architecture", "togaf","deliverables"]
+tags: ["artifacts", "togaf", "deliverables"]
+categories: ["architecture"]
 author: "Gary Thomas"
 --- 
 

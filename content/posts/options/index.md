@@ -1,26 +1,31 @@
 ---
-title: "Options: How an Architecture Manages Change and Uncertainty"
+title: "Architectural Options: Managing Change and Uncertainty for Stakeholders"
 summary: "How an architecture provides options for stakeholders"
-description: "How an architecture provides options for stakeholders"
+description: "How architects provide stakeholders with strategic options to manage uncertainty, defer decisions, and align architecture with evolving business needs."
 draft: true
 tags: ["options", "architecture"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-26
+image: "/posts/options/options-architecture-share.png"
 ---
-How do we provide optionality for our stakeholders?
+![Options: Managing Change and Uncertainty for Stakeholders](/posts/options/options-architecture-share.png)
 
-As anybody who has worked on technology projects for a while will know, some things are unknown at the beginning of a project or there may be additional requirements or changes of direction over time.
+In any technology project, uncertainty is inevitable. New requirements emerge, priorities shift, and unforeseen challenges arise.
 
-How Do We Provide Optionality for Our Stakeholders?
+To address this, architects must design systems that provide optionality — enabling stakeholders to defer decisions where possible, manage evolving risks, and preserve flexibility without committing prematurely.
+
+---
+
+## How Do We Provide Optionality for Our Stakeholders?
 
 Anyone who has worked on technology projects will know that, at the beginning of a project, certain elements remain uncertain, or new requirements and changes of direction may arise over time.
 
-This is why presenting options during the development of architecture and in engagement with various stakeholders is crucial. This concept isn’t unique to me; Gregor Hohpe and Michael Fowler have discussed the importance of offering options in architecture [here](https://martinfowler.com/articles/architect-elevator.html#SellArchitectureOptions).
+This is why presenting options during the development of architecture and in engagement with various stakeholders is crucial. This concept is widely recognised within the architecture community; Gregor Hohpe and Martin Fowler have discussed the importance of offering options in architecture [here](https://martinfowler.com/articles/architect-elevator.html#SellArchitectureOptions).
 
 In my perspective, the concept of providing options in architecture mirrors the financial instrument known as an option, as described [here](https://www.investopedia.com/terms/o/option.asp). Simply put, an option is a financial instrument (contract) that is based on the value of an underlying asset.
 
-While options can be used for various purposes — including income generation, trading, speculation, and hedging — the key use here is the ability to hedge or manage risk. Our focus is not on the various types of options available but rather on the architecture’s ability to allow for future options without the need to commit to a specific choice today.
+While options can be used for various purposes — including income generation, trading, speculation, and hedging — the key use here is the ability to hedge or manage risk. This discussion does not explore the full range of financial options, but focuses specifically on architecture's ability to defer decisions while managing risk.
 
 While having the flexibility to exercise or implement a specific option in the future is valuable for building a flexible architecture that manages risks, there is a cost associated with it (in the financial world, this is called the strike price).
 
@@ -32,21 +37,19 @@ At other times, the options may be more complex, and careful consideration of th
 
 ---
 
-## Alternative Target Architecture and Trade-Offs
+## Evaluating Alternative Target Architectures and Trade-Offs
 See also [Alternative Target Architecture and Trade-Offs]
 
 ### Criteria
 
-* Time and cost realising the alternative
-* Time period for estimated benefits
-* Adherence to architecture guidelines
-* Delivery - (Buy, Build, Re-Use, Extend)
-* Impact on business capabilities
-* Risks associated with alternatives
+* **Time and cost realising the alternative** — Evaluate the investment required relative to business value delivered.
+* **Time period for estimated benefits** — Consider when tangible benefits will be realised following implementation.
+* **Adherence to architecture guidelines** — Ensure compliance with architectural standards and principles.
+* **Delivery (Buy, Build, Re-Use, Extend)** — Assess available delivery options based on strategic alignment and cost-effectiveness.
+* **Impact on business capabilities** — Understand how the alternative will affect the organisation’s ability to deliver services.
+* **Risks associated with alternatives** — Identify potential risks, dependencies, and mitigations for each alternative.
 
-### Gap Analysis
-
-### Gap Analysis
+## Performing a Gap Analysis
 
 A Gap Analysis is a critical tool for identifying the differences between the current state of the architecture and the target state, which could include both functional and non-functional requirements. It helps identify what is missing or what needs to change to achieve the desired outcomes. The analysis should consider both immediate needs and future scalability, ensuring that strategic decisions are aligned with business objectives.
 

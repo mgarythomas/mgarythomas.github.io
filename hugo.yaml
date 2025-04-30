@@ -44,7 +44,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: true
+  showtoc: false
   tocopen: false
 
   assets:
@@ -57,15 +57,15 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "mgarythomas"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: true  # needs to be explicitly set
-    title: mgarythomas
-    subtitle: "To begin at the beginning"
+    enabled: false  # needs to be explicitly set
+    title: M. Gary Thomas
+    subtitle: "To begin at the beginning..."
     imageUrl: "/images/guggenheimAd2.jpg"
     imageWidth: 480
     imageHeight: 270
@@ -78,8 +78,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Welcome to mgarythomas"
-    Content: This is currently a work in progress.
+    Title: Gary Thomas
+    Content: To begin at the beginning...
 
   socialIcons:
     - name: x
@@ -116,6 +116,18 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
+  search:
+    enabled: true
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+      keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: home

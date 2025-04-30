@@ -20,7 +20,7 @@ In order to simplify the engagement when trying to get a clear understanding of 
 
 While not exhaustive a simple view of the spectrum of Business Strategy can be categorised as follows:
 
-![Business Strategy Categories](/architecture/personal/business-strategy/businessStrategy.svg)
+![Business Strategy Categories](/architecture/business-strategy/businessStrategy.svg)
 
 There are foundational requirements for all business strategy initiatives:
 

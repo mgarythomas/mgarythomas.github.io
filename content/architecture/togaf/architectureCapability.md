@@ -1,12 +1,12 @@
 ---
 title: "Architecture Capability"
 description: "The structure and categorisation of assets"
-draft: true
+draft: false
 weight: 130
 ShowToc: false
 TocOpen: false
-tags: ["capabilities"]
-categories: ["architecture", "togaf"]
+tags: ["capabilities", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

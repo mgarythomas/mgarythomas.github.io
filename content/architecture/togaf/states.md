@@ -1,8 +1,11 @@
 ---
 title: "States"
 summary: "The states of an architecture"
-draft: true
-tags: ["states", "architecture"]
+draft: false
+weight: 70
+ShowToc: false
+TocOpen: false
+tags: ["states", "togaf"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-03-27

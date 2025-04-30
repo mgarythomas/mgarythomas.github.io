@@ -1,11 +1,11 @@
 ---
 title: "Scope"
-draft: true
+draft: false
 weight: 10
 ShowToc: false
 TocOpen: false
-tags: ["scope"]
-categories: ["architecture", "togaf"]
+tags: ["scope", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 

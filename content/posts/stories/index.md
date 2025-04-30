@@ -6,9 +6,10 @@ draft: true
 tags: ["stories", "architecture", "communication", "transformation"]
 categories: ["architecture"]
 author: "Gary Thomas"
-date: 2025-04-25
+date: 2025-04-20
 image: "/posts/stories/stories-architecture-share.png"
 ---
+![Stories: Building Narratives for Architecture](/posts/stories/stories-architecture-share.png)
 
 ## Why Stories Matter in Architecture
 

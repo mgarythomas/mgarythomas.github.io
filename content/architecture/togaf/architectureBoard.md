@@ -1,11 +1,11 @@
 ---
 title: "Architecture Board"
-draft: true
+draft: false
 weight: 120
 ShowToc: false
 TocOpen: false
-tags: ["board"]
-categories: ["architecture", "togaf"]
+tags: ["board", "togaf"]
+categories: ["architecture"]
 author: "Gary Thomas"
 ---
 
