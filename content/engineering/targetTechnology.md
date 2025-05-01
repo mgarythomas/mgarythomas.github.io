@@ -2,13 +2,13 @@
 title: "Target Technology"
 summary: "The target technology for a given architecture"
 draft: true
-weight: 100
 url: "/engineering/target-technology"
 ShowToc: false
 TocOpen: false
 tags: ["technology", "target", "wasm","cloud","browser","duckdb"]
 categories: ["engineering"]
 author: "Gary Thomas"
+date: 2025-04-01
 ---
 
 # Overview

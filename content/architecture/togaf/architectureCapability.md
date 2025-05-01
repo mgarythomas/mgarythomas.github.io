@@ -2,7 +2,6 @@
 title: "Architecture Capability"
 description: "The structure and categorisation of assets"
 draft: false
-weight: 130
 ShowToc: false
 TocOpen: false
 tags: ["capabilities", "togaf"]

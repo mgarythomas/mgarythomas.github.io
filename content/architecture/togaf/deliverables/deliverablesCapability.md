@@ -1,7 +1,7 @@
 ---
 title: "Architecture Capability Deliverables - Development"
 draft: false
-weight: 20
+date: 2025-04-01
 ShowToc: false
 TocOpen: false
 tags: ["deliverables", "togaf"]

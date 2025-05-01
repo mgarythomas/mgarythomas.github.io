@@ -2,7 +2,6 @@
 title: "Architecture Abstraction"
 description: "Architecture Abstration Levels"
 draft: false
-weight: 40
 ShowToc: false
 TocOpen: false
 tags: ["abstraction", "togaf"]

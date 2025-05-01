@@ -2,7 +2,6 @@
 title: "Appendix"
 summary: "A summary of the different AI terminology"
 draft: true
-weight: 100
 url: "/ai/appendix"
 ShowToc: false
 TocOpen: false

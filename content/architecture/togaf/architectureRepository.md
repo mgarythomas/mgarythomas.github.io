@@ -1,10 +1,10 @@
 ---
 title: "Architecture Repository"
 draft: false
-weight: 90
 tags: ["repository", "togaf"]
 categories: ["architecture"]
 author: "Gary Thomas"
+date: 2025-03-10
 ---
 
 ## Overview

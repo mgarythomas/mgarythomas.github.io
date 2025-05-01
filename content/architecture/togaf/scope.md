@@ -1,12 +1,12 @@
 ---
 title: "Scope"
 draft: false
-weight: 10
 ShowToc: false
 TocOpen: false
 tags: ["scope", "togaf"]
 categories: ["architecture"]
 author: "Gary Thomas"
+date: 2025-03-13
 ---
 
 # Architecture Scope

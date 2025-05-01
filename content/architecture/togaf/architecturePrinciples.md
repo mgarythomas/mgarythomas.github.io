@@ -1,8 +1,7 @@
 ---
 title: "TOGAF Architecture Principles"
-date: 2025-04-10
+date: 2025-03-10
 draft: false
-weight: 60
 ShowToc: false
 TocOpen: false
 tags: ["principles", "togaf"]

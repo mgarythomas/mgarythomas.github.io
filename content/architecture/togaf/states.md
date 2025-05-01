@@ -2,7 +2,6 @@
 title: "States"
 summary: "The states of an architecture"
 draft: false
-weight: 70
 ShowToc: false
 TocOpen: false
 tags: ["states", "togaf"]

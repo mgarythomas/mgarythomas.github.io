@@ -1,7 +1,6 @@
 ---
 title: "Architecture Board"
 draft: false
-weight: 120
 ShowToc: false
 TocOpen: false
 tags: ["board", "togaf"]

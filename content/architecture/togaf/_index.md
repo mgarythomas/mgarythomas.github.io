@@ -2,12 +2,12 @@
 title: "TOGAF"
 summary: TOGAF Architecture Framework
 draft: false
-weight: 10
 ShowToc: true
 TocOpen: true
 tags: ["domain","state", "togaf"]
 categories: ["architecture"]
 author: "Gary Thomas"
+date: 2025-02-26
 ---
 
 # Overview

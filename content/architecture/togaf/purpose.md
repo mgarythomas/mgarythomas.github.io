@@ -1,8 +1,7 @@
 ---
 title: "TOGAF Architecture Development Method (ADM)"
-date: 2025-04-10
+date: 2025-03-11
 draft: false
-weight: 40
 ShowToc: false
 TocOpen: false
 tags: ["purpose","adm", "togaf", "enterprise"]

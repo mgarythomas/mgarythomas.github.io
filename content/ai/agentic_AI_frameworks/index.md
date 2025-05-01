@@ -20,6 +20,8 @@ I wanted to start curating a list as some of these are very new - and I imagine 
 |[ChatDev](https://chatdev.ai/)|0.1.0|The primary objective of ChatDev is to offer an easy-to-use, highly customizable and extendable framework, which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence|
 |[Agno](https://www.agno.com/)|0.1.0|Agno is a framework for building, shipping and monitoring AI agents and applications.|
 |[Gryffin](https://www.gryffin.ai/)|0.1.0|Gryffin is a framework for building, shipping and monitoring AI agents and applications.|
+|[Google SDK](https://ai.google.dev/gemini-api/docs)|0.1.0|Google SDK is a framework for building, shipping and monitoring AI agents and applications.|
+|[Llama API](https://llama.developer.meta.com/docs/overview/)| Beta |This is only just announced at LlamaCon 2025, so no feedback on how to use it.|
 |[SmolAgents](https://huggingface.co/docs/smolagents/index)|0.1| A simple framework from [Hugging Face](https://huggingface.co/) to build powerful agents|
 |[Mastra](https://mastra.ai/)|0.1.0| Mastra is a typescript AI framework.|
 |[LlamaIndex](https://docs.llamaindex.ai/en/stable/)|0.1.0| LlamaIndex is a framework for building LLM-powered agents over your data with LLMs and workflows.|

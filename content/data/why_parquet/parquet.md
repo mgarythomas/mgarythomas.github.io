@@ -37,6 +37,8 @@ Parquet is a binary format, which allows for efficient storage and retrieval of 
 
 Parquet is built to support very efficient compression and encoding schemes. Multiple projects have demonstrated the performance impact of applying the right compression and encoding scheme to the data. Parquet allows compression schemes to be specified on a per-column level, and is future-proofed to allow adding more encodings as they are invented and implemented.
 
+Parquet supports various compression algorithms, including Snappy, LZO, Gzip, and LZ4. The choice of compression algorithm depends on the specific characteristics of the data and the requirements of the analytical workloads. In addition to compression, Parquet also supports several encoding techniques, such as dictionary encoding, run-length encoding, and delta encoding. These encoding techniques can further improve storage efficiency and query performance.
+
 ### Splitable
 
 Parquet files are splittable, enabling efficient parallel processing of large files and faster data loading and querying. This is because Parquet files can be divided into smaller chunks, each of which can be processed independently by multiple processors or nodes in a distributed system. This capability is crucial for large-scale data processing and analytics, as it enables faster data loading and querying by leveraging parallel computing.
@@ -48,6 +50,8 @@ Parquet was developed to support nested data structures from the beginning. This
 ## Structure
 
 ![Parquet Structure](/data/why_parquet/parquetFileStructure.svg)
+
+The Parquet file layout is composed of a header, footer, and data block, with the header containing information about the file format, and the footer containing metadata such as statistics and schema information. The data block is divided into row groups, which are further divided into columns, and the values within each column are stored as pages. This layout allows for efficient compression and encoding, which reduces storage space and improves read performance.
 
 A Parquet file is made up of a number of components:
 

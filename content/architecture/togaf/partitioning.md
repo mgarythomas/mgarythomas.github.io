@@ -1,7 +1,6 @@
 ---
 title: "Architecture Partitioning"
 draft: false
-weight: 30
 ShowToc: false
 TocOpen: false
 tags: ["partitioning", "togaf"]

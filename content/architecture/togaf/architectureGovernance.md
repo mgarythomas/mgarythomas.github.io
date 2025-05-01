@@ -1,7 +1,6 @@
 ---
 title: "Architecture Governance"
 draft: false
-weight: 110
 ShowToc: false
 TocOpen: false
 tags: ["governance", "togaf"]

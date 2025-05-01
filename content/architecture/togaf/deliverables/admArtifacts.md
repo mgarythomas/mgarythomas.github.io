@@ -1,8 +1,7 @@
 ---
 title: "TOGAF ADM Artifacts by Phase"
-date: 2025-04-04
+date: 2025-04-01
 draft: false
-weight: 100
 ShowToc: false
 TocOpen: false
 tags: ["artifacts", "togaf", "deliverables"]

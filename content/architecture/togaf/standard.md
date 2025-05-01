@@ -1,9 +1,8 @@
 ---
 title: "TOGAF Standard"
 summary: "The TOGAF Standard - Structure and Documents"
-date: 2025-04-10
+date: 2025-03-11
 draft: false
-weight: 60
 ShowToc: false
 TocOpen: false
 tags: ["adm", "togaf"]

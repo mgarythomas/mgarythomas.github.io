@@ -1,0 +1,43 @@
+{{ define "main" }}
+<h1>Asset Pipeline Debug</h1>
+
+<h2>Site Directory Structure:</h2>
+<pre>
+{{ range (slice "assets" "assets/css" "assets/css/extended") }}
+Checking: {{ . }}
+Exists: {{ fileExists . }}
+{{ end }}
+</pre>
+
+<h2>Files in assets/css/extended:</h2>
+<pre>
+{{ with resources.Match "css/extended/*" }}
+    {{ range . }}
+        - {{ .Name }} ({{ .RelPermalink }})
+    {{ end }}
+{{ else }}
+    No files found with css/extended/* pattern
+{{ end }}
+</pre>
+
+<h2>Can Get custom.css directly?</h2>
+<pre>
+{{ with resources.Get "css/extended/custom.css" }}
+    YES - Found {{ .Name }} ({{ .RelPermalink }})
+{{ else }}
+    NO - Cannot find css/extended/custom.css
+{{ end }}
+</pre>
+
+<h2>Resource Match in theme:</h2>
+<pre>
+{{ with resources.Match "css/extended/*" }}
+    {{ range . }}
+        - {{ .Name }} ({{ .RelPermalink }})
+    {{ end }}
+{{ else }}
+    No files found
+{{ end }}
+</pre>
+
+{{ end }}

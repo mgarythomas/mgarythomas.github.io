@@ -2,7 +2,6 @@
 title: "Architecture"
 summary: "A summary of various thoughts and posts on architecture."
 draft: false
-weight: 20
 tags: ["definition", "togaf"]
 categories: ["architecture"]
 author: "Gary Thomas"

@@ -2,7 +2,6 @@
 title: "Architecture Content Framework"
 date: 2025-03-26
 draft: false
-weight: 70
 ShowToc: false
 TocOpen: false
 tags: ["content framework", "togaf"]

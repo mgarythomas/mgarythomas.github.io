@@ -76,5 +76,15 @@ cd windsurf_agent
 
 ### Create a requirements.txt file
 
+### Export the python environment 
+Now that the dependencies are installed, we can export the environment to a environment.yml file:
 
+```bash
+conda env export > environment.yml
 
+### Setup windsurf to point to the correct python environment
+I know this is simple and apologies if everyone already knows this, but within Windsurf, you need to go to the settings and point to the correct python environment.
+
+    1. Open Command Palette (Cmd+Shift+P)
+    2. Search for Python: Select Interpreter
+    3. Pick the interpreter that matches your windsurf_agent Conda env (should look like conda-env:windsurf_agent)

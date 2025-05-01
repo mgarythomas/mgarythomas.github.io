@@ -18,17 +18,19 @@ module:
   mounts:
     - source: node_modules/simple-icons/icons
       target: assets/simple-icons
+    - source: assets/css/extended
+      target: assets/css/extended
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: mgarythomas 
-  description: "mgarythomas summary site"
+  description: "mgarythomas website"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: light # auto, dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -78,8 +80,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: Gary Thomas
-    Content: To begin at the beginning...
+    Title: Welcome
+    Content: |
+      To begin at the beginning...\
+      I started this site as a place to make notes as I was doing some research.\
+      I am hoping to connect with people who have a similar mindset.
 
   socialIcons:
     - name: x
