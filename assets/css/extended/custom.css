@@ -148,11 +148,21 @@ header nav a {
   border-radius: 8px;
 }
 
-.jr-basics__email,
-.jr-basics__url,
+.jr-basics__email {
+  padding: 1px;
+  margin: 1px 0;
+  font-weight: bold;
+}
+
+.jr-basics__url {
+  padding: 1px;
+  margin: 1px 0;
+  font-weight: light;
+}
+
 .jr-basics__location-city,
 .jr-basics__location-countryCode,
 .jr-basics__location-region {
-  padding: 1rem;
-  margin: 1rem 0;
+  padding: 1px;
+  margin: 1px 0;
 }

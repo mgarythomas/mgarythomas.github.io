@@ -6,7 +6,7 @@
         "image": "/images/garyGhibli.png",
         "email": "gary@mgarythomas.com",
         "url": "http://mgarythomas.com",
-        "summary": "Gary is originally from the UK, but has lived in Australia and New Zealand for the last 20 years. He originally studied Computer Science at Stafforshire University (or North Staffs Polytechnic as it was known back then) before starting his first job as a technologist (software engineer) at GPT in Liverpool, UK.",
+        "summary": "Gary is originally from the UK, but has lived in Australia and New Zealand for the last 20 years. He originally studied Computer Science at Stafforshire University (or North Staffs Polytechnic as it was known back then) before starting his first job as a technologist (software engineer) at GPT in Liverpool, UK. Since then he has primarily worked in engineering, architecture in lots of different technologies and industries.",
         "location": {
             "city": "Sydney",
             "countryCode": "AU",
@@ -24,12 +24,13 @@
             "url": "https://lab49.com",
             "startDate": "2020-04-01",
             "endDate": "2025-01-30",
-            "summary": "Lab49 is a technology consultancy specialising in Financial Services specialising in Digital, Blockchain, Product innovation and Simplification. Gary was responsible for the overall technology strategy and delivery of projects.",
+            "summary": "Lab49 is a technology consultancy specialising in Financial Services specialising in Digital, Blockchain, Product innovation and Simplification. Gary Led the technology architecture and engineering practice for Lab49 across Australia, New Zealand, UAE, and the wider Asia Pacific region. Developed a technology practice, driving technology strategy and guiding high-performing teams.",
             "highlights": [
                 "Led the design and delivery of an end-to-end digital transformation for a major corporate and institutional bank, leveraging an event-driven microservices architecture and cloud native technologies.",
                 "Developed a technology roadmap and architecture framework for a major Australian bank, aligning with modern architecture and strategic goals",
                 "Built a data strategy to support the creation of a bank-wide analytics capability for an Australian Bank.",
-                "Delivered a technology strategy and merger plan for a digital asset and investment company."
+                "Delivered a technology strategy and merger plan for a digital asset and investment company.",
+                "Built and led a multi-region team of over 20 architects and principal engineers across solution, integration, security, and data disciplines."
             ]
         },
         {
@@ -44,9 +45,27 @@
             "highlights": [
                 "Led the design and development of payment architectures globally with a focus on the architecture of a new global platform for payment processing to be deployed across multiple regions in a hybrid model.",
                 "Architected a multi-region, cloud native, event-driven payment data processing platform using Kafka and microservices on AWS",
-                "Established API-first architecture patterns for customer onboarding and integration working with Kong for API Management"
+                "Established API-first architecture patterns for customer onboarding and integration working with Kong for API Management",
+                "Designed and led the execution of cloud migration strategies for critical payment processing systems",
+                "Designed and coded payment gateways to support AS2805 and other local requirements"
+            ]
+        },
+        {
+            "name": "Allianz",
+            "location": "Sydney, NSW",
+            "description": "Insurance",
+            "position": "Development Manager",
+            "url": "https://allianz.com",
+            "startDate": "2011-05-01",
+            "endDate": "2013-10-31",
+            "summary": "Allianz is a global insurance company with a long history of insurance innovation and insurance services.",
+            "highlights": [
+                "Led the implementation of a new insurance rating engine and pricing services used across the business.",
+                "Defined new standards for external services based on industry standards - ACORD, ISO, etc.",
+                "Implemented new Claims processing services"
             ]
         }
+
     ],
     "education": [
         {
