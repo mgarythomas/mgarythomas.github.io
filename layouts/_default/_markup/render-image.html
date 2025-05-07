@@ -4,8 +4,12 @@
   You can modify the HTML below to suit your needs.
 */}}
 
-<img src="{{ .Destination | relURL | safeURL }}"
-     alt="{{ .Text }}"
-     {{ with .Title }}title="{{ . }}"{{ end }}
-     loading="lazy"
-     class="markdown-image" />
+{{/* Hugo Render Hook for Markdown Images supporting Page Bundles */}}
+{{ $src := .Destination }}
+{{ $resource := .Page.Resources.GetMatch (printf "**/%s" $src) }}
+<img
+  src="{{ if $resource }}{{ $resource.RelPermalink }}{{ else }}{{ $src | relURL | safeURL }}{{ end }}"
+  alt="{{ .Text }}"
+  {{ with .Title }}title="{{ . }}"{{ end }}
+  loading="lazy"
+  class="markdown-image" />
