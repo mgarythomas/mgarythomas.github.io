@@ -9,6 +9,7 @@ tags: ["strategy", "business"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-18
+image: "/architecture/business-strategy/businessStrategy.svg"
 ---
 
 One of the earliest points in the Architecture journey is the understanding of the overarching business strategy.
