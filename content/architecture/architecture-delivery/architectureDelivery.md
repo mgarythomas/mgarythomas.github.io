@@ -8,6 +8,7 @@ TocOpen: false
 tags: ["delivery", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
+image: "/architecture/architecture-delivery/architectureDelivery.png"
 date: 2025-04-19
 ---
 

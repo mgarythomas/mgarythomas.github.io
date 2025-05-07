@@ -9,6 +9,8 @@ tags: ["methodology", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-17
+image: "/architecture/methodology/methodology.png"
+date: 2025-04-17
 ---
 
 # Overview
