@@ -38,6 +38,7 @@ I wasn't sure where to start with the description of architecture, but I have re
 | [Robert C. Martin](http://blog.cleancoder.com/) | Also known as "Uncle Bob", Martin is a software engineer and author who has written extensively on software architecture and design. He is the founder of the Agile Software Development movement and is known for his work on the principles of software architecture. |
 | [Donella Meadows](https://en.wikipedia.org/wiki/Dana_Meadows) | Dana Meadows was a systems theorist and author who was a pioneer of systems thinking. She is best known for her work on the World3 computer model, which was a simulation of global population, industrial growth, and resource depletion. |
 | [Kaine Ugwu](https://www.kaine.pro/my-story) | Kaine Ugwu thinks about architecture and provides a lot of insight into strategy and how this works in practice. |
+| [David Farley](https://www.davefarley.net/) | A software engineer and architect with lits of real-world experience that comes through in his practical thoughts on how to deliver software and design systems |
 | [Grady Booch](https://en.wikipedia.org/wiki/Grady_Booch) | Grady Booch is a software engineer and author who is known for his work on the principles of software architecture. He is the founder of the Object Management Group (OMG) and is the inventor of the Unified Modeling Language (UML). I still love the use of clouds instead of boxes as these were an over-used metaphor, but it introduced me to the idea of how to visualise the architecture of a software system. |
 
 The list goes on...
