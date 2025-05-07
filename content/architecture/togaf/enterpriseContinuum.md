@@ -12,7 +12,7 @@ date: 2025-03-18
 
 # Enterprise Continuum
 
-![Enterprise Continuum](/images/architecture/togaf/enterpriseContinuum.png)
+![Enterprise Continuum](/architecture/togaf/enterpriseContinuum.png)
 
 Provides structure and categorisation of assets held within the Enterprise Repositories.
 - Sets a broader context to the re-use of the artifacts

@@ -2,7 +2,7 @@
 title: "Why Parquet?"
 summary: "Parquet is a columnar storage format that offers advantages for big data processing and analytics"
 description: "Parquet is a columnar storage format that is optimized for analytics and provides a scalable, cost-effective, and flexible solution for data analytics. Why is it important?"
-draft: true
+draft: false
 tags: ["parquet", "data warehouse","columnar", "storage", "big data", "data analytics"]
 categories: ["data"]
 author: "Gary Thomas"

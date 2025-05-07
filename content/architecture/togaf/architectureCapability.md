@@ -20,7 +20,7 @@ The Enterprise Architecture is a business capability that supports 4 different t
 
 ## Overview
 
-![Architecture Capability](/images/architecture/togaf/architectureCapability.png)
+![Architecture Capability](/architecture/togaf/architectureCapability.png)
 
 Posseses organisation structures with roles, responsibilities, skills and processes for Enterprise Architecture work.
 Treated like any other operational unit within the business.

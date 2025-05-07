@@ -14,7 +14,7 @@ author: "Gary Thomas"
 
 This page describes the TOGAF content framework and its key components.
 
-![TOGAF ADM Cycle](/images/architecture/togaf/contentFramework.png)
+![TOGAF ADM Cycle](/architecture/togaf/contentFramework.png)
 
 ## Key Components
 

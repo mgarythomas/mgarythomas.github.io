@@ -20,7 +20,7 @@ The circle theme is used to show the possible iterations of the architecture ove
 
 Requirements are in the centre as they will be updated and managed throughout the ADM phases.
 
-![TOGAF ADM Cycle](/images/architecture/togaf/togafAdm.png)
+![TOGAF ADM Cycle](/architecture/togaf/togafAdm.png)
 
 The TOGAF Architecture Development Method (ADM) consists of several phases:
 

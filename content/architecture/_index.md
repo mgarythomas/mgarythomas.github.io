@@ -28,7 +28,7 @@ The most consistent feature of architecture, across domains, is its role as a sh
 ---
 
 # Standing on the shoulders of giants
-I wasn't sure where to start with the description of architecture, but I have read so much different content over time that it is worth calling out so many people who have helped shape my thinking.
+I wasn't sure where to start with the description of architecture, but I have read so much different content over time that it is worth calling out so many people who have helped shape my thinking. In no particular order:
 
 | Name | Description |
 | --- | --- |

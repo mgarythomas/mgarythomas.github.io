@@ -1,0 +1,11 @@
+{{/*
+  Hugo Render Hook for Markdown Images
+  This template customizes how Markdown images are rendered.
+  You can modify the HTML below to suit your needs.
+*/}}
+
+<img src="{{ .Destination | relURL | safeURL }}"
+     alt="{{ .Text }}"
+     {{ with .Title }}title="{{ . }}"{{ end }}
+     loading="lazy"
+     class="markdown-image" />

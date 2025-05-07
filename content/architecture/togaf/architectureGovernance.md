@@ -10,7 +10,7 @@ author: "Gary Thomas"
 
 # Governance
 
-![Architecture Governance](/images/architecture/togaf/architectureGovernance.png)
+![Architecture Governance](/architecture/togaf/architectureGovernance.png)
 
 ## Overview
 
