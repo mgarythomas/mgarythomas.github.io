@@ -2,7 +2,7 @@
 title: "Architecture Levels"
 summary: "The different levels of an architecture within the TOGAF standard"
 draft: false
-weight: 20
+date: 2025-04-12
 ShowToc: true
 TocOpen: true
 tags: ["levels","landscape", "togaf"]

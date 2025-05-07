@@ -1,11 +1,11 @@
 ---
 title: "Sustainability"
 summary: Breakdown of how to architect for Sustainability
-weight: 4
-draft: true 
+draft: false 
 ShowToc: false
 TocOpen: false
 url: "/architecture/sustainability"
+date: 2025-04-15
 tags: ["personal", "sustainability"]
 categories: ["architecture"]
 author: "Gary Thomas"

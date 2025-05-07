@@ -2,13 +2,13 @@
 title: "Delivery"
 summary: "An approach to Strategy and Architecture Delivery"
 draft: true
-weight: 3
 url: "/architecture/delivery"
 ShowToc: false
 TocOpen: false
 tags: ["delivery", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
+date: 2025-04-19
 ---
 
 # Overview

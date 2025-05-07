@@ -2,7 +2,7 @@
 title: "Stories: Building Narratives for Architecture"
 summary: "How storytelling enables effective architecture communication and drives practical transformation."
 description: "How storytelling drives effective architecture, builds shared understanding, and accelerates transformation in complex organisations."
-draft: true
+draft: false
 tags: ["stories", "architecture", "communication", "transformation"]
 categories: ["architecture"]
 author: "Gary Thomas"

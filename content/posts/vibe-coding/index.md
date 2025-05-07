@@ -21,6 +21,7 @@ This list is not exhaustive, but it contains a list of things I started looking 
 | Tool | Description |
 |------|-------------|
 | Windsurf | Another VS Code fork similar to Cusor but different implementation, this seems to be getting a lot of traction as well as investment from OpenAI |
+| [Firebase Studio](https://studio.firebase.google.com/) | Browser based offering from google. Has language support and integration with Gemini |
 | Claude Code | A bit different in that it is a terminal based tool that is still in beta but provides a lot of functionality already. Can understand context based on your existing codebase. |
 | Bolt.new | Figma tool that has a lot of support for design. A focus on building web and mobile applications directly in the browser. It runs on StackBlitz’s WebContainers, allowing developers to build full-stack applications without installing any software. |
 | Cursor | VS Code fork with a lot of support for coding and AI integration - I switched to Windsurf having started with Cursor.|

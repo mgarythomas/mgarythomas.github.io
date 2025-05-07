@@ -27,6 +27,22 @@ The most consistent feature of architecture, across domains, is its role as a sh
 
 ---
 
+# Standing on the shoulders of giants
+I wasn't sure where to start with the description of architecture, but I have read so much different content over time that it is worth calling out so many people who have helped shape my thinking.
+
+| Name | Description |
+| --- | --- |
+| [Gregor Hohpe](https://architectelevator.com/)| Probably needs no introduction from me, but the man who started with the EAI book and has since become a leading authority on architecture and always an interesting read, has worked for some influential companies but retains an independent voice. |
+| [Martin Fowler](https://martinfowler.com/) | Martin Fowler is an author and expert on the development of software and has produced a number of influential publications on the subject. |
+| [Eric Evans](https://www.domainlanguage.com/ddd/) | Eric Evans is a software engineer and author who is known for his work on Domain Driven Design (DDD) as a means to address the complexity of large software systems. When I first read this, a light went one but it took me a while to understand how to make it work in practice |
+| [Robert C. Martin](http://blog.cleancoder.com/) | Also known as "Uncle Bob", Martin is a software engineer and author who has written extensively on software architecture and design. He is the founder of the Agile Software Development movement and is known for his work on the principles of software architecture. |
+| [Donella Meadows](https://en.wikipedia.org/wiki/Dana_Meadows) | Dana Meadows was a systems theorist and author who was a pioneer of systems thinking. She is best known for her work on the World3 computer model, which was a simulation of global population, industrial growth, and resource depletion. |
+| [Kaine Ugwu](https://www.kaine.pro/my-story) | Kaine Ugwu thinks about architecture and provides a lot of insight into strategy and how this works in practice. |
+| [Grady Booch](https://en.wikipedia.org/wiki/Grady_Booch) | Grady Booch is a software engineer and author who is known for his work on the principles of software architecture. He is the founder of the Object Management Group (OMG) and is the inventor of the Unified Modeling Language (UML). I still love the use of clouds instead of boxes as these were an over-used metaphor, but it introduced me to the idea of how to visualise the architecture of a software system. |
+
+The list goes on...
+---
+
 # Why do we have architecture?
 The purpose of architecture is to communicate to all stakeholders what the system is, how it functions, and how it is expected to perform. It serves as an alignment between the business strategy and requirements and the technology architecture designed to fulfil those needs.
 

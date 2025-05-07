@@ -2,13 +2,13 @@
 title: "Business Strategy and Architecture"
 summary: "Business Strategy"
 url: "/architecture/businessStrategy"
-weight: 1
 draft: true
 ShowToc: false
 TocOpen: false
 tags: ["strategy", "business"]
 categories: ["architecture"]
 author: "Gary Thomas"
+date: 2025-04-18
 ---
 
 One of the earliest points in the Architecture journey is the understanding of the overarching business strategy.
