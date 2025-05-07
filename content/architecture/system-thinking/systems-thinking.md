@@ -10,6 +10,7 @@ tags: ["systems-thinking", "banking", "patterns", "complex"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-05-05
+image: "/architecture/system-thinking/leverage-points.png"
 ---
 
 # Systems Thinking: Dana Meadows' Legacy for Banking Architecture
@@ -55,6 +56,8 @@ Traditional architecture methods often break these systems into parts and optimi
 
 ## Embracing Systems Patterns in Architecture
 
+![Systems Thinking and Patterns](/architecture/system-thinking/patterns-in-modern-banking.png)
+
 To move beyond fragility, architects must lean into complexity with purpose. Here are key systems-informed patterns that work in banking:
 
 ### 1. Circuit Breaker Patterns
@@ -80,6 +83,8 @@ Use Domain-Driven Design to define clear system boundaries (retail vs corporate,
 ---
 
 ## Identifying Leverage Points
+
+![Leverage Points](/architecture/system-thinking/leverage-points.png)
 
 Meadows wrote that the most effective way to change a system is by finding and using **leverage points**—places where small shifts can drive big changes. In banking, these include:
 
