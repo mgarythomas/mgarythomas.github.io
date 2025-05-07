@@ -2,7 +2,7 @@
 title: "Business Strategy and Architecture"
 summary: "Business Strategy"
 url: "/architecture/businessStrategy"
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
 tags: ["strategy", "business"]

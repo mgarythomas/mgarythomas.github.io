@@ -2,7 +2,7 @@
 title: "Methodology"
 summary: "An approach to Strategy and Architecture"
 url: "/architecture/methodology"
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
 tags: ["methodology", "strategy"]

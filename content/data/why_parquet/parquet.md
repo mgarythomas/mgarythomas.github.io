@@ -6,7 +6,7 @@ draft: false
 tags: ["parquet", "data warehouse","columnar", "storage", "big data", "data analytics"]
 categories: ["data"]
 author: "Gary Thomas"
-image: "/data/why_parquet/parquetDiagram.svg"
+image: "/data/why_parquet/parquetFileStructure.svg"
 url: "/data/parquet/"
 date: 2025-04-30
 ---

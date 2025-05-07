@@ -1,7 +1,7 @@
 ---
 title: "Delivery"
 summary: "An approach to Strategy and Architecture Delivery"
-draft: true
+draft: false
 url: "/architecture/delivery"
 ShowToc: false
 TocOpen: false

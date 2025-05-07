@@ -3,7 +3,7 @@
 title: "Apache Iceberg: A Modern Data Warehouse"
 summary: "An overview of Apache Iceberg, a modern data warehouse."
 description: "An overview of Apache Iceberg, a modern data warehouse that provides a scalable, cost-effective, and flexible solution for data analytics. Why is it important?"
-draft: true
+draft: false
 tags: ["iceberg", "data warehouse"]
 categories: ["data"]
 author: "Gary Thomas"

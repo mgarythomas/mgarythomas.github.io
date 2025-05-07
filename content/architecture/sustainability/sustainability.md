@@ -1,7 +1,7 @@
 ---
 title: "Sustainability"
 summary: Breakdown of how to architect for Sustainability
-draft: false 
+draft: true 
 ShowToc: false
 TocOpen: false
 url: "/architecture/sustainability"
