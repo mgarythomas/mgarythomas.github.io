@@ -1,15 +1,16 @@
 ---
-title: "Methodology"
-summary: "An approach to Strategy and Architecture"
-url: "/architecture/methodology"
+title: "A Simplified Approach to Strategy and Architecture"
+summary: "An approach to Strategy and Architecture based on practical experience of applying the TOGAF standard."
+description: "An approach to Strategy and Architecture based on practical experience of applying the TOGAF standard in financial services."
 draft: false
+url: "/architecture/architecture-methodology"
 ShowToc: false
 TocOpen: false
 tags: ["methodology", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-17
-image: "/architecture/methodology/methodology.png"
+image: "/architecture/architecture-methodology/methodology.png"
 date: 2025-04-17
 ---
 
@@ -22,7 +23,7 @@ TOGAF defines levels of architecture within an Architecture Landscape:
 
 For simplicity, Business capabilities can exist at different levels as well. Even when we are dealing with architecture at a Strategic level we would expect that to encompass business capabilities at a broader level.
 
-![Methodology](/architecture/methodology/methodology.png)
+![Methodology](/architecture/architecture-methodology/methodology.png)
 
 # Enterprise Architecture Transformation: A Structured Approach
 

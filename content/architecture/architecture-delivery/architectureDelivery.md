@@ -1,5 +1,6 @@
 ---
-title: "Delivery"
+title: "Strategy and Architecture Delivery"
+description: "An approach to Strategy and Architecture Delivery based on practical experienced and the adoption of Enterprise Architecture in an organisation."
 summary: "An approach to Strategy and Architecture Delivery"
 draft: false
 url: "/architecture/delivery"
@@ -14,9 +15,9 @@ date: 2025-04-19
 
 # Overview
 
-Building on the simplified view of a [methodology](/architecture/methodology) the following is a simplified view of how the different steps come together.
+Building on the simplified view of a [methodology](/architecture/architecture-methodology) the following is a simplified view of how the different steps come together.
 
-I should point out that this was developed alongside a previous co-worker and is an attempt to show the general flow of steps. It also displays the fact that a number of the steps happen in parallel.
+I should point out that this was developed with a previous co-worker and is an attempt to show the general flow of steps. It also displays the fact that a number of the steps happen in parallel.
 
 Critically, the development of a target architecture is based on having collected artifacts and defined the baseline for business, application and technology.
 

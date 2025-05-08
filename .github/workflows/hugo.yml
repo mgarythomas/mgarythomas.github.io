@@ -63,6 +63,10 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
+      - name: Clear public directory
+        run: |
+          rm -rf public
+          mkdir public
       - name: Build with Hugo
         run: |
           hugo \

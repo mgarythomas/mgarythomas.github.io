@@ -2,10 +2,10 @@
 title: "From Cognitive Clutter to Architectural Clarity"
 description: "Explore how unmanaged technical debt and IT complexity undermine digital transformation—creating cognitive overload, slowing delivery, and clouding strategic focus—and how intentional simplification can restore clarity, accelerate change, and drive sustainable innovation."
 summary: "Technical debt and complexity stall transformation. Clear it to restore focus, speed up delivery, and drive sustainable innovation."
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
-tags: ["complexity", "architecture", "technical debt"]
+tags: ["complexity", "technical debt"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-05-08
@@ -35,10 +35,10 @@ Outdated, fragmented, or poorly integrated systems are the mental clutter of mod
 ### A few key examples:
 
 - **Legacy Systems**: Platforms that underperform but persist due to inertia.
-- **System Fragmentation**: Redundant tools and siloed data that multiply integration pain.
-- **Zombie Platforms**: Systems no one owns but can’t be decommissioned due to uncertainty.
+- **Zombie Platforms**: Systems that should be decomissioned, but no one owns them or claims to use them or more specifically has established a project for their removal and decommission.
+- **System Fragmentation**: Redundant or Overlapping tools and siloed data that multiply integration pain.
 
-Together, these introduce low-grade drag on agility. The result? Innovation fatigue.
+Together, these reduce our capacity for agility and innovation but also cloud our strategic focus. Ultimately we find ourselves in a state of innovation fatigue.
 
 ---
 
@@ -48,12 +48,11 @@ Much like decluttering your desk helps clear your mind, reducing technical debt 
 
 Start by **making the invisible visible**—technical debt only becomes manageable once it’s recognized and categorized.
 
-### Four Types of Technical Debt:
+### Three Types of Technical Debt:
 
-- **Planned**: Taken on knowingly for short-term gain
-- **Delivered**: Introduced by dev teams to hit deadlines
-- **Discovered**: Uncovered later via audit or analysis
-- **Acquired**: Accumulated over time as systems age
+- **Planned**: Taken on knowingly for short-term gain - This is the Known technical debt.
+- **Unplanned**: Happens without planning or intention, often due to issues or lack of practice or quality controls. Discovered or happened-upon technical debt.
+- **Acquired**: Accumulated over time as systems age, sometimes to be considered unavoidable as business requirements evolve.
 
 ---
 

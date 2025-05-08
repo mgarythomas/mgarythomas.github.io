@@ -7,10 +7,8 @@ tags: ["options", "architecture"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-26
-image: "/posts/options/options-architecture-share.png"
+image: "/architecture/architecture-options/options-architecture-share.png"
 ---
-![Options: Managing Change and Uncertainty for Stakeholders](/posts/options/options-architecture-share.png)
-
 In any technology project, uncertainty is inevitable. New requirements emerge, priorities shift, and unforeseen challenges arise.
 
 To address this, architects must design systems that provide optionality — enabling stakeholders to defer decisions where possible, manage evolving risks, and preserve flexibility without committing prematurely.

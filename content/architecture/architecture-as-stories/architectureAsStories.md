@@ -7,10 +7,8 @@ tags: ["stories", "architecture", "communication", "transformation"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-20
-image: "/posts/stories/stories-architecture-share.png"
+image: "/architecture/architecture-as-stories/stories-architecture-share.png"
 ---
-![Stories: Building Narratives for Architecture](/posts/stories/stories-architecture-share.png)
-
 ## Why Stories Matter in Architecture
 
 Stories have long been central to how humans communicate and co-operate across large groups. They are critical in shaping shared understanding which is an essential ingredient for large-scale collaboration.
