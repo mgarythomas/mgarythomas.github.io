@@ -2,7 +2,7 @@
 title: "Architectural Options: Managing Change and Uncertainty for Stakeholders"
 summary: "How an architecture provides options for stakeholders"
 description: "How architects provide stakeholders with strategic options to manage uncertainty, defer decisions, and align architecture with evolving business needs."
-draft: true
+draft: false
 tags: ["options", "architecture"]
 categories: ["architecture"]
 author: "Gary Thomas"

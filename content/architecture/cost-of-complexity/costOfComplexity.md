@@ -1,5 +1,5 @@
 ---
-title: "From Cognitive Clutter to Architectural Clarity"
+title: "Tech Debt:From Cognitive Clutter to Architectural Clarity"
 description: "Explore how unmanaged technical debt and IT complexity undermine digital transformation—creating cognitive overload, slowing delivery, and clouding strategic focus—and how intentional simplification can restore clarity, accelerate change, and drive sustainable innovation."
 summary: "Technical debt and complexity stall transformation. Clear it to restore focus, speed up delivery, and drive sustainable innovation."
 draft: false

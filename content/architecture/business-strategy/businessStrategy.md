@@ -16,6 +16,8 @@ One of the earliest points in the Architecture journey is the understanding of t
 
 If technology is the enabler of business strategy, then the business strategy is the driver for many of the technology choices.
 
+Enterprise Architecture is also a journey where the progress is not necessarily linear.
+
 ## Categories of Business Strategy
 In order to simplify the engagement when trying to get a clear understanding of Business Strategy a model that categorises strategic initiatives can be of assistance.
 
