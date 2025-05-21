@@ -2,14 +2,14 @@
 title: "Architecture Maturity"
 description: "An approach to Architecture Maturity based on practical experienced and the adoption of Enterprise Architecture in an organisation."
 summary: "An approach to Architecture Maturity"
-draft: true
+draft: false
 url: "/architecture/architecture-maturity"
 ShowToc: false
 TocOpen: false
 tags: ["maturity", "architecture"]
 categories: ["architecture"]
 author: "Gary Thomas"
-date: 2025-05-14
+date: 2025-04-21
 ---
 
 # Overview
@@ -19,8 +19,8 @@ The maturity of an architecture is a key aspect of Enterprise Architecture based
 # Maturity Model
 
 
-| Domains | 1<br>Initial | 2<br>Under Development | 3<br>Defined | 4<br>Managed | 5<br>Measured |
-|---------|--------------|------------------------|--------------|--------------|---------------|
+| Domains | 1 - Initial | 2 - Under Development | 3 - Defined | 4 - Managed | 5 - Measured |
+|---------|-------------|----------------------|-------------|-------------|-------------|
 | **1- Architecture Organisational Structure** | No structured EA documentation or standards. | Incomplete formalisation of a framework. | EA business & IT models, and capability-based roadmaps exist. | EA is regularly updated, and an iterative methodology is used. | EA drives continuous improvement and innovation using data-driven capability insights. |
 | **2- Business Strategy Alignment** | No relationship between EA and business strategy. | Some explicit relationship between EA and the business. | EA is actively involved in developing and communicating business strategy. | EA has a process to disseminate strategies throughout their firm. | Capability's measured outcomes are derived from strategy. |
 | **3- Business Capabilities** | No formal capability map. | Basic capabilities exist but are not validated by business. | Business capabilities are well-communicated and aligned with strategic objectives. | Capabilities aligned with stakeholders, applications, information, and processes. | KPIs are tracked for important business capabilities. |

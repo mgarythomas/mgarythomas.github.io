@@ -90,7 +90,7 @@ Meadows wrote that the most effective way to change a system is by finding and u
 
 - API gateway design and governance  
 - Identity and access frameworks (authN/authZ)  
-- Core data models (e.g., customer, account, product)  
+- Core data models (e.g., customer, account, product)
 - Messaging schemas for events and integration  
 - System boundary resilience patterns  
 
