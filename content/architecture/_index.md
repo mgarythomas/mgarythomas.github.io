@@ -2,7 +2,7 @@
 title: "Architecture"
 summary: "A summary of various thoughts and posts on architecture."
 draft: false
-tags: ["definition", "togaf"]
+tags: ["definition"]
 categories: ["architecture"]
 author: "Gary Thomas"
 ---
@@ -32,16 +32,21 @@ I wasn't sure where to start with the description of architecture, but I have re
 
 | Name | Description |
 | --- | --- |
+| [GoF](https://en.wikipedia.org/wiki/Design_Patterns) | I am sure that [Erich Gamma	](https://en.wikipedia.org/wiki/Erich_Gamma), [Richard Helm](https://en.wikipedia.org/wiki/Richard_Helm), [Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson), and [John Vlissides](https://en.wikipedia.org/wiki/John_Vlissides) get fed up being rolled into one entry. But, despite already being a software engineer when this book was released it changed the way I looked at designing software. |
+| [Grady Booch](https://en.wikipedia.org/wiki/Grady_Booch) | Grady Booch is a software engineer and author who is known for his work on the principles of software architecture. He is the founder of the Object Management Group (OMG) and is the inventor of the Unified Modeling Language (UML). I still love the use of clouds instead of boxes as these were an over-used metaphor, but it introduced me to the idea of how to visualise the architecture of a software system. |
+| [Donella Meadows](https://en.wikipedia.org/wiki/Dana_Meadows) | Dana Meadows was a systems theorist and author who was a pioneer of systems thinking. She is best known for her work on the World3 computer model, which was a simulation of global population, industrial growth, and resource depletion. |
 | [Gregor Hohpe](https://architectelevator.com/)| Probably needs no introduction from me, but the man who started with the EAI book and has since become a leading authority on architecture and always an interesting read, has worked for some influential companies but retains an independent voice. |
 | [Martin Fowler](https://martinfowler.com/) | Martin Fowler is an author and expert on the development of software and has produced a number of influential publications on the subject. |
+| [Cassie Kozyrkov](https://www.kozyr.com/) | One of the great speakers on the subject of decisions and decision intelligence. Was Google's Chief Decision Scientist before setting up her own company to drive Decision Intelligence and the adoption of AI. Architecture and design is all about making decisions! |
 | [Eric Evans](https://www.domainlanguage.com/ddd/) | Eric Evans is a software engineer and author who is known for his work on Domain Driven Design (DDD) as a means to address the complexity of large software systems. When I first read this, a light went one but it took me a while to understand how to make it work in practice |
 | [Adrian Cockcroft](https://www.linkedin.com/in/adriancockcroft/)| The man behind Netflix's move to cloud and a leader in Cloud Architecture|
 | [Robert C. Martin](http://blog.cleancoder.com/) | Also known as "Uncle Bob", Martin is a software engineer and author who has written extensively on software architecture and design. He is the founder of the Agile Software Development movement and is known for his work on the principles of software architecture. |
-| [Donella Meadows](https://en.wikipedia.org/wiki/Dana_Meadows) | Dana Meadows was a systems theorist and author who was a pioneer of systems thinking. She is best known for her work on the World3 computer model, which was a simulation of global population, industrial growth, and resource depletion. |
-| [Kaine Ugwu](https://www.kaine.pro/my-story) | Kaine Ugwu thinks about architecture and provides a lot of insight into strategy and how this works in practice. |
 | [David Farley](https://www.davefarley.net/) | A software engineer and architect with lits of real-world experience that comes through in his practical thoughts on how to deliver software and design systems |
-| [Grady Booch](https://en.wikipedia.org/wiki/Grady_Booch) | Grady Booch is a software engineer and author who is known for his work on the principles of software architecture. He is the founder of the Object Management Group (OMG) and is the inventor of the Unified Modeling Language (UML). I still love the use of clouds instead of boxes as these were an over-used metaphor, but it introduced me to the idea of how to visualise the architecture of a software system. |
+| [Josh Bloch](https://en.wikipedia.org/wiki/Joshua_Bloch) | Josh Block wrote probably the most interesting book on writing Java Code that I know - *Effective Java* , the direction he provides helps to shape my thinking on how to write good code and build good applications. |
 | [Jeff Langr](https://www.langrsoft.com/about/) | Jeff Langr is a software engineering veteran and author who is known for his work on the principles of software architecture and contributor to the books Clean Code and Clean Agile. A member of the Pragmattic Programmers technical advisory board. |
+| [George Fairbanks](https://georgefairbanks.com/) | George Fairbanks is a software engineer, consultant an academic and also works in industry which gives him a perspective on how to apply architecture in practice. Published Just Enough Software Architecture. |
+| [Charity Majors](https://www.honeycomb.io/teammember/charity-majors) | One of the pioneers of modern Observability thinking and reliability engineering. |
+| [Kaine Ugwu](https://www.kaine.pro/my-story) | Kaine Ugwu thinks about architecture and provides a lot of insight into strategy and how this works in practice. |
 
 The list goes on...
 ---
