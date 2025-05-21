@@ -3,7 +3,7 @@ title: "Architectural Options: Managing Change and Uncertainty for Stakeholders"
 summary: "How an architecture provides options for stakeholders"
 description: "How architects provide stakeholders with strategic options to manage uncertainty, defer decisions, and align architecture with evolving business needs."
 draft: false
-tags: ["options", "architecture"]
+tags: ["options", "architecture", "volatility", "risk"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-26
@@ -21,11 +21,12 @@ Anyone who has worked on technology projects will know that, at the beginning of
 
 This is why presenting options during the development of architecture and in engagement with various stakeholders is crucial. This concept is widely recognised within the architecture community; Gregor Hohpe and Martin Fowler have discussed the importance of offering options in architecture [here](https://martinfowler.com/articles/architect-elevator.html#SellArchitectureOptions).
 
-From my perspective, the concept of providing options in architecture mirrors the financial instrument known as an option, as described [here](https://www.investopedia.com/terms/o/option.asp). Again, I don't think this I am the only one who sees this similarity as I read a similar comparison by Gregor Hohpe [here](https://architectelevator.com/architecture/architecture-options/) Simply put, an option is a financial instrument (contract) that is based on the value of an underlying asset.
+From my perspective, the concept of providing options in architecture mirrors the financial instrument known as an option, as described [here](https://www.investopedia.com/terms/o/option.asp). I'm certainly not the only one to see this similarity — I read a similar comparison by Gregor Hohpe [here](https://architectelevator.com/architecture/architecture-options/). Simply put, an option is a financial instrument (contract) that is based on the value of an underlying asset.
 
 While options can be used for various purposes — including income generation, trading, speculation, and hedging — the key use here is the ability to hedge or manage risk. This discussion does not explore the full range of financial options, but focuses specifically on architecture's ability to defer decisions while managing risk.
 
 While having the flexibility to exercise or implement a specific option in the future is valuable for building a flexible architecture that manages risks, there is a cost associated with it (in the financial world, this is called the strike price).
+Similarly, in architecture, the cost of maintaining optionality could include added development complexity, deferred decision-making overhead, or increased technical debt.
 
 Sometimes, the simplest architectural approach initially might make future options more difficult or expensive to execute. However, this cost can often be considered part of the implied cost of the simplest option, especially when evaluating factors like time to market.
 
@@ -33,10 +34,14 @@ For example, in the case of startups, where time to market and testing various a
 
 At other times, the options may be more complex, and careful consideration of the trade-offs is necessary.
 
-This same thought came to mind when discussing options for architecture within government. Where the ability to pivot or change direction may come through political change and the requirement to align with the strategy of a new government. This provides an additional benefit but also consideration in the architectural strategy. As Gregor Hohpe makes the point about volatility ([Black Scholes model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)) the value on an option increases in a time of high volatility (or change). 
+This same thought came to mind when discussing options for architecture within government. In government contexts, political changes often require architectural flexibility to align with shifting strategic priorities — making architectural options even more valuable. This provides an additional benefit but also consideration in the architectural strategy. As Gregor Hohpe makes the point about volatility ([Black Scholes model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)) the value on an option increases in a time of high volatility (or change). 
 
 ## A/B Testing
-While more focussed on user experience and product development this is a related concept where we incur the option price of developing two different approaches and trial both, comparing both options to determine which is more effective.
+A practical example of maintaining options in digital architecture is A/B testing, where we deliberately design and implement multiple approaches to evaluate their effectiveness.
+
+While more focussed on user experience and product development, this is a related concept where we incur the option price of developing two different approaches and trial both, comparing both options to determine which is more effective.
+
+Once architectural options have been identified, the next step is to evaluate these choices strategically. This includes assessing their feasibility, trade-offs, and alignment with the organisation’s objectives.
 
 ---
 
@@ -118,3 +123,6 @@ Here are some key areas to consider when performing a Gap Analysis:
   - Current State: What external vendors or third-party services are part of the current architecture?
   - Target State: Are new vendors or services needed to support the future vision?
   - Gap: Identify any gaps related to vendor capabilities, contract limitations, or dependence on third-party services.
+-## Conclusion
+
+In uncertain environments, architecture that preserves optionality is a competitive advantage. By designing systems that allow stakeholders to defer decisions and adapt to change, architects create a foundation for resilience, innovation, and long-term business value.
