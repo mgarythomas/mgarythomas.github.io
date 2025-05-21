@@ -66,3 +66,8 @@ A Parquet file is made up of a number of components:
     - Row Group Metadata
     - Column Metadata (The location of all the column metadata start locations)
     - Statistics (Summary statistics for each column, such as min, max, and null count)
+
+Think of it as a hierarchy:
+1. Row Groups contain Column Chunks
+2. Column Chunks contain Pages
+3. Pages contain the data
