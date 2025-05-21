@@ -21,17 +21,22 @@ Anyone who has worked on technology projects will know that, at the beginning of
 
 This is why presenting options during the development of architecture and in engagement with various stakeholders is crucial. This concept is widely recognised within the architecture community; Gregor Hohpe and Martin Fowler have discussed the importance of offering options in architecture [here](https://martinfowler.com/articles/architect-elevator.html#SellArchitectureOptions).
 
-In my perspective, the concept of providing options in architecture mirrors the financial instrument known as an option, as described [here](https://www.investopedia.com/terms/o/option.asp). Simply put, an option is a financial instrument (contract) that is based on the value of an underlying asset.
+From my perspective, the concept of providing options in architecture mirrors the financial instrument known as an option, as described [here](https://www.investopedia.com/terms/o/option.asp). Again, I don't think this I am the only one who sees this similarity as I read a similar comparison by Gregor Hohpe [here](https://architectelevator.com/architecture/architecture-options/) Simply put, an option is a financial instrument (contract) that is based on the value of an underlying asset.
 
 While options can be used for various purposes — including income generation, trading, speculation, and hedging — the key use here is the ability to hedge or manage risk. This discussion does not explore the full range of financial options, but focuses specifically on architecture's ability to defer decisions while managing risk.
 
 While having the flexibility to exercise or implement a specific option in the future is valuable for building a flexible architecture that manages risks, there is a cost associated with it (in the financial world, this is called the strike price).
 
-Sometimes, the simplest approach initially might make future options more difficult or expensive to execute. However, this cost can often be considered part of the implied cost of the option, especially when evaluating factors like time to market.
+Sometimes, the simplest architectural approach initially might make future options more difficult or expensive to execute. However, this cost can often be considered part of the implied cost of the simplest option, especially when evaluating factors like time to market.
 
-For example, in the case of startups, where time to market and testing various approaches are critical, the initial option may be to take a simple approach without worrying about scalability, extensibility, or operational costs in order to release quickly. In this scenario, future options — such as scaling the system — may incur significant re-development costs. Yet, this is often a worthwhile price to pay if the product proves successful and the growth justifies additional investments. This is the moment when the option is exercised.
+For example, in the case of startups, where time to market and testing various approaches are critical, the initial option may be to take a simple architectural approach with less focus on scalability, extensibility, or operational costs, in order to release quickly. In this scenario, future options — such as scaling the system — may incur significant re-development costs. Yet, this is often a worthwhile price to pay if the product proves successful and the growth justifies additional investments, something which is not always known when attempting to start a new product. This is the moment when the option is exercised.
 
 At other times, the options may be more complex, and careful consideration of the trade-offs is necessary.
+
+This same thought came to mind when discussing options for architecture within government. Where the ability to pivot or change direction may come through political change and the requirement to align with the strategy of a new government. This provides an additional benefit but also consideration in the architectural strategy. As Gregor Hohpe makes the point about volatility ([Black Scholes model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)) the value on an option increases in a time of high volatility (or change). 
+
+## A/B Testing
+While more focussed on user experience and product development this is a related concept where we incur the option price of developing two different approaches and trial both, comparing both options to determine which is more effective.
 
 ---
 

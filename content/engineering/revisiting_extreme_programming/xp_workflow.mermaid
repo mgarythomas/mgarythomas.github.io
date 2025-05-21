@@ -1,0 +1,40 @@
+flowchart LR
+    US[User Stories] --> REQ[Requirements]
+    US --> ARCH[Architectural Spike]
+    ARCH --> SYS[System Metaphor]
+    
+    REQ --> RP[Release Planning]
+    SYS --> RP
+    
+    RP --> UE[Uncertain Estimates]
+    RP --> CE[Confident Estimates]
+    UE --> SP[Spike]
+    SP --> RP
+    
+    CE --> NUS[New User Story]
+    NUS --> PV[Project Velocity]
+    CE --> IT[Iteration]
+    PV --> IT
+    
+    TS[Test Scenarios] --> IT
+    
+    IT --> LV[Latest Version]
+    LV --> BUGS[Bugs]
+    BUGS --> IT
+    
+    IT --> NI[Next Iteration]
+    NI --> IT
+    
+    TS --> ACT[Acceptance Tests]
+    LV --> ACT
+    
+    ACT --> CA[Customer Approval]
+    CA --> SR[Small Releases]
+    
+    classDef primary fill:#f96,stroke:#333,stroke-width:2px;
+    classDef secondary fill:#9cf,stroke:#333,stroke-width:1px;
+    classDef tertiary fill:#fcf,stroke:#333,stroke-width:1px;
+    
+    class IT primary;
+    class US,REQ,RP,ACT secondary;
+    class ARCH,SYS,UE,CE,NUS,PV,LV,BUGS,NI,TS,CA,SR,SP tertiary;
