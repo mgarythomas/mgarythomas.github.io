@@ -8,11 +8,13 @@ author: "Gary Thomas"
 date: 2025-04-18
 ---
 
-I am attempting to keep a track on all of the different tools that I have been playing with as I am still looking for the right tool - I would like to use just one, but I am not sure that will happen.
+I am attempting to keep a track on all of the different tools that I have been playing with as I am still looking for the right tool - I would like to use just one, but I am not sure that will happen. Maybe MCP will help me with this.
 
 I can definitely say, that having worked a lot more with Windsurf recently I am finding that is currently the go to environment. Also, the integration with ChatGPT is proving to be very effective.
 
 One thing is clear having now attempting to use Agentic Coding (I am struggling with the term Vibe Coding, but I will get over it!), is that they are very capable when used correctly and will definitely provide an engineer with a productivity boost.
+
+“Vibe coding” is a growing practice where you lean into letting a coding agent do most of the heavy lifting while you focus on the architecture and features of your application. But effective vibe coding isn’t just about one-shot prompting, accepting all recommendations, and hoping for the best. It involves structuring your work, refining your prompts, and using frameworks that lead to cleaner, more efficient code.
 
 ## Tools
 

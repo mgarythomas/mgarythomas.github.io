@@ -16,10 +16,11 @@ Architecture is often categorised into various types — such as enterprise, app
 The key difference lies not in the nature of the work but in the scale at which we are working. The high-level and low-level details are interconnected, and in practice, it becomes clear that some developers focus solely on micro-level specifics without being able to visualise the entire system at the macro level.
 
 The most consistent feature of architecture, across domains, is its role as a shared understanding of the system or systems and their components. Therefore, architectural features encompass:
-	•	The structure of the components and the infrastructure they require
-	•	The relationships between components, their integration, and their communication methods
-	•	The principles, standards, and guidelines that govern the design and evolution of the system
-	•	How the system meets critical non-functional requirements such as resilience, scalability, performance, and security. These should not be dismissed as “non-functional requirements,” as they are integral to the architecture and represent desired outcomes.
+
+- The structure of the components and the infrastructure they require
+- The relationships between components, their integration, and their communication methods
+- The principles, standards, and guidelines that govern the design and evolution of the system
+- How the system meets critical non-functional requirements such as resilience, scalability, performance, and security. These should not be dismissed as “non-functional requirements,” as they are integral to the architecture and represent desired outcomes.
 
 > The fundamental concepts or properties of a system in its environment embodied in its elements, relationships and in the principles of its design and evolution.
 > 
@@ -43,7 +44,7 @@ I wasn't sure where to start with the description of architecture, but I have re
 | [Robert C. Martin](http://blog.cleancoder.com/) | Also known as "Uncle Bob", Martin is a software engineer and author who has written extensively on software architecture and design. He is the founder of the Agile Software Development movement and is known for his work on the principles of software architecture. |
 | [David Farley](https://www.davefarley.net/) | A software engineer and architect with lits of real-world experience that comes through in his practical thoughts on how to deliver software and design systems |
 | [Josh Bloch](https://en.wikipedia.org/wiki/Joshua_Bloch) | Josh Block wrote probably the most interesting book on writing Java Code that I know - *Effective Java* , the direction he provides helps to shape my thinking on how to write good code and build good applications. |
-| [Jeff Langr](https://www.langrsoft.com/about/) | Jeff Langr is a software engineering veteran and author who is known for his work on the principles of software architecture and contributor to the books Clean Code and Clean Agile. A member of the Pragmattic Programmers technical advisory board. |
+| [Jeff Langr](https://www.langrsoft.com/about/) | Jeff Langr is a software engineering veteran and author who is known for his work on the principles of software architecture and contributor to the books Clean Code and Clean Agile. A member of the Pragmatic Programmers technical advisory board. |
 | [George Fairbanks](https://georgefairbanks.com/) | George Fairbanks is a software engineer, consultant an academic and also works in industry which gives him a perspective on how to apply architecture in practice. Published Just Enough Software Architecture. |
 | [Charity Majors](https://www.honeycomb.io/teammember/charity-majors) | One of the pioneers of modern Observability thinking and reliability engineering. |
 | [Kaine Ugwu](https://www.kaine.pro/my-story) | Kaine Ugwu thinks about architecture and provides a lot of insight into strategy and how this works in practice. |

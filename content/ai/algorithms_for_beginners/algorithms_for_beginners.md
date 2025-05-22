@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Algorithms for Beginners"
 description: "An introduction to Machine Learning Algorithms and when to use them."
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
 tags: ["machine learning", "algorithms"]
