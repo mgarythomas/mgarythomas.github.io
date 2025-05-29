@@ -1,0 +1,45 @@
+sequenceDiagram
+    participant User
+    participant Host
+    participant Client
+    participant Server
+    participant LLM
+
+    User->>Host: Select specialized workflow
+    Host->>Client: 1. Request available Prompts
+    Client->>Server: Get prompts list
+    Server-->>Client: Return available Prompts
+    Client-->>Host: Available Prompts
+    
+    Host->>Client: Execute selected Prompt
+    Client->>Server: prompts/get request
+    Note over Server: 2. Prompt includes Resource references
+    
+    Server->>Client: 2. Request Resources for context
+    Client->>Server: resources/read request
+    Server-->>Client: Return Resource content
+    Client-->>Server: Prompt with Resource context
+    Server-->>Client: Complete Prompt response
+    Client-->>Host: Prompt with enriched context
+    
+    Note over Host: Process with LLM
+    Host->>LLM: Process prompt with context
+    LLM-->>Host: Initial response
+    
+    Note over Host: 3. LLM determines Tools needed
+    Host->>Client: Call required Tools
+    Client->>Server: tools/call request
+    Note over Server: Execute Tool functionality
+    Server-->>Client: Tool execution results
+    Client-->>Host: Tool results
+    
+    Note over Host: 4. Complex operation requires additional processing
+    Server->>Client: sampling/createMessage request
+    Note over Client: Review sampling request
+    Client->>LLM: Sample for additional processing
+    LLM-->>Client: Sampling completion
+    Note over Client: Review completion
+    Client-->>Server: Sampling result
+    
+    Note over Host: Integrate all results
+    Host-->>User: Final response with complete workflow results

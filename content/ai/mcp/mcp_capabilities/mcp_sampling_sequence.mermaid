@@ -1,0 +1,20 @@
+sequenceDiagram
+    participant Server
+    participant Client
+    participant LLM
+
+    Server->>Client: 1. sampling/createMessage request
+    Note over Server: Server initiates sampling request
+    
+    Note over Client: 2. Review request
+    Note over Client: Can modify request parameters
+    
+    Client->>LLM: 3. Sample from LLM
+    Note over LLM: Process request and generate completion
+    LLM-->>Client: Return completion
+    
+    Note over Client: 4. Review completion
+    Note over Client: Validate and process response
+    
+    Client-->>Server: 5. Return sampling result
+    Note over Server: Receive and use sampled content

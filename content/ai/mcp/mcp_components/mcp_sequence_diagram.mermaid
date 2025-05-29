@@ -1,0 +1,29 @@
+sequenceDiagram
+    participant User
+    participant Host
+    participant Client
+    participant Server
+
+    User->>Host: 1. Express intent/query
+    Note over Host: 2. Process input with LLM
+    Note over Host: Determine needed capabilities
+    
+    Host->>Client: 3. Connect to appropriate Server(s)
+    Client->>Server: Connect
+    Server-->>Client: Connection established
+    
+    Client->>Server: 4. Query available capabilities
+    Note over Server: Discover Tools, Resources, Prompts
+    Server-->>Client: Return capability list
+    Client-->>Host: Report available capabilities
+    
+    Note over Host: Determine specific capabilities needed
+    Host->>Client: 5. Invoke specific capabilities
+    Client->>Server: Execute requested functionality
+    
+    Note over Server: 6. Execute functionality
+    Server-->>Client: Return results
+    
+    Client-->>Host: 7. Relay results
+    Note over Host: Integrate results into LLM context
+    Host-->>User: Present results/response
