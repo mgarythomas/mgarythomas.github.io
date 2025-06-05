@@ -115,6 +115,10 @@ MCP is agnostic to the transport layer, and can be implemented over any transpor
 
 ### HTTP + SSE (Server-Sent Events)/Streamable HTTP
 
+```markdown
+> Clients and servers can maintain backwards compatibility with the **deprecated** HTTP+SSE transport (from protocol version 2024-11-05). Note Streamable HTTP is the current recommended transport and is compatible with the deprecated HTTP+SSE transport.
+```
+
 This transport is used for remote communication where the Client and Server may be running on different machines.
 
 Communication happens over HTTP, with the Server using Server-Sent Events (SSE) to **push** updates to the client over a persistent connection.
@@ -126,7 +130,6 @@ Recent updates to the MCP standard have introduced or refined “Streamable HTTP
 ```markdown
 > **Use Cases** for this transport are connecting to remote APIs, cloud services or shared services.
 ```
-
 
 ### stdio
 

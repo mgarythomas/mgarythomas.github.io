@@ -12,8 +12,6 @@ date: 2025-05-28
 
 ## Introduction
 
-MCP (Multi-Code Programming) is a new programming paradigm that allows you to write code in multiple languages and run it on multiple platforms.
-
 Model Connection Protocol (MCP) is a standardized protocol for enabling structured, reliable communication between AI models (e.g., large language models) and external tools, data sources, or services. Similar to protocols like HTTP or USB-C in their respective domains, MCP provides a consistent and interoperable interface for extending the capabilities of AI systems.
 
 MCP defines how tools describe themselves, how requests are made and fulfilled, and how responses are structured—allowing developers to integrate external functionality with AI agents in a predictable, language-agnostic way. Using standardized terminology and data formats is essential to ensure compatibility across different platforms and use cases.
