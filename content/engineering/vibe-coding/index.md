@@ -1,7 +1,7 @@
 ---
 title: "Vibe Coding"
 summary: "Vibe Coding Tooling Summary"
-draft: true
+draft: false
 tags: ["vibe", "coding", "agentic"]
 categories: ["engineering", "ai"]
 author: "Gary Thomas"
@@ -13,6 +13,8 @@ I am attempting to keep a track on all of the different tools that I have been p
 I can definitely say, that having worked a lot more with Windsurf recently I am finding that is currently the go to environment. Also, the integration with ChatGPT is proving to be very effective.
 
 “Vibe coding” is a growing practice where you lean into letting a coding agent do most of the heavy lifting while you focus on the architecture and features of your application. But effective vibe coding isn’t just about one-shot prompting, accepting all recommendations, and hoping for the best. It involves structuring your work, refining your prompts, and using frameworks that lead to cleaner, more efficient code.
+
+“Vibe coding,” coined by OpenAI cofounder Andrej Karpathy in February, describes giving AI prompts to write code. As Karpathy puts it, developers can “fully give in to the vibes” and “forget the code even exists.”
 
 I am struggling with the term Vibe Coding, but I will get over it!
 
@@ -37,7 +39,7 @@ This list is not exhaustive, but it contains a list of things I started looking 
 | Bolt.new | Figma tool that has a lot of support for design. A focus on building web and mobile applications directly in the browser. It runs on StackBlitz’s WebContainers, allowing developers to build full-stack applications without installing any software. |
 | Cursor | VS Code fork with a lot of support for coding and AI integration - I switched to Windsurf having started with Cursor.|
 |v0 by Vercel | Seems to do a lot with the Vercel/Next.js framework. Converts natural language prompts into fully functional React components. It helps developers create UI components quickly using frameworks like Tailwind CSS. This tool enables rapid prototyping, making designing and iterating on user interfaces easier without writing extensive code. Also integrates with Figma |
-| GitHub | Probably the first tool I used and it has come quite a long way quickly, like a lot of the competition. It is good in that it helps/forces me to keep all the code in one place. Doesn't have the same design/UI tools and focus |
+| GitHub Copilot | Probably the first tool I used and it has come quite a long way quickly, like a lot of the competition. It is good in that it helps/forces me to keep all the code in one place. Doesn't have the same design/UI tools and focus |
 | Lovable | Good for non-technical, but maybe not for everyone who likes to see the code. I haven't looked at this yet, maybe because I have focussed more on the coding type apps |
 | Replit | A browser based tool that I haven't used in anger. Something to look into, but it looks quite cool |
 | Creatr | Another AI no-code platform not sure what its distinguishing features are and I haven't used it |
@@ -52,3 +54,5 @@ Similar but different tools that assist in creating the product UX flow
 |------|-------------|
 | uizard | A tool that allows you to create a product UX flow using natural language prompts. Part of the Miro product family |
 | galileo.ai| Another design tool that can create designs by prompting or the upload or images |
+
+I haven't really looked into this section yet.
