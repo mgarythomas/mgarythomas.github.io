@@ -1,9 +1,9 @@
 ---
 title: "Forgerock CIAM Design"
 description: "A guide to using markdown for presentations."
-draft: false
-ShowToc: false
-TocOpen: false
+draft: true
+ShowToc: true
+TocOpen: true
 author: "Gary Thomas"
 date: 2025-06-05
 ---
