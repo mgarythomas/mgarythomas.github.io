@@ -1,0 +1,122 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    The Shape of an Architecture Story
+  </text>
+  
+  <!-- Grid lines -->
+  <defs>
+    <pattern id="grid" width="50" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 40" fill="none" stroke="#e0e0e0" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="80" y="60" width="640" height="320" fill="url(#grid)"/>
+  
+  <!-- Axes -->
+  <line x1="80" y1="380" x2="720" y2="380" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="80" y1="380" x2="80" y2="60" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Zero line -->
+  <line x1="80" y1="300" x2="720" y2="300" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Y-axis label -->
+  <text x="30" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" transform="rotate(-90, 30, 220)">
+    Outcomes → (Good ↑ / Bad ↓)
+  </text>
+  
+  <!-- X-axis label -->
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+    Time → (Roadmap Progress)
+  </text>
+  
+  <!-- Story curve path -->
+  <path d="M 80,300 
+           Q 120,260 160,140
+           Q 200,120 240,160
+           Q 280,200 320,220
+           Q 360,240 400,260
+           Q 440,280 480,340
+           Q 520,300 560,240
+           Q 600,200 640,160
+           Q 680,140 720,120" 
+        fill="none" 
+        stroke="#3498db" 
+        stroke-width="4"/>
+  
+  <!-- Fill area under curve -->
+  <path d="M 80,300 
+           Q 120,260 160,140
+           Q 200,120 240,160
+           Q 280,200 320,220
+           Q 360,240 400,260
+           Q 440,280 480,340
+           Q 520,300 560,240
+           Q 600,200 640,160
+           Q 680,140 720,120
+           L 720,380 L 80,380 Z" 
+        fill="rgba(52, 152, 219, 0.1)"/>
+  
+  <!-- Key points -->
+  <circle cx="80" cy="300" r="6" fill="#e74c3c" stroke="white" stroke-width="2"/>
+  <circle cx="160" cy="140" r="8" fill="#27ae60" stroke="white" stroke-width="2"/>
+  <circle cx="320" cy="220" r="8" fill="#e67e22" stroke="white" stroke-width="2"/>
+  <circle cx="480" cy="340" r="8" fill="#e74c3c" stroke="white" stroke-width="2"/>
+  <circle cx="720" cy="120" r="8" fill="#27ae60" stroke="white" stroke-width="2"/>
+  
+  <!-- Phase labels -->
+  <text x="80" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">
+    Current State
+  </text>
+  
+  <text x="160" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">
+    Early Wins
+  </text>
+  
+  <text x="320" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e67e22">
+    Mid-Project
+  </text>
+  <text x="320" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e67e22">
+    Risks
+  </text>
+  
+  <text x="480" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">
+    Implementation
+  </text>
+  <text x="480" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">
+    Valley
+  </text>
+  
+  <text x="720" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">
+    Successful
+  </text>
+  <text x="720" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">
+    Future State
+  </text>
+  
+  <!-- Y-axis ticks and values -->
+  <line x1="75" y1="140" x2="80" y2="140" stroke="#2c3e50" stroke-width="1"/>
+  <text x="70" y="145" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">2.0</text>
+  
+  <line x1="75" y1="180" x2="80" y2="180" stroke="#2c3e50" stroke-width="1"/>
+  <text x="70" y="185" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1.5</text>
+  
+  <line x1="75" y1="220" x2="80" y2="220" stroke="#2c3e50" stroke-width="1"/>
+  <text x="70" y="225" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1.0</text>
+  
+  <line x1="75" y1="260" x2="80" y2="260" stroke="#2c3e50" stroke-width="1"/>
+  <text x="70" y="265" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">0.5</text>
+  
+  <line x1="75" y1="300" x2="80" y2="300" stroke="#2c3e50" stroke-width="1"/>
+  <text x="70" y="305" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">0.0</text>
+  
+  <line x1="75" y1="340" x2="80" y2="340" stroke="#2c3e50" stroke-width="1"/>
+  <text x="70" y="345" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">-0.5</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#7f8c8d">
+    Inspired by Kurt Vonnegut's "Shape of Stories" applied to architectural transformations
+  </text>
+</svg>

@@ -1,4 +1,3 @@
-
 ## Why Stories Matter in Architecture
 
 For thousands of years, stories have united people across tribes, nations, and generations. They create a shared understanding — the essential ingredient for any large-scale collaboration.
@@ -36,37 +35,35 @@ Strong architecture storytelling focuses on:
 
 When thinking about architecture as a story, I was reminded of Kurt Vonnegut’s work on the “shape of stories.” He graphed stories with Good vs Bad fortune on the vertical axis, and Time on the horizontal. The arc of a tale is the rise and fall between these points.
 
-Architecture roadmaps follow a similar curve: milestones, risks, and turning points that influence outcomes over time. The aim, of course, is to maximise the good and minimise the bad. Vonnegut categorised 8 different types of story arc, I am only highlighting a couple here, but you may be able to see similarities in transformations you have worked on:
+Architecture roadmaps follow a similar curve: milestones, risks, and turning points that influence outcomes over time. The aim, of course, is to maximise the good and minimise the bad. Vonnegut identified eight story arcs; here are two you may recognise from transformations you’ve seen.
 
 ### "Man in Hole" — The Classic Transformation Story
-Vonnegut's "Man in Hole" shape describes a character who starts well, falls into trouble, then climbs back out stronger than before. This perfectly mirrors most architectural transformations: organizations begin with working systems, descend into the complexity and disruption of change, then emerge with improved capabilities.
+Vonnegut's "Man in Hole" shape describes a character who starts well, falls into trouble, then climbs back out stronger than before. This perfectly mirrors most architectural transformations: organisations begin with working systems, descend into the complexity and disruption of change, then emerge with improved capabilities.
 The "hole" phase is where many architectural stories fail. Stakeholders need to understand that temporary performance dips, integration challenges, and learning curves aren't signs of failure — they're necessary parts of the journey. The story must prepare people for this descent and maintain confidence in the eventual ascent.
+Understanding this arc helps architects set expectations, manage morale, and keep teams engaged through inevitable dips in performance.
+
+![Man in Hole](architecture_story_arc.svg)
 
 ### "Boy Meets Girl" — The Capability Romance
-The "Boy Meets Girl" pattern (boy meets girl, boy loses girl, boy gets girl back) maps surprisingly well to technology adoption cycles. Organizations discover exciting new capabilities (the meeting), encounter implementation reality and integration challenges (the loss), then finally achieve successful adoption (the reunion).
+The "Boy Meets Girl" pattern (boy meets girl, boy loses girl, boy gets girl back) maps surprisingly well to technology adoption cycles. Organisations discover exciting new capabilities (the meeting), encounter implementation reality and integration challenges (the loss), then finally achieve successful adoption (the reunion).
 This pattern helps explain why architectural transformations often feel like emotional rollercoasters. The initial enthusiasm for cloud migration or API platforms gives way to frustration with complexity, security concerns, or performance issues, before eventually reaching stable, valuable implementation.
+Recognising this arc allows architects to frame temporary setbacks as part of the natural rhythm of adoption, keeping teams committed to the end goal.
 
 Different stakeholder groups might experience the same roadmap as entirely different story types. Executives might see a steady "Cinderella" rise toward business value, while engineering teams experience the ups and downs of "Boy Meets Girl" with new technologies. A skilled architectural storyteller acknowledges these different perspectives and helps each group understand their role in the larger narrative.
 
 Vonnegut’s take on Hamlet — where events feel arbitrary and truth is elusive — is a useful warning. He concluded: “We don’t know enough about life to know what the good news is and the bad news is.”
 
-An architectural story must do better, as Vonnegut said *“We’re so seldom told the truth”*. It must be clear, honest, and relatable, enabling audiences to understand the context, the challenges, and the opportunities. It should make the journey visible, the destination credible, and the decisions informed.
+An architectural story must do better, as Vonnegut said *“We’re so seldom told the truth”*. It must be clear, grounded, and relatable, enabling audiences to understand the context, the challenges, and the opportunities. It should make the journey visible, the destination credible, and the decisions informed.
 
 ⸻
 
 ## Principles of Good Architecture Storytelling
-1. Tell the truth with context
-Don't hide risks or uncertainty — but frame them constructively. Present challenges as problems to solve together, not roadblocks. Include confidence levels for predictions and acknowledge what you don't know.
-2. Balance aspiration with evidence
-Ground bold visions in concrete proof points: comparable case studies, or measurable quick wins. Use inspiration to motivate, but let the evidence convince.
-3. Make the journey visible and owned
-Map specific transition states with clear owners, timelines, and success criteria. Show dependencies between phases. Create artifacts (blueprints, prototypes, demos or better still working code) that make progress tangible at each milestone.
-4. Connect every story element to business value
-Link each architectural decision, risk, and milestone to measurable business outcomes. Translate technical benefits into language stakeholders care about: cost savings, revenue opportunities, risk reduction, competitive advantage.
-5. Segment your audience, unify your architecture to a single version
-Tailor the story's emphasis and detail level for each audience (executives want outcomes, engineers want implementation details, users want benefits). But maintain one authoritative, versioned narrative document that all variations trace back to.
-6. Build in feedback loops
-Create regular checkpoints where the story can evolve based on new learnings, changing business priorities, or technical discoveries. Architecture stories should be living documents that improve with experience.
+1. **Tell the truth with context** — Don't hide risks or uncertainty — but frame them constructively. Present challenges as problems to solve together, not roadblocks. Include confidence levels for predictions and acknowledge what you don't know.
+2. **Balance aspiration with evidence** — Ground bold visions in concrete proof points: comparable case studies, or measurable quick wins. Use inspiration to motivate, but let the evidence convince.
+3. **Make the journey visible and owned** — Map specific transition states with clear owners, timelines, and success criteria. Show dependencies between phases. Create artifacts (blueprints, prototypes, demos or, better still, working code) that make progress tangible at each milestone.
+4. **Connect every story element to business value** — Link each architectural decision, risk, and milestone to measurable business outcomes. Translate technical benefits into language stakeholders care about: cost savings, revenue opportunities, risk reduction, competitive advantage.
+5. **Segment your audience, unify your architecture to a single version** — Tailor the story's emphasis and detail level for each audience (executives want outcomes, engineers want implementation details, users want benefits). But maintain one authoritative, versioned narrative document that all variations trace back to.
+6. **Build in feedback loops** — Create regular checkpoints where the story can evolve based on new learnings, changing business priorities, or technical discoveries. Architecture stories should be living documents that improve with experience.
 
 ⸻
 
