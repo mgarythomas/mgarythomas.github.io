@@ -57,3 +57,21 @@ A well-constructed narrative is essential to translating architectural intent in
 Storytelling, when used wisely, turns architecture from a technical exercise into a shared mission.
 
 ---
+
+## Postscript
+
+I was thinking about the thought of architecture as stories when I was reading the Kurt Vonnegut work on the "shape of stories". While I am not trying to force too many similarities into this comparison, the way in which he attempted to graph the story arc:
+* Good and Bad on the y-axis 
+* Time on the x-axis, moving from beginning on the left to end on the right
+
+This is something that we can easily compare to the delivery of an architecture roadmap. (obviously the goal is to generally focus on the good outcomes and avoid the bad ones) 
+
+Yes, all architecture stories have plot (milestones) points, and the various options can result in good and bad outcomes that can be measured over time.
+
+But the best stories, the ones that stand the test of time, embroider those elements with nuance. When a story resonates with an audience, how much of that resonance can we attribute to what’s happening on the Y axis (Good and Bad), and how much to the details added over them that allow them to relate the details to themselves?
+
+What did stand out to me was his discussion of hamlet, where essentially arbirary things happen and are not well explained. What stood out was the conclusion that Vonnegut made *"We’re so seldom told the truth"*. Vonnegut said, “but Hamlet tells us we don’t know enough about life to know what the good news is and the bad news is.”
+
+The goal of an architectural story must be to tell the truth in a way that is engaging and relatable to the audience. It must enable the audience to understand the context, the challenges, and the opportunities. It must also enable the audience to understand the journey and the destination while helping them to make informed decisions.
+
+---
