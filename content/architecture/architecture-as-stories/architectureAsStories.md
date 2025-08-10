@@ -1,3 +1,14 @@
+---
+title: "Building Narrative For Architecture"
+description: "How storytelling enables effective architectural communication"
+draft: false
+tags: ["narrative", "architecture", "story"]
+categories: ["architecture"]
+author: "Gary Thomas"
+date: 2025-04-26
+image: "/architecture/architecture-options/stories-architecture-share.png"
+---
+
 ## Why Stories Matter in Architecture
 
 For thousands of years, stories have united people across tribes, nations, and generations. They create a shared understanding — the essential ingredient for any large-scale collaboration.
@@ -35,7 +46,7 @@ Strong architecture storytelling focuses on:
 
 When thinking about architecture as a story, I was reminded of Kurt Vonnegut’s work on the “shape of stories.” He graphed stories with Good vs Bad fortune on the vertical axis, and Time on the horizontal. The arc of a tale is the rise and fall between these points.
 
-Architecture roadmaps follow a similar curve: milestones, risks, and turning points that influence outcomes over time. The aim, of course, is to maximise the good and minimise the bad. Vonnegut identified eight story arcs; here are two you may recognise from transformations you’ve seen.
+Architecture roadmaps follow a similar curve: milestones, risks, options, and turning points that influence outcomes over time. The aim, of course, is to maximise the good and minimise the bad. Vonnegut identified eight story arcs; here are two you may recognise from transformations you’ve seen.
 
 ### "Man in Hole" — The Classic Transformation Story
 Vonnegut's "Man in Hole" shape describes a character who starts well, falls into trouble, then climbs back out stronger than before. This perfectly mirrors most architectural transformations: organisations begin with working systems, descend into the complexity and disruption of change, then emerge with improved capabilities.
@@ -46,14 +57,14 @@ Understanding this arc helps architects set expectations, manage morale, and kee
 
 ### "Boy Meets Girl" — The Capability Romance
 The "Boy Meets Girl" pattern (boy meets girl, boy loses girl, boy gets girl back) maps surprisingly well to technology adoption cycles. Organisations discover exciting new capabilities (the meeting), encounter implementation reality and integration challenges (the loss), then finally achieve successful adoption (the reunion).
-This pattern helps explain why architectural transformations often feel like emotional rollercoasters. The initial enthusiasm for cloud migration or API platforms gives way to frustration with complexity, security concerns, or performance issues, before eventually reaching stable, valuable implementation.
+This pattern helps explain why architectural transformations often feel like emotional rollercoasters. The initial enthusiasm for cloud migration, API platforms or AI gives way to frustration with complexity, security concerns, or performance issues, before eventually reaching stable, valuable implementation.
 Recognising this arc allows architects to frame temporary setbacks as part of the natural rhythm of adoption, keeping teams committed to the end goal.
 
 Different stakeholder groups might experience the same roadmap as entirely different story types. Executives might see a steady "Cinderella" rise toward business value, while engineering teams experience the ups and downs of "Boy Meets Girl" with new technologies. A skilled architectural storyteller acknowledges these different perspectives and helps each group understand their role in the larger narrative.
 
 Vonnegut’s take on Hamlet — where events feel arbitrary and truth is elusive — is a useful warning. He concluded: “We don’t know enough about life to know what the good news is and the bad news is.”
 
-An architectural story must do better, as Vonnegut said *“We’re so seldom told the truth”*. It must be clear, grounded, and relatable, enabling audiences to understand the context, the challenges, and the opportunities. It should make the journey visible, the destination credible, and the decisions informed.
+An architectural story must do better, as Vonnegut said **“We’re so seldom told the truth”**. It must be clear, grounded, and relatable, enabling audiences to understand the context, the challenges, and the opportunities. It should make the journey visible, the destination credible, and the decisions informed.
 
 ⸻
 
