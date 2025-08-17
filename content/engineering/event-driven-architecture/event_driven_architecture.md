@@ -1,7 +1,7 @@
 ---
 title: "Event-Driven Architecture"
 description: "An introduction to Event-Driven Architecture and best practices."
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
 tags: ["event-driven", "architecture"]

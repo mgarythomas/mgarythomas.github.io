@@ -17,6 +17,19 @@
     },
     "work": [
         {
+            "name": "ASX",
+            "location": "Sydney, NSW",
+            "description": "Digital at the Australian Securities Exchange",
+            "position": "Principal Solutions Designer",
+            "url": "https://asx.com.au",
+            "startDate": "2025-06-01",
+            "summary": "The Australian Securities Exchange is the primary market operator in Australia. Critical to the national economy.",
+            "highlights": [
+                "Working on the transformation taking place in the digial domain at the ASX.",
+                "Work in progres..."
+            ]
+        },
+        {
             "name": "Lab49",
             "location": "Sydney, NSW",
             "description": "Technology consultancy specialising in Financial Services",

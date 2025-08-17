@@ -5,7 +5,7 @@ draft: false
 tags: ["vibe", "coding", "agentic"]
 categories: ["engineering", "ai"]
 author: "Gary Thomas"
-date: 2025-08-17s
+date: 2025-08-17
 ---
 
 This has been updated from the origial to provide a broader view of AI tools in general rather than being specific to the concept of vibe coding.

@@ -6,7 +6,6 @@ ShowToc: false
 TocOpen: false
 author: "Gary Thomas"
 date: 2025-05-19
-image: "/engineering/revisiting_extreme_programming/xp-workflow.svg"
 ---
 
 ## Introduction

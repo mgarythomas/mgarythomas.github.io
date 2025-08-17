@@ -83,10 +83,16 @@ params:
   homeInfoParams:
     Title: Welcome
     Content: |
-      To begin at the beginning...\
-      I started this site as a place to make notes as I was doing some research.\
-      Lo que diga Gary, pero quizás es lo que piensa Gary!
-
+      # To begin at the beginning...
+      
+      > *"Lo que diga Gary, pero quizás es lo que piensa Gary!"*
+      
+      ---
+      
+      ## About This Site
+      
+      This is a place where I share my thoughts on technology, software development, and more.
+      
   socialIcons:
     - name: x
       url: "https://x.com/mgarythomas"
@@ -144,6 +150,10 @@ menu:
       name: architecture
       url: /architecture/
       weight: 20
+    - identifier: engineering
+      name: engineering
+      url: /engineering/
+      weight: 25
     - identifier: categories
       name: categories
       url: /categories/
