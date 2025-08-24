@@ -33,7 +33,31 @@ Maybe what we are seeing though is that AI generated code is moving us closer to
 
 ### Customer Collaboration
 
+In traditional project and waterfall approaches, the "customer" was often only visible at the beginning (requirements) and at the end (acceptance). The feedback loop was long, and much of the delivery risk came from misaligned expectations.
+
+With a product-centric view of delivery, customer collaboration becomes continuous. Rather than managing scope in a project, we manage outcomes in a product. This means:
+- **Ongoing Engagement**: Customers, product owners, and stakeholders remain actively involved throughout the lifecycle, not just at milestones.
+- **Shared Product Vision**: Teams orient around a product roadmap and desired outcomes, rather than completing a fixed set of project tasks.
+- **Feedback Loops**: Customer feedback is integrated into each iteration, influencing prioritisation and feature evolution.
+- **Value Focus**: Delivery decisions are guided by customer value and product impact, ensuring that engineering work stays aligned with real needs.
+
+AI-assisted development strengthens this dynamic by enabling rapid prototyping, faster iterations, and richer experimentation. But the essence remains the XP principle: the best measure of progress is working software in the hands of engaged customers.
+
 ### Feedback
+
+XP transforms feedback from a scheduled event into a continuous, multi-layered process. In traditional development, feedback often came too late—after months of development, during UAT, or worse, after production release. XP builds feedback into every aspect of development:
+
+- **Automated Testing**: Every line of code is verified by tests that run continuously, providing immediate feedback on system health.
+- **Pair Programming**: Constant code review happens in real-time as developers work together, catching issues early.
+- **Continuous Integration**: Every commit is integrated and tested, ensuring the system always works as a whole.
+- **Short Iterations**: Features are delivered in small, testable increments, allowing for frequent course correction.
+
+In the context of AI-assisted development, feedback becomes even more critical:
+- **AI-Generated Code Review**: Human developers must critically evaluate AI suggestions, providing feedback that improves future outputs.
+- **Test-First Development**: Writing tests before implementation (for both humans and AI) creates clear success criteria.
+- **Runtime Monitoring**: Observability tools provide feedback on how AI-generated code performs in production.
+
+The most effective feedback is that which leads to immediate action. Whether it's a failing test, a code review comment, or a production alert, XP values systems that turn feedback into improvement without delay.
 
 ### Simplicity
 
