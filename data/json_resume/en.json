@@ -60,7 +60,7 @@
                 "Architected a multi-region, cloud native, event-driven payment data processing platform using Kafka and microservices on AWS",
                 "Established API-first architecture patterns for customer onboarding and integration working with Kong for API Management",
                 "Designed and led the execution of cloud migration strategies for critical payment processing systems",
-                "Designed and coded payment gateways to support AS2805 and other local requirements"
+                "Designed and coded payment gateways to support ISO20022, AS2805 and other local requirements"
             ]
         },
         {
