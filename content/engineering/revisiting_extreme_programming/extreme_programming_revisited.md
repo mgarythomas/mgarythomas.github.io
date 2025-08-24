@@ -28,7 +28,7 @@ Maybe what we are seeing though is that AI generated code is moving us closer to
 
 ## Key Principles
 
-![Workflow](/engineering/revisiting_extreme_programming/xp-workflow.svg)
+![Workflow](/engineering/revisiting_extreme_programming/ai_assisted_xp.svg)
 
 
 ### Customer Collaboration
@@ -65,29 +65,7 @@ Continuous QA extends XP’s practice of continuous testing into a full lifecycl
 - **Runtime Validation**: Continuous QA also includes observability and monitoring in production, so that AI-generated changes are not just syntactically valid but operationally sound.
 
 Together, trunk-based development and continuous QA keep the pace of AI-assisted development aligned with the discipline of XP—delivering rapid change without sacrificing reliability.
-```plantuml
-@startuml
-title AI-assisted XP: Trunk-Based Development + Continuous QA
 
-actor Developer as Dev
-rectangle "AI Agent\n(Pair Programmer)" as AI
-rectangle "Trunk / Mainline" as Trunk
-rectangle "CI/CD Pipeline" as CI
-rectangle "Continuous QA\n(Tests, Monitoring)" as QA
-rectangle "Production" as Prod
-
-Dev --> AI : Prompts / Intent
-AI --> Dev : Code Suggestions / Tests
-Dev --> Trunk : Commit Small Steps
-AI --> Trunk : Commit AI Contributions
-Trunk --> CI : Integration Trigger
-CI --> QA : Run Automated Tests
-QA --> Trunk : Pass/Fail Feedback
-QA --> Prod : Validated Release
-Prod --> QA : Runtime Monitoring
-
-@enduml
-```
 
 ## Guardrails and Patterns
 

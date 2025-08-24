@@ -1,11 +1,11 @@
 ---
-title = "AI Guardrails: A Practical Guide for the Engineering SDLC"
-date = 2024-08-25T10:00:00+10:00
-draft = false
-description = "A practical guide to implementing AI guardrails throughout the software development lifecycle, with examples for tools like GitHub Copilot and GitLab Duo."
-images = ["/images/ai-guardrails-hero.jpg"]
-tags = ["ai", "sdlc", "engineering", "security", "LLM", "DevSecOps"]
-categories = ["ai", "engineering"]
+title: "AI Guardrails, a Practical Guide for the Engineering SDLC"
+draft: false
+description: "A practical guide to implementing AI guardrails throughout the software development lifecycle, with examples for tools like GitHub Copilot and GitLab Duo."
+images: ["/images/ai-guardrails-hero.jpg"]
+tags: ["ai", "sdlc", "engineering", "security", "LLM", "DevSecOps"]
+categories: ["ai", "engineering"]
+date: 2024-08-25
 ---
 
 AI guardrails are essential safeguards that prevent large language models (LLMs) from generating harmful or undesirable content. These guardrails can be broadly categorized into several types:

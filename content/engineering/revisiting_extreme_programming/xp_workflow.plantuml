@@ -1,0 +1,21 @@
+@startuml
+title AI-assisted XP: Trunk-Based Development + Continuous QA
+
+actor Developer as Dev
+rectangle "AI Agent\n(Pair Programmer)" as AI
+rectangle "Trunk / Mainline" as Trunk
+rectangle "CI/CD Pipeline" as CI
+rectangle "Continuous QA\n(Tests, Monitoring)" as QA
+rectangle "Production" as Prod
+
+Dev --> AI : Prompts / Intent
+AI --> Dev : Code Suggestions / Tests
+Dev --> Trunk : Commit Small Steps
+AI --> Trunk : Commit AI Contributions
+Trunk --> CI : Integration Trigger
+CI --> QA : Run Automated Tests
+QA --> Trunk : Pass/Fail Feedback
+QA --> Prod : Validated Release
+Prod --> QA : Runtime Monitoring
+
+@enduml
