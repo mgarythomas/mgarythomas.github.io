@@ -10,12 +10,12 @@ tags: ["systems-thinking", "banking", "patterns", "complex"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-05-05
-image: "/architecture/system-thinking/leverage-points.png"
+image: "/architecture/system-thinking/systems-thinking.png"
 ---
 
 # Systems Thinking: Dana Meadows' Legacy for Banking Architecture
 
-Banking technology failures are rarely the result of a single bad decision or failing component. They often emerge from complex and often poorly understood interdependencies, delayed feedback loops, and fragile system designs. This is precisely the kind of systemic risk Dana Meadows, pioneer of systems thinking, spent her life trying to help the world understand.
+Technology failures are rarely the result of a single bad decision or failing component. They often emerge from complex and often poorly understood interdependencies, delayed feedback loops, and fragile system designs. This is precisely the kind of systemic risk Dana Meadows, pioneer of systems thinking, spent her life trying to help the world understand.
 
 I was struck by BBC’s *Great Lives* podcast with economist [Kate Raworth](https://en.wikipedia.org/wiki/Kate_Raworth)—the brilliant mind behind Doughnut Economics—who shared how Meadows profoundly shaped her thinking. At one point, Raworth made a powerful observation: *all children should be taught to understand the balancing and reinforcing loops of systems*. It made me realize how little this mindset has yet to take hold in enterprise architecture, especially in banking, where complexity is the norm rather than the exception.
 
