@@ -1,0 +1,36 @@
+/* Global background and text */
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: normal;
+  }
+  
+  /* Links */
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: orange;  /* accent hover */
+    background-color: black;
+    font-style: italic;
+  }
+  
+  /* Accent blocks */
+  .highlight, .btn, .notice {
+    background-color: orange;
+    color: black;
+    padding: 0.25em 0.5em;
+  }
+  
+  /* 404 page accent (if you want to mimic original site) */
+  .error-page {
+    background-color: green;
+    color: white;
+  }
