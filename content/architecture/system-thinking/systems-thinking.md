@@ -1,5 +1,5 @@
 ---
-title: "Systems Thinking"
+title: "Systems Thinking: Dana Meadows' Legacy for Banking Architecture"
 summary: "Systems Thinking in Financial Services"
 description: "Systems Thinking in Financial Services a consideration of how complex adaptive systems can be applied to banking and financial services"
 draft: false
@@ -17,7 +17,7 @@ image: "/architecture/system-thinking/systems-thinking.png"
 
 Technology failures are rarely the result of a single bad decision or failing component. They often emerge from complex and often poorly understood interdependencies, delayed feedback loops, and fragile system designs. This is precisely the kind of systemic risk Dana Meadows, pioneer of systems thinking, spent her life trying to help the world understand.
 
-I was struck by BBC’s *Great Lives* podcast with economist [Kate Raworth](https://en.wikipedia.org/wiki/Kate_Raworth)—the brilliant mind behind Doughnut Economics—who shared how Meadows profoundly shaped her thinking. At one point, Raworth made a powerful observation: *all children should be taught to understand the balancing and reinforcing loops of systems*. It made me realize how little this mindset has yet to take hold in enterprise architecture, especially in banking, where complexity is the norm rather than the exception.
+I was struck by BBC’s *Great Lives* podcast with economist [Kate Raworth](https://en.wikipedia.org/wiki/Kate_Raworth)—the person behind Doughnut Economics—who shared how Meadows profoundly shaped her thinking. At one point, Raworth made a powerful observation: *all children should be taught to understand the balancing and reinforcing loops of systems*. It made me realize how little this mindset has yet to take hold in enterprise architecture, especially in banking, where complexity is the norm rather than the exception.
 
 ## From Chemistry to Complexity: An abbreviated history of Dana Meadows
 

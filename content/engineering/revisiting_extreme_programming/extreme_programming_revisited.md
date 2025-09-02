@@ -1,11 +1,12 @@
 ---
 title: "Extreme Programming Revisited"
 description: "An overview of Extreme Programming (XP) and why it is still important in a world of vibe coding."
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
 author: "Gary Thomas"
-date: 2025-05-19
+date: 2025-06-19
+image: "/engineering/revisiting_extreme_programming/revisiting_extreme_programming.png"
 ---
 
 ## Introduction
