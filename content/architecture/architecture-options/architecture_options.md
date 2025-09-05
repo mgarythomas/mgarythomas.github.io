@@ -36,32 +36,6 @@ In regulated industries, changes in regulations, technology, and industry standa
 
 This regulatory and technology-driven volatility increases the value of preserving flexibility in architecture. Systems designed with options in mind are better prepared to meet new compliance demands and industry standards as they arise.
 
-## Real-World Financial Services Examples
-
-**Market Data Architecture Options**  
-In capital markets, market data systems must be designed to handle changing demands. Starting with a simple feed for current volumes is common, but architects pay a small "cost of flexibility" upfront to keep the option open to:  
-- Scale up for sudden spikes in volume  
-- Add new data types as markets evolve  
-- Integrate with new international exchanges  
-
-This upfront investment in flexibility avoids the much larger cost of rebuilding the entire system later.
-
-**Regulatory Compliance Options**  
-Financial services are highly regulated, and systems must adapt to evolving rules. Architectural options help by preserving flexibility to:  
-- Adjust transaction reporting for new regulations without full rewrites  
-- Accelerate settlement processes as rules change  
-- Expand API capabilities for broader ecosystem integration  
-
-Here, the small ongoing cost of flexibility helps avoid costly compliance failures or system overhauls.
-
-**Security Evolution Options**  
-Security requirements constantly evolve. Systems need to maintain options to:  
-- Upgrade authentication methods as threats increase  
-- Adopt new encryption standards before they become mandatory  
-- Add real-time fraud detection without disrupting core processes  
-
-The cost of preserving these options is outweighed by the risk of falling behind on security and compliance.
-
 ## A/B Testing
 
 A/B testing is a practical example of architectural optionality in product development. By investing effort upfront to build multiple versions, teams keep the option open to choose the best approach based on data. This is like paying a small cost now to preserve flexibility and make better decisions later.
