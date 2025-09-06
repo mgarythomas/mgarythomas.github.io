@@ -1,6 +1,6 @@
 ---
 title: "Systems Thinking: Dana Meadows' Legacy for Banking Architecture"
-summary: "Systems Thinking in Financial Services"
+summary: " Exploring how the principles of systems thinking, pioneered by Dana Meadows, offer a critical framework for designing resilient and adaptable architectures in the complex world of modern finance."
 description: "Systems Thinking in Financial Services a consideration of how complex adaptive systems can be applied to banking and financial services"
 draft: false
 url: "/architecture/systems-thinking"
@@ -13,9 +13,13 @@ date: 2025-09-05
 image: "/architecture/system-thinking/systems-thinking.png"
 ---
 
+# Intro
+
+I was recently working on a project to decommission various components of a legacy system. This system seemed quite simple with very few features, but due to its age, it was poorly or completely undocumented, and there was little remaining knowledge about it within the organisation. The more I delved into it, the more I realised how it was interwoven with other systems through very tightly coupled integration dependencies. It was a stark reminder of how systemic failures often stem from a lack of systems thinking—a mindset that has been a cornerstone of Dana Meadows' work.
+
 # Systems Thinking: Dana Meadows' Legacy for Banking Architecture
 
-Technology failures are rarely the result of a single bad decision or failing component. They often emerge from complex and often poorly understood interdependencies, delayed feedback loops, and fragile system designs. This is precisely the kind of systemic risk Dana Meadows, pioneer of systems thinking, spent her life trying to help the world understand.
+Technology failures are rarely the result of a single bad decision or failing component. They often emerge from complex and poorly understood interdependencies, delayed feedback loops, and fragile system designs. This is precisely the kind of systemic risk Dana Meadows, pioneer of systems thinking, spent her life trying to help the world understand.
 
 I was struck by BBC’s *Great Lives* podcast with economist [Kate Raworth](https://en.wikipedia.org/wiki/Kate_Raworth)—the person behind [Doughnut Economics](https://doughnuteconomics.org/about-doughnut-economics) —who shared how Meadows profoundly shaped her thinking. At one point, Raworth made a powerful observation: *all children should be taught to understand the balancing and reinforcing loops of systems*. It made me realise how little this mindset has yet to take hold in enterprise architecture, especially in banking, where complexity is the norm rather than the exception.
 
@@ -50,13 +54,25 @@ This environment doesn’t just *invite* a systems thinking mindset—it *demand
 
 Banking architectures are classic examples of complex adaptive systems. A simple credit card transaction might flow through mobile apps, core banking platforms, fraud engines, payment gateways, and compliance checks—each with its own rules and failure modes.
 
-Traditional architecture methods often break these systems into parts and optimise them individually. But this reductionist view misses feedback loops, time delays, and emergent behaviours that drive real-world outcomes. That’s why a seemingly minor issue—like a misconfigured API gateway—can spiral into major outages, as seen in multiple high-profile bank disruptions in recent years.
+## The Invisible Architecture: Interfaces and Contracts
+
+In complex systems, it’s rarely the components themselves that cause the most pain—it’s the interfaces between them. A legacy system might keep running reliably for decades, but if its interfaces are brittle, undocumented, or inconsistent, every integration becomes a potential point of failure.
+
+Dana Meadows reminds us that systems are defined by their interconnections and the flows that pass between them. In technology, those flows take the form of APIs, event schemas, data contracts, and integration patterns.
+
+A contract is not just a static schema or an endpoint—it encodes both **static definitions and behavioural expectations**.
+
+When static contracts are poorly designed, they create hidden coupling: a single change ripples unpredictably across the architecture, leading to outages and spiralling complexity. For example, a single ambiguous field in a payment message schema can cascade into fraud alerts, reconciliation errors, or regulatory breaches. By contrast, a thoughtfully designed API gateway or canonical data model becomes a leverage point: it absorbs variability and protects the wider system from disruption.
+
+Likewise, behavioural contracts are critical. A contract carries expectations about response times, throughput, error handling, and failure modes. These behavioural aspects are often invisible until the system is under stress. This is where cascading failures emerge. An API that normally responds in 200ms may degrade to several seconds under peak load, triggering timeouts that fan out into retries, floods of duplicate requests, or circuit breakers opening—amplifying instability rather than containing it.
+
+Ultimately, **interfaces are where complexity is negotiated**. The discipline of designing and governing contracts is less glamorous than building the next big platform, but it is what allows complex adaptive systems to remain resilient, adaptable, and comprehensible.
 
 ---
 
 ## Embracing Systems Patterns in Architecture
 
-To move beyond fragility, architects must lean into complexity with purpose. Here are some patterns I find especially powerful in banking:
+To move beyond fragility, architects must lean into complexity with purpose. These architectural patterns aren't just technical choices; they are practical applications of systems thinking principles.
 
 ### 1. Circuit Breaker Patterns
 
@@ -82,9 +98,11 @@ Use Domain-Driven Design to define clear system boundaries (retail vs corporate,
 
 ## Identifying Leverage Points
 
-![Leverage Points](/architecture/system-thinking/leverage-points.png)
+![Leverage Points](/architecture/system-thinking/leverage_points.svg)
 
-Meadows wrote that the most effective way to change a system is by finding and using **leverage points**—places where small shifts can drive big changes. In banking, these include:
+Meadows wrote that the most effective way to change a system is by finding and using **leverage points**—places where small shifts can drive big changes, she identified 15 leverage points in her book *The Fifth Discipline*. These are described in detail in the [leverage points](/architecture/system-thinking/leverage_points) article.
+ 
+In banking, these could include:
 
 - API gateway design and governance  
 - Identity and access frameworks (authN/authZ)  

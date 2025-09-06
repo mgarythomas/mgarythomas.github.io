@@ -1,0 +1,192 @@
+<svg width="1200" height="1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for different leverage levels -->
+    <linearGradient id="paradigm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="goals" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="rules" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="parameters" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Background gradient -->
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Title gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="url(#background)"/>
+  
+  <!-- Title Section -->
+  <text x="600" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#titleGrad)">
+    Leverage Points for System Architects
+  </text>
+  
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6c757d">
+    Inspired by Donella Meadows' Systems Thinking Framework
+  </text>
+  
+  <!-- Framework explanation box -->
+  <rect x="50" y="90" width="1100" height="60" rx="10" fill="#e7f3ff" stroke="#667eea" stroke-width="2"/>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">About Leverage Points:</text>
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="12" fill="#495057">Based on Meadows' hierarchy of intervention effectiveness in systems. Higher leverage points require less effort</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="12" fill="#495057">to create more significant, lasting change. Changing paradigms transforms everything below.</text>
+
+  <!-- Most Effective Label -->
+  <text x="50" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Highest Leverage (Most Effective)</text>
+  <line x1="290" y1="180" x2="500" y2="180" stroke="#667eea" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Leverage Items -->
+  
+  <!-- Level 12 - Paradigm -->
+  <g>
+    <rect x="50" y="200" width="1100" height="55" rx="12" fill="url(#paradigm)"/>
+    <circle cx="85" cy="227" r="15" fill="rgba(255,255,255,0.3)"/>
+    <text x="85" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">12</text>
+    <text x="120" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Paradigm Shifts in Architectural Thinking</text>
+    <text x="120" y="240" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">Fundamental mindset changes (e.g., monolith → event-driven, centralised → decentralised)</text>
+  </g>
+  
+  <!-- Level 11 - Culture -->
+  <g>
+    <rect x="50" y="265" width="1100" height="55" rx="12" fill="url(#paradigm)"/>
+    <circle cx="85" cy="292" r="15" fill="rgba(255,255,255,0.3)"/>
+    <text x="85" y="297" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">11</text>
+    <text x="120" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Organisational Culture and Mindset</text>
+    <text x="120" y="305" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">Enterprise culture of resilience, design-for-failure mindset, experimentation over perfection</text>
+  </g>
+  
+  <!-- Level 10 - Goals -->
+  <g>
+    <rect x="50" y="330" width="1100" height="55" rx="12" fill="url(#goals)"/>
+    <circle cx="85" cy="357" r="15" fill="rgba(255,255,255,0.3)"/>
+    <text x="85" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">10</text>
+    <text x="120" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Goals and Purpose of the System</text>
+    <text x="120" y="370" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">Business-aligned architectural principles, resilience vs. efficiency trade-offs</text>
+  </g>
+  
+  <!-- Level 9 - Power to Evolve -->
+  <g>
+    <rect x="50" y="395" width="1100" height="55" rx="12" fill="url(#goals)"/>
+    <circle cx="85" cy="422" r="15" fill="rgba(255,255,255,0.3)"/>
+    <text x="85" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">9</text>
+    <text x="120" y="415" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Power to Evolve System Structure</text>
+    <text x="120" y="435" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">Microservices evolution capability, adaptive architectures, cloud elasticity</text>
+  </g>
+  
+  <!-- Level 8 - Rules -->
+  <g>
+    <rect x="50" y="460" width="1100" height="55" rx="12" fill="url(#rules)"/>
+    <circle cx="85" cy="487" r="15" fill="rgba(255,255,255,0.3)"/>
+    <text x="85" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">8</text>
+    <text x="120" y="480" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Rules and Policies</text>
+    <text x="120" y="500" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">Security policies, compliance constraints, service-level agreements</text>
+  </g>
+  
+  <!-- Level 7 - Information Flows -->
+  <g>
+    <rect x="50" y="525" width="1100" height="55" rx="12" fill="url(#rules)"/>
+    <circle cx="85" cy="552" r="15" fill="rgba(255,255,255,0.3)"/>
+    <text x="85" y="557" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">7</text>
+    <text x="120" y="545" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Information Flows and Feedback Loops</text>
+    <text x="120" y="565" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">Observability platforms, telemetry, logging, monitoring, alerting</text>
+  </g>
+  
+  <!-- Level 6 - System Structure -->
+  <g>
+    <rect x="50" y="590" width="1100" height="55" rx="12" fill="url(#parameters)"/>
+    <circle cx="85" cy="617" r="15" fill="rgba(44,62,80,0.3)"/>
+    <text x="85" y="622" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">6</text>
+    <text x="120" y="610" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">System Structure and Relationships</text>
+    <text x="120" y="630" font-family="Arial, sans-serif" font-size="12" fill="#495057">System topology, data pipelines, integration patterns, service mesh</text>
+  </g>
+  
+  <!-- Level 5 - Controls -->
+  <g>
+    <rect x="50" y="655" width="1100" height="55" rx="12" fill="url(#parameters)"/>
+    <circle cx="85" cy="682" r="15" fill="rgba(44,62,80,0.3)"/>
+    <text x="85" y="687" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">5</text>
+    <text x="120" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Automated Controls and Circuit Breakers</text>
+    <text x="120" y="695" font-family="Arial, sans-serif" font-size="12" fill="#495057">Automated circuit breakers, throttling, error handling, failover systems</text>
+  </g>
+  
+  <!-- Level 4 - Material Flows -->
+  <g>
+    <rect x="50" y="720" width="1100" height="55" rx="12" fill="url(#parameters)"/>
+    <circle cx="85" cy="747" r="15" fill="rgba(44,62,80,0.3)"/>
+    <text x="85" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">4</text>
+    <text x="120" y="740" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Material Flows and Scaling</text>
+    <text x="120" y="760" font-family="Arial, sans-serif" font-size="12" fill="#495057">Auto-scaling policies, event-driven propagation, demand amplification</text>
+  </g>
+  
+  <!-- Level 3 - Regulating -->
+  <g>
+    <rect x="50" y="785" width="1100" height="55" rx="12" fill="url(#parameters)"/>
+    <circle cx="85" cy="812" r="15" fill="rgba(44,62,80,0.3)"/>
+    <text x="85" y="817" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">3</text>
+    <text x="120" y="805" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Regulating Mechanisms</text>
+    <text x="120" y="825" font-family="Arial, sans-serif" font-size="12" fill="#495057">Queue depth management, caching strategies, message buffers</text>
+  </g>
+  
+  <!-- Level 2 - Material Elements -->
+  <g>
+    <rect x="50" y="850" width="1100" height="55" rx="12" fill="url(#parameters)"/>
+    <circle cx="85" cy="877" r="15" fill="rgba(44,62,80,0.3)"/>
+    <text x="85" y="882" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">2</text>
+    <text x="120" y="870" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Material Elements</text>
+    <text x="120" y="890" font-family="Arial, sans-serif" font-size="12" fill="#495057">Transaction latency optimisation, batch processing windows, settlement cycles</text>
+  </g>
+
+  <!-- Least Effective Label -->
+  <text x="50" y="935" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Lowest Leverage (Least Effective)</text>
+  <line x1="310" y1="930" x2="520" y2="930" stroke="#43e97b" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Level 1 - Constants -->
+  <g>
+    <rect x="50" y="950" width="1100" height="55" rx="12" fill="url(#parameters)"/>
+    <circle cx="85" cy="977" r="15" fill="rgba(44,62,80,0.3)"/>
+    <text x="85" y="982" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">1</text>
+    <text x="120" y="970" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Constants and Parameters</text>
+    <text x="120" y="990" font-family="Arial, sans-serif" font-size="12" fill="#495057">API rate limits configuration, retry policies, timeout values, connection pools</text>
+  </g>
+  
+  <!-- Explanation Box -->
+  <rect x="50" y="1030" width="1100" height="120" rx="10" fill="#f8f9fa" stroke="#667eea" stroke-width="2"/>
+  <text x="70" y="1055" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Why Higher Leverage Points Are More Effective:</text>
+  <text x="70" y="1075" font-family="Arial, sans-serif" font-size="13" fill="#495057">Changes at higher levels cascade down and influence all lower levels. For example, adopting</text>
+  <text x="70" y="1092" font-family="Arial, sans-serif" font-size="13" fill="#495057">a "design-for-failure" mindset (paradigm level) automatically drives decisions about monitoring,</text>
+  <text x="70" y="1109" font-family="Arial, sans-serif" font-size="13" fill="#495057">circuit breakers, and system structure. Conversely, adjusting timeout values doesn't change</text>
+  <text x="70" y="1126" font-family="Arial, sans-serif" font-size="13" fill="#495057">fundamental system behaviour. Focus architectural efforts on highest leverage points possible.</text>
+  
+  <!-- Arrow indicating direction of effectiveness -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#667eea" />
+    </marker>
+  </defs>
+  <line x1="30" y1="200" x2="30" y2="400" stroke="#667eea" stroke-width="3" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <text x="15" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#667eea" transform="rotate(-90 15 300)">Most Effective</text>
+  
+  <line x1="30" y1="600" x2="30" y2="950" stroke="#43e97b" stroke-width="3" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <text x="15" y="775" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#43e97b" transform="rotate(-90 15 775)">Least Effective</text>
+</svg>
