@@ -15,7 +15,7 @@ image: "/architecture/system-thinking/systems-thinking.png"
 
 # Intro
 
-I was recently working on a project to decommission various components of a legacy system. This system seemed quite simple with very few features, but due to its age, it was poorly or completely undocumented, and there was little remaining knowledge about it within the organisation. The more I delved into it, the more I realised how it was interwoven with other systems through very tightly coupled integration dependencies. It was a stark reminder of how systemic failures often stem from a lack of systems thinking—a mindset that has been a cornerstone of Dana Meadows' work.
+Over the years, I’ve worked on several projects to decommission legacy systems. At first, the task often looks straightforward, the applications seem small, with only a handful of features. But their age usually means poor or missing documentation, and very few people left in the organisation remember how they work. The deeper you dig, the more you find these systems tightly woven into others through fragile integration dependencies. It is a clear reminder that many failures stem not from a single component, but from the absence of systems thinking—a perspective central to Dana Meadows’ work.
 
 # Systems Thinking: Dana Meadows' Legacy for Banking Architecture
 

@@ -8,7 +8,7 @@ TocOpen: false
 tags: ["systems-thinking", "banking", "patterns", "complex"]
 categories: ["architecture"]
 author: "Gary Thomas"
-date: 2025-09-06
+date: 2025-09-01
 image: "/architecture/system-thinking/leverage_points.svg"
 ---
 
