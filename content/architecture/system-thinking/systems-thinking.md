@@ -1,5 +1,5 @@
 ---
-title: "Systems Thinking: Dana Meadows' Legacy for Banking Architecture"
+title: "Systems Thinking: Dana Meadows' Legacy for Financial Services Architecture"
 summary: " Exploring how the principles of systems thinking, pioneered by Dana Meadows, offer a critical framework for designing resilient and adaptable architectures in the complex world of modern finance."
 description: "Systems Thinking in Financial Services a consideration of how complex adaptive systems can be applied to banking and financial services"
 draft: false
