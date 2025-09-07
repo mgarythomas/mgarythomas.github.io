@@ -1,34 +1,28 @@
 ---
 title: "Background"
 description: "A little more context to my personal introduction."
-draft: true
+draft: false
 ShowToc: false
 TocOpen: false
 author: "Gary Thomas"
+tags: ["background", "personal", "literature", "poetry"]
+categories: ["personal"]
 date: 2025-09-07
 ---
 
-I wanted to add a little more context to my personal introduction, as it feels quite dry and bland. To make it more interesting I have decided to reference more thoughts about me using some references to poems I have been reading.
+I work at the intersection of technology, architecture, and leadership, helping organisations design systems that are resilient, adaptive, and human-centred. My professional story is rooted in building and simplifying complex systems, but what really shapes me is how I think about change, time, and purpose. That’s where literature — and especially poetry — has often offered me the clearest lens.
 
-You may have noticed I started the welcome page to this blog with a quote from Dylan Thomas "To begin at the beginning", the opening line to "Under Milk Wood". Obvious, but I love the way that poem flows and the way it is written, it is a poem that is full of life and energy with Thomas' use of multiple adjectives helping us to focus and draw a picture in our minds. This lesson becomes critical we need to engage our audience whatever we do, we need to appeal to them and illustrate our points with examples and stories that they can relate to.
+Dylan Thomas begins his play *Under Milk Wood* with the line: **“To begin at the beginning.”** Simple, obvious, but overflowing with energy. I love the way Thomas fills his work with adjectives that paint vivid pictures and pull us in. That lesson matters in every field, including technology: we must engage our audience, appeal to their imagination, and make ideas tangible through stories and examples.
 
-As I have got older I become more aware of not achieving things and also the time pressure involved, you want to deliver things quickly as time is limited. This does point to another quote from Dylan Thomas "Do not go gentle into that good night", but that is more about raging aginst the dying of the light, maybe that is the focus when time is limited, don't give up, use your energy to the last!
+With time, I’ve grown more aware of what I’ve achieved — and what I’ve yet to do. There’s an urgency now, a pressure to make the most of limited time. That brings to mind another of Thomas’ lines: **“Do not go gentle into that good night.”** For me, it isn’t just about raging against the dying of the light; it’s a reminder to use whatever energy remains, to persist until the last.
 
-Which is a nice segue into another Poem "Ulysses" by Tennyson where in old age our eponymous hero describes his restlessness to still achieve and accomplish something, the line often quoted is "Some work of noble note, may yet be done, Not unbecoming men that strove with Gods." A call to arms to still strive and achieve in old age. 
+This restlessness is echoed in Tennyson’s *Ulysses*, where the hero in old age longs to strive once more:
+>“Some work of noble note, may yet be done,
+Not unbecoming men that strove with Gods.”
 
-Which he re-iterates in the final stanza:
+It’s a call to arms — that even as strength fades, willpower endures. His closing words still inspire me: **“To strive, to seek, to find, and not to yield.”** I don’t compare myself to Ulysses, but I take encouragement in knowing that much remains possible.
 
->We are not now that strength which in old days
-Moved earth and heaven, that which we are, we are;
-One equal temper of heroic hearts,
-Made weak by time and fate, but strong in will
-To strive, to seek, to find, and not to yield.
-
-Something to read and feel emotional about and to motivate you to keep going and strive for more. Not that I am making any personal comparisons to a greek legend, but I find it motivating to see what we are still able to do.
-
-When I reflect on all the changes that we see in technology, it is a constant reminder of how much has been achieved collectively and how much we can achieve. How fast things are moving and will yet move. We have so many opportunities to make a difference sometimes we need to step back and reflect how lucky we are to live through these times.
-
-I/We need to embrace this time and opportunity:
+Technology itself reinforces this sense of possibility. Every year brings waves of change and progress. Sometimes it’s so fast it is hard to keep up, but more often it feels like a privilege: to live in a time where we can build, adapt, and influence so much. It reminds me of Bukowski’s lines:
 
 >“like the fox
 I run with the hunted
@@ -41,14 +35,10 @@ alive.”
 
 ― Charles Bukowski, The Night Torn Mad With Footsteps
 
-I will add another poem that reminds us of how we make choices that impact our lives, sometimes we have to consciously choose to make bold decisision, I can think of times when I have done it and others where I have not and live with the regret:
+And then there are choices. Robert Frost captured the moment we all face: **“Two roads diverged in a yellow wood…”** I’ve taken the bold path at times, and at others I’ve hesitated — choices that still leave me with regret, and the hope of atonement. But Frost’s closing line remains a guiding thought: **“I took the one less traveled by, and that has made all the difference.”**
 
->Two roads diverged in a yellow wood,
-And sorry I could not travel both
-...
-I took the one less traveled by,
-And that has made all the difference.
+In the end, these poems aren’t just literary references — they are reminders of urgency, resilience, and choice. They encourage me to keep striving, to embrace change, and to make the most of the opportunities of our time.
 
-The Road Not Taken - Robert Frost
+It’s this mix of urgency, imagination, and resilience that I try to bring into my work in technology and architecture.
 
-ps. there are many more I could think of but are too personal, but I will leave this open to interpretation.
+There are many more verses that speak to me, some too personal to share, but all reminders of how words can shape the way we see our work and our lives.
