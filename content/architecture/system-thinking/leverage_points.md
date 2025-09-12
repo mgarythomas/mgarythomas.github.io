@@ -9,7 +9,7 @@ tags: ["systems-thinking", "banking", "patterns", "complex"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-09-01
-image: "/architecture/system-thinking/leverage_points.svg"
+image: "/architecture/system-thinking/leverage-points-intro.png"
 ---
 
 # Leverage Points for System Architects: A Systems Thinking Approach
