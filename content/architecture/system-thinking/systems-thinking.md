@@ -10,7 +10,7 @@ tags: ["systems-thinking", "banking", "patterns", "complex"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-09-05
-image: "/architecture/system-thinking/systems-thinking.png"
+image: "/architecture/system-thinking/systems_thinking.svg"
 ---
 
 # Intro
@@ -98,9 +98,9 @@ Use Domain-Driven Design to define clear system boundaries (retail vs corporate,
 
 ## Identifying Leverage Points
 
-![Leverage Points](/architecture/system-thinking/leverage_points.svg)
+![Leverage Points](/architecture/leverage_points/leverage_points.svg)
 
-Meadows wrote that the most effective way to change a system is by finding and using **leverage points**—places where small shifts can drive big changes, she identified 15 leverage points in her book *The Fifth Discipline*. These are described in detail in the [leverage points](/architecture/system-thinking/leverage_points) article.
+Meadows wrote that the most effective way to change a system is by finding and using **leverage points**—places where small shifts can drive big changes, she identified 15 leverage points in her book *The Fifth Discipline*. These are described in detail in the [leverage points](/architecture/leverage_points/leverage_points) article.
  
 In banking, these could include:
 

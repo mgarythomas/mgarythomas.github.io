@@ -9,7 +9,7 @@ tags: ["complexity", "technical debt"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-05-08
-image: "/architecture/cost-of-complexity/costOfComplexity.png"
+image: "/architecture/cost-of-complexity/cost_of_complexity.svg"
 ---
 
 **From Cognitive Clutter to Architectural Clarity: Managing Technical Debt with Purpose**

@@ -6,7 +6,7 @@ ShowToc: false
 TocOpen: false
 author: "Gary Thomas"
 date: 2025-06-19
-image: "/engineering/revisiting_extreme_programming/revisiting_extreme_programming.png"
+image: "/engineering/revisiting_extreme_programming/revisiting_extreme_programming.svg"
 ---
 
 ## Introduction

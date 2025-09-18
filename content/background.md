@@ -5,7 +5,7 @@ draft: false
 ShowToc: false
 TocOpen: false
 author: "Gary Thomas"
-tags: ["background", "personal", "literature", "poetry"]
+tags: ["background", "personal", "literature", "k", "poetry"]
 categories: ["personal"]
 date: 2025-09-07
 ---

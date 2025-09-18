@@ -6,7 +6,7 @@ tags: ["narrative", "architecture", "story"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-08-11
-image: "/architecture/architecture-as-stories/stories-architecture-share.png"
+image: "/architecture/architecture-as-stories/stories-architecture-share.svg"
 ---
 
 ## Why Stories Matter in Architecture
