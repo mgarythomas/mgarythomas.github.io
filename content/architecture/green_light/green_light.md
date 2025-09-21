@@ -3,7 +3,7 @@ title: "Green Light"
 description: "Trying to attain the future while remembering the past"
 summary: "We are all Jay Gatsby clinging to the past while hoping for a future that might never arrive. Do we spend too long holding on to that enchanted object or can we achieve our goals?"
 draft: true
-url: "/posts/green_light"
+url: "/architecture/green_light"
 ShowToc: false
 TocOpen: false
 tags: ["green-light", "future", "patterns", "complex", "architecture", "leadership", "strategy", "Gatsby", "Fitzgerald", "Gatsby", "American Dream"]
@@ -28,7 +28,7 @@ With the concept of "love" maybe it is a symbol of something that is not achieva
 
 ## Green means go
 
-The concept of a "green light" often symbolizes permission, progress, and hope. In project management and organizational contexts, it represents the approval to move forward. However, this symbol carries deeper cultural and emotional meanings, especially when viewed through the lens of literature and societal values. By exploring these layers, we can better understand the complexities behind the simple act of giving the green light to a project or initiative.
+The concept of a "green light" often symbolises permission, progress, and hope. In project management and organizational contexts, it represents the approval to move forward. However, this symbol carries deeper cultural and emotional meanings, especially when viewed through the lens of literature and societal values. By exploring these layers, we can better understand the complexities behind the simple act of giving the green light to a project or initiative.
 
 It is often based on prior experience and a hope for repitition.
 Sometimes it is literally a green field, something not tried before

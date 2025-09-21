@@ -184,4 +184,55 @@ The next time you're faced with an architectural challenge, ask yourself: Am I w
 
 ---
 
-*What leverage points have you found most effective in your architectural practice? Share your experiences and let's continue the conversation about systems thinking in architecture.*
+## The original 12 leverage points as described by Dana Meadows
+
+12. Constants, parameters (numbers, subsidies, taxes, standards)
+	•	Tweaking numbers rarely shifts the system’s behaviour in a fundamental way.
+	•	Example: changing tax rates or setting limits — small adjustments at best.
+
+11. Sizes of buffers and stocks relative to flows
+	•	Changing physical capacities (like inventory or reserves) alters how stable or resilient a system is.
+	•	Example: a dam’s size relative to water inflow.
+
+10. Strength of negative feedback loops
+	•	How well the system can self-correct when it drifts from a desired state.
+	•	Example: thermostat responsiveness.
+
+9. Gain of positive feedback loops
+	•	Controlling reinforcing loops that create runaway growth or decline.
+	•	Example: curbing interest compounding or disease spread.
+
+8. Structure of information flows
+	•	Who has access to information and how quickly they get it changes decisions and outcomes.
+	•	Example: publishing pollution levels so communities can respond.
+
+7. Rules of the system
+	•	Formal and informal rules (incentives, punishments, boundaries) shape behaviour.
+	•	Example: laws, contracts, property rights.
+
+6. Power to change the rules
+	•	Who gets to set, enforce, and change the rules has more leverage than the rules themselves.
+	•	Example: a parliament, regulator, or board of directors.
+
+5. Goals of the system
+	•	The purpose the system is organised around. Change the goal, and everything else shifts.
+	•	Example: from maximising profit → maximising wellbeing.
+
+4. Paradigms (mindsets, worldviews)
+	•	The underlying assumptions and beliefs from which system goals and rules arise.
+	•	Example: “Growth is good” vs. “Enough is enough.”
+
+3. Ability to transcend paradigms
+	•	Seeing paradigms as models, not truths, and remaining flexible about which to use.
+	•	Example: blending economic, ecological, and cultural perspectives.
+
+2. –
+	•	(Some lists compress 2 & 3 into one, since both concern paradigm flexibility.)
+
+1. Transcending paradigms completely
+	•	The deepest leverage: recognising that no paradigm is the truth, staying unattached, and free to create new ways of seeing.
+	•	Example: Zen-like awareness that allows radical system redesign.
+
+⸻
+
+The essence: lower leverage points (12–9) adjust mechanics, mid-level (8–6) alter structure, high leverage (5–1) reshape intent and worldview.
