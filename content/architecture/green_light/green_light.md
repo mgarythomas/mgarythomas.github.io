@@ -18,9 +18,10 @@ image: "/architecture/green_light/green_light.svg"
 I’ve been thinking about what it really means to get approval to move forward with a project. In organisations, approval usually comes through stage gates, governance forums, and committees. A green light is the signal that you are permitted to proceed.
 
 But “the green light” also carries a deeper resonance, thanks to F. Scott Fitzgerald. For Jay Gatsby, the green light at the end of Daisy Buchanan’s dock symbolised more than a signal, it embodied hope, longing, and the dream of a future that might never arrive. Gatsby’s light stood for three things at once:
-	1.	The hope for lost love and reunion
-	2.	Money—the “greenback” as currency and aspiration
-	3.	The American Dream itself—an ideal often just out of reach, yet powerful enough to drive action
+	
+1.	The hope for lost love and reunion
+2.	Money—the “greenback” as currency and aspiration
+3.	The American Dream itself—an ideal often just out of reach, yet powerful enough to drive action
 
 When we borrow the metaphor of the green light in the context of projects or technology change, the parallels emerge. There is still cost and financial justification, still hope for a future state, and sometimes even a kind of passion or unselfish drive to make change real.
 
@@ -38,7 +39,7 @@ It will require financial commitment
 
 Not all approvals are the same shade of green. Sometimes a project is truly greenfield, with freedom to create something entirely new. Other times it is closer to brownfield, working around existing legacy structures and constraints. Both can be valuable, but they carry very different risks and opportunities.
 
-Green can also be misleading. There is the danger of "greenwashing"—approval dressed up as innovative or sustainable when in reality it is more about appearances than substance.
+Green can also be misleading.
 
 ## Traffic Lights, Not Just Green
 
