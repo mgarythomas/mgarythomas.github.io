@@ -5,10 +5,10 @@ draft: false
 ShowToc: false
 TocOpen: false
 author: "Gary Thomas"
+tags: ["extreme-programming", "XP", "agentic-coding", "AI-assisted-coding", "TDD", "Specification-by-Example", "Continuous-Integration", "DORA"]
+categories: ["engineering", "AI"]
 date: 2025-09-20
 image: "/engineering/revisiting_extreme_programming/revisiting_extreme_programming.svg"
-tags: ["extreme-programming", "XP", "agentic-coding", "AI-assisted-coding", "TDD", "Specification-by-Example", "Continuous-Integration", "DORA"]
-categories: ["engineering", "AI", "Continuous Integration"]
 ---
 
 # Introduction
