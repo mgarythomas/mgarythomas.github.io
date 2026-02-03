@@ -1,14 +1,20 @@
 :root {
-  --primary-color: #3c3100; /* dark olive green */
-  --secondary-color: #fbf1c7; /* lemon green */
-  --alternative-color: #F3FAE1 /* magenta pink */
-  ;
+  --primary-color: #2c3e50;
+  --secondary-color: #5e6d7e;
+  --alternative-color: #34495e;
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: var(--primary-color);
 }
 
@@ -16,56 +22,55 @@ h3 {
 .dark h2,
 .dark h3,
 .dark a {
-  color: var(--secondary-color);
+  color: var(--primary); /* Use the theme var for consistency */
 }
 
 a {
   text-decoration: none !important;
+  color: var(--primary-color);
 }
 
 .dark a {
   text-decoration: none !important;
+  color: var(--primary);
 }
 
 .dark .pagination a {
-  color: var(--primary-color);
+  color: var(--primary);
 }
 
 a:hover {
-  color: #6d6101;
-  }
-.dark a:hover {
-    color:  #feefac
-  }
-
-/* Light mode */
-header nav a {
-    color: var(--primary-color); /* Change this to your desired color */
-  }
-  
-  /* Dark mode */
-.dark header nav a {
-  color: var(--secondary-color);    /* Change this to your desired color */
+  color: var(--secondary-color);
 }
-  
-  
+.dark a:hover {
+  color: var(--secondary);
+}
+
+/* Light mode header */
+header nav a {
+    color: var(--primary-color);
+}
+
+/* Dark mode header */
+.dark header nav a {
+  color: var(--primary);
+}
+
 .social-icons a {
   color: var(--primary-color);
 }
 
 .dark .social-icons a {
-  color: var(--secondary-color);
+  color: var(--primary);
 }
+
 .social-icons a:hover {
-  color: #6d6101;
+  color: var(--secondary-color);
 }
 
 .dark .social-icons a:hover {
-  color: #ffec9a
+  color: var(--secondary);
 }
-
-
-/* static/css/custom.css */
 
 /* Add border to code block */
 
@@ -84,7 +89,7 @@ header nav a {
   border-radius: var(--radius);
   overflow-x: auto;
   word-break: break-all;
-  border: 2px dashed var(--border);
+  border: 1px solid var(--border);
   overflow: auto;
 }
 
@@ -97,18 +102,18 @@ header nav a {
   border-radius: var(--radius);
   overflow-x: auto;
   word-break: break-all;
-  border: 2px dashed var(--border);
+  border: 1px solid var(--border);
   overflow: auto;
 }
 
 /* Styling the horizontal scrollbar */
 .post-content pre code::-webkit-scrollbar {
-  height: 12px; /* Set the height of the scrollbar */
+  height: 12px;
 }
 
 .post-content pre code::-webkit-scrollbar-thumb {
-  background-color: var(----hljs-bg); /* Set the color of the thumb (the draggable part) */
-  border-radius: 6px; /* Set the border radius of the thumb */
+  background-color: var(--border);
+  border-radius: 6px;
 }
 
 .post-thumb {
@@ -121,18 +126,19 @@ header nav a {
 
 /* Style for circular author image */
 .jr-basics__image img {
-  width: 150px;       /* Adjust size as needed */
+  width: 150px;
   height: 150px;
   object-fit: cover;
-  border-radius: 50%; /* This makes it a circle */
+  border-radius: 50%;
   display: block;
-  margin: 0 auto;     /* Centers the image */
+  margin: 0 auto;
 }
 
 .jr-basics__name {
   font-size: 28px;
-  font-style: italic;
+  font-style: normal; /* Removed italic for cleaner look */
   font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .jr-basics__label {
@@ -144,8 +150,9 @@ header nav a {
 .jr-basics__summary {
   padding: 1rem;
   margin: 1rem 0;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
   border-radius: 8px;
+  background-color: var(--entry);
 }
 
 .jr-basics__email {
@@ -157,7 +164,7 @@ header nav a {
 .jr-basics__url {
   padding: 1px;
   margin: 1px 0;
-  font-weight: light;
+  font-weight: normal;
 }
 
 .jr-basics__location-city,
