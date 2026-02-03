@@ -6,27 +6,27 @@
   --header-height: 60px;
   --footer-height: 60px;
   --radius: 8px;
-  --border-style: 2px dashed var(--border); /* border style for post cover, toc, archive page */
-  --theme: #fdf9e6;
-  --entry: #f9f5d7;
-  --primary: rgb(29, 29, 29);
-  --secondary: rgb(66, 66, 66);
-  --tertiary: #f9f5d7;
-  --content: rgb(5, 5, 5);
-  --hljs-bg: #fffce5;
-  --code-bg: #fffce5;
-  --border: #98971a;
+  --border-style: 1px solid var(--border);
+  --theme: #fafafa;
+  --entry: #ffffff;
+  --primary: #2c3e50;
+  --secondary: #5e6d7e;
+  --tertiary: #f0f0f0;
+  --content: #333333;
+  --hljs-bg: #f5f5f5;
+  --code-bg: #f5f5f5;
+  --border: #e0e0e0;
 }
 
 .dark {
-  --theme: #1d2021; /*background*/
-  --entry: #282828; /*post, ToC background*/
-  --content: #ebdbb2; /*main text*/
-  --hljs-bg: #282828; /*code block background*/
-  --border: #a89984; /*tag and ToC border*/
-  --primary: #a89984;
-  --secondary: #ebdbb2;
-  --tertiary: #ebdbb2;
-  --code-bg: rgb(55, 56, 62);
-  --border-style: 2px dashed var(--border); /* border style for post cover, toc, archive page */
+  --theme: #1a1a1a;
+  --entry: #2d2d2d;
+  --content: #dddddd;
+  --hljs-bg: #2d2d2d;
+  --border: #444444;
+  --primary: #cccccc;
+  --secondary: #aaaaaa;
+  --tertiary: #333333;
+  --code-bg: #2d2d2d;
+  --border-style: 1px solid var(--border);
 }
