@@ -5,7 +5,9 @@ draft: false
 tags: ["vibe", "coding", "agentic", "lifecycle"]
 categories: ["engineering", "ai"]
 author: "Gary Thomas"
-date: 2025-08-17
+date: 2026-02-23
+cover:
+  image: "agentic_lifecycle_diagram.png"
 ---
 
 # The Agentic Engineering Lifecycle
@@ -15,8 +17,6 @@ Traditional Software Development Life Cycles (SDLC) assume human engineers writi
 This document outlines our **Specification-Led Delivery** lifecycle. It acts as a hub pointing forward to how we leverage agentic tools at every phase of product development to generate, test, and review software.
 
 ---
-
-![Agentic Lifecycle Diagram](agentic_lifecycle_diagram.png)
 
 *(The flowchart below details the parallel task execution paths captured in the diagram above)*
 

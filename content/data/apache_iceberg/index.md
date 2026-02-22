@@ -8,12 +8,12 @@ tags: ["apache iceberg", "data warehouse"]
 categories: ["data"]
 author: "Gary Thomas"
 date: 2025-04-29
-image: "/data/apache_iceberg/apache-iceberg.png"
+cover:
+  image: "apache-iceberg.png"
 ---
 
 A Warehouse with an organised inventory system.
 
-![Apache Iceberg](/data/apache_iceberg/apache-iceberg.png)
 
 ## Introduction
 

@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" fill="#F5F5F5"/>
+<rect width="1200" height="630" fill="url(#paint0_linear_0_1)"/>
+
+<!-- Geometric elements from reference -->
+<line x1="550" y1="108" x2="650" y2="108" stroke="#AAAAAA"/>
+<line x1="550" y1="522" x2="650" y2="522" stroke="#AAAAAA"/>
+
+<text x="600" y="240" text-anchor="middle" dominant-baseline="middle" font-family="'Courier New', Consolas, 'Fira Code', monospace" font-weight="bold" font-size="48" fill="#FFFFFF" letter-spacing="2">AI Engineering Roadmap</text>
+<text x="600" y="370" text-anchor="middle" dominant-baseline="middle" font-family="'Courier New', Consolas, 'Fira Code', monospace" font-weight="bold" font-size="26" fill="#C0C0C0" letter-spacing="4">CURRENT STATE TO TARGET STATE</text>
+
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="600" y1="0" x2="600" y2="630" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1A1A2E"/>
+<stop offset="1" stop-color="#16213E"/>
+</linearGradient>
+</defs>
+</svg>

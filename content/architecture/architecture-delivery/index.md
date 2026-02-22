@@ -9,7 +9,8 @@ TocOpen: false
 tags: ["delivery", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
-image: "/architecture/architecture-delivery/architectureDelivery.png"
+cover:
+  image: "architectureDelivery.png"
 date: 2025-04-19
 ---
 
@@ -21,7 +22,6 @@ I should point out that this was developed with a previous co-worker and is an a
 
 Critically, the development of a target architecture is based on having collected artifacts and defined the baseline for business, application and technology.
 
-![methodology](/architecture/architecture-delivery/architectureDelivery.png)
 
 ## Parallel
 

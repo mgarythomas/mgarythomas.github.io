@@ -6,7 +6,8 @@ draft: false
 tags: ["parquet", "data warehouse","columnar", "storage", "big data", "data analytics"]
 categories: ["data"]
 author: "Gary Thomas"
-image: "/data/why_parquet/parquetFileStructure.svg"
+cover:
+  image: "parquetFileStructure.svg"
 url: "/data/parquet/"
 date: 2025-04-30
 ---
@@ -49,7 +50,6 @@ Parquet was developed to support nested data structures from the beginning. This
 
 ## Structure
 
-![Parquet Structure](/data/why_parquet/parquetFileStructure.svg)
 
 The Parquet file layout is composed of a header, footer, and data block, with the header containing information about the file format, and the footer containing metadata such as statistics and schema information. The data block is divided into row groups, which are further divided into columns, and the values within each column are stored as pages. This layout allows for efficient compression and encoding, which reduces storage space and improves read performance.
 

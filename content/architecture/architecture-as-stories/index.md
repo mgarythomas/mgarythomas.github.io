@@ -6,7 +6,8 @@ tags: ["narrative", "architecture", "story"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-08-11
-image: "/architecture/architecture-as-stories/stories-architecture-share.svg"
+cover:
+  image: "stories-architecture-share.svg"
 ---
 
 ## Why Stories Matter in Architecture
@@ -53,7 +54,7 @@ Vonnegut's "Man in Hole" shape describes a character who starts well, falls into
 The "hole" phase is where many architectural stories fail. Stakeholders need to understand that temporary performance dips, integration challenges, and learning curves aren't signs of failure — they're necessary parts of the journey. The story must prepare people for this descent and maintain confidence in the eventual ascent.
 Understanding this arc helps architects set expectations, manage morale, and keep teams engaged through inevitable dips in performance.
 
-![Man in Hole](/architecture/architecture-as-stories/architecture_story_arc.svg)
+![Man in Hole](architecture_story_arc.svg)
 
 ### "Boy Meets Girl" — The Capability Romance
 The "Boy Meets Girl" pattern (boy meets girl, boy loses girl, boy gets girl back) maps surprisingly well to technology adoption cycles. Organisations discover exciting new capabilities (the meeting), encounter implementation reality and integration challenges (the loss), then finally achieve successful adoption (the reunion).

@@ -23,7 +23,7 @@ module:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: mgarythomas 
+  title: mgarythomas
   description: "mgarythomas website"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -48,7 +48,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-  mainSections: ["posts", "architecture"]
+  mainSections: ["posts", "architecture", "engineering", "ai", "data"]
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -66,7 +66,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false  # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: M. Gary Thomas
     subtitle: "To begin at the beginning..."
     imageUrl: "/images/guggenheimAd2.jpg"
@@ -84,15 +84,15 @@ params:
     Title: Welcome
     Content: |
       # To begin at the beginning...
-      
+
       > *"Lo que diga Gary, pero quizás es lo que piensa Gary!"*
-      
+
       ---
-      
+
       ## About This Site
-      
+
       This is a place where I share my thoughts - mostly on technology, software development and architecture, but more broadly it includes whatever happens to be on my mind at the time.
-      
+
   socialIcons:
     - name: x
       url: "https://x.com/mgarythomas"
@@ -108,9 +108,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
@@ -180,7 +180,7 @@ markup:
     # codeFences: true
     # guessSyntax: true
     # lineNos: true
-    # style: monokai 
+    # style: monokai
 caches:
   images:
     dir: :cacheDir/images

@@ -10,7 +10,8 @@ tags: ["green-light", "future", "patterns", "complex", "architecture", "leadersh
 categories: ["posts", "architecture"]
 author: "Gary Thomas"
 date: 2025-09-01
-image: "/architecture/green_light/green_light.svg"
+cover:
+  image: "green_light.svg"
 ---
 
 # Background

@@ -9,7 +9,8 @@ tags: ["strategy", "business"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-18
-image: "/architecture/business-strategy/businessStrategy.svg"
+cover:
+  image: "businessStrategy.svg"
 ---
 
 One of the earliest points in the Architecture journey is the understanding of the overarching business strategy.
@@ -23,7 +24,6 @@ In order to simplify the engagement when trying to get a clear understanding of 
 
 While not exhaustive a simple view of the spectrum of Business Strategy can be categorised as follows:
 
-![Business Strategy Categories](/architecture/business-strategy/businessStrategy.svg)
 
 There are foundational requirements for all business strategy initiatives:
 

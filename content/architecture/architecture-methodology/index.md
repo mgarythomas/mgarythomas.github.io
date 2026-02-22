@@ -10,7 +10,8 @@ tags: ["methodology", "strategy"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-17
-image: "/architecture/architecture-methodology/methodology.png"
+cover:
+  image: "methodology.png"
 ---
 
 # Overview
@@ -22,7 +23,6 @@ TOGAF defines levels of architecture within an Architecture Landscape:
 
 For simplicity, Business capabilities can exist at different levels as well. Even when we are dealing with architecture at a Strategic level we would expect that to encompass business capabilities at a broader level.
 
-![Methodology](/architecture/architecture-methodology/methodology.png)
 
 # Enterprise Architecture Transformation: A Structured Approach
 

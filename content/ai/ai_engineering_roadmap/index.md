@@ -1,12 +1,16 @@
 ---
 title: "AI Engineering Roadmap"
 summary: "How to move AI Engineering from Current State to Target State"
-draft: true
+draft: false
 tags: ["ai", "engineering", "roadmap"]
 categories: ["ai"]
 author: "Gary Thomas"
 date: 2026-02-22
+cover:
+  image: "ai_engineering_roadmap.svg"
 ---
+
+![AI Engineering Roadmap Layout](ai_engineering_roadmap_cover.png)
 
 # How to move AI Engineering from Current State to Target State
 

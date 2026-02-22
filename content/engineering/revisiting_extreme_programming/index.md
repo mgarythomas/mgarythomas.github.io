@@ -8,7 +8,8 @@ author: "Gary Thomas"
 tags: ["extreme-programming", "XP", "agentic-coding", "AI-assisted-coding", "TDD", "Specification-by-Example", "Continuous-Integration", "DORA"]
 categories: ["engineering", "AI"]
 date: 2025-09-20
-image: "/engineering/revisiting_extreme_programming/revisiting_extreme_programming.svg"
+cover:
+  image: "revisiting_extreme_programming.svg"
 ---
 
 # Introduction

@@ -7,7 +7,8 @@ tags: ["options", "architecture", "volatility", "risk"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-04-26
-image: "/architecture/architecture-options/options-architecture-share.svg"
+cover:
+  image: "options-architecture-share.svg"
 ---
 
 In any technology project, uncertainty is inevitable. New requirements emerge, priorities shift, and unforeseen challenges arise. This reality became particularly clear to me working in financial services, where architectural decisions must navigate not just technical uncertainty, but also customer expectations, regulatory changes, market volatility, and evolving security threats.

@@ -10,7 +10,8 @@ tags: ["systems-thinking", "banking", "patterns", "complex"]
 categories: ["architecture"]
 author: "Gary Thomas"
 date: 2025-09-05
-image: "/architecture/system-thinking/systems_thinking.svg"
+cover:
+  image: "systems_thinking.svg"
 ---
 
 # Intro
