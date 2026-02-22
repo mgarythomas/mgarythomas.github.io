@@ -30,42 +30,92 @@ One thing is clear having now attempted to use Agentic Coding is that the tools 
 
 ## Feature-Based Comparison Matrix
 
-### IDE-Based Tools
+### IDE-Based Tools & Agentic Extensions
 
-| Tool           | Repo Context Awareness | Multi-File Edits | AI Integration Level | Ecosystem Maturity | Notes                                   |
-|----------------|------------------------|------------------|----------------------|--------------------|-----------------------------------------|
-| Windsurf       | High                   | Cascade          | Recent changes       | Early              | Strong momentum, curated doc grounding  |
-| Cursor         | Moderate               | Cascade-style    | Strong AI            | Growing            | Familiar VS Code UX                      |
-| Kiro           | Spec-driven            | Task Breakdown   | Emerging             | Early              | Specifies requirements, designs, tests |
-| Cody (Sourcegraph) | Repo-aware via search | Multi-IDE       | Moderate    s         | Mature             | Best with Sourcegraph infrastructure    |
-| GitHub Copilot | Limited                | Inline           | Broad                | Mature             | Strong language coverage, test gen      |
-| GitLab Duo     | MR assistance          | Test gen         | Integrated           | Mature             | Tied to GitLab platform                  |
+| Tool           | Repo Context Awareness | Multi-File Edits | Ecosystem Maturity | Notes                                   |
+|----------------|------------------------|------------------|--------------------|-----------------------------------------|
+| Antigravity    | Deep                   | Complete Context | Advanced           | Deepmind's deeply integrated agentic framework |
+| Windsurf       | High                   | Cascade          | Early              | Strong momentum, curated doc grounding  |
+| Cursor         | Moderate               | Cursor Composer  | Growing            | Familiar VS Code UX, strong Composer AI |
+| Cline          | Deep (External LLM)    | Open/Edit/Command| Early              | VS Code Extension, brings full agentic capability |
+| Roo Code       | Deep (External LLM)    | Open/Edit/Command| Early              | Fork of Cline with UI improvements      |
+| Cody           | Repo-aware via search  | Multi-IDE        | Mature             | Best with Sourcegraph infrastructure    |
+| Copilot Edits  | Limited                | Multi-file       | Mature             | GitHub's answer to Composer/Cascade      |
+| GitLab Duo     | MR assistance          | Test gen         | Mature             | Tied to GitLab platform                  |
 
-### Terminal-Based Tools
+### Terminal-Based CLI Agents
 
-| Tool           | Codebase Awareness | Workflow Support   | Integration Level | Notes                              |
-|----------------|--------------------|--------------------|-------------------|----------------------------------|
-| Claude Code    | Deep               | Inline Q&A, CLI    | Moderate          | Good for power-CLI workflows      |
-| Amazon Q Developer | Multi-file planning | AWS aligned      | Strong            | Pricing Pro tier, AWS ecosystem   |
+| Tool               | Codebase Awareness | Workflow Support     | Notes                              |
+|--------------------|--------------------|----------------------|------------------------------------|
+| Aider              | Deep (Git aware)   | Architect-Editor     | Gold standard open-source CLI agent|
+| Claude Code        | Deep               | Inline Q&A, CLI      | Good for power-CLI workflows       |
+| Jules.             | Deep               | Inline Q&A, CLI      | Good for power-CLI workflows       |
+| OpenHands          | Deep sandbox       | Autonomous Engineer  | Formerly OpenDevin, local sandbox  |
+| Amazon Q Developer | Multi-file planning| AWS aligned          | CLI autocomplete & Q&A bot         |
 
-### Browser-Based Tools
+### Browser-Based Tools & Generators
 
-| Tool           | Focus Area          | AI Integration Level | Notes                                |
-|----------------|---------------------|----------------------|------------------------------------|
-| Firebase Studio| Firebase stack      | Gemini integration   | Narrower scope, Firebase ecosystem |
-| Bind.ai        | full-stack focus    | Support integrtion to multiple modelss | Aims to provide a multi-language multi model option |
-| Bolt.new       | Design-to-code      | Moderate             | Figma to full-stack apps            |
-| Replit         | Collaborative coding| Built-in AI chat     | Weaker repo-wide controls           |
+| Tool           | Focus Area          | Notes                                |
+|----------------|---------------------|--------------------------------------|
+| v0 by Vercel   | UI builder          | React/Tailwind natural language gen  |
+| Lovable        | Full-stack builder  | Next.js, Edge functions, Supabase    |
+| Bolt.new       | Design-to-code      | Figma to full-stack apps scaffolding |
+| Replit         | Collaborative coding| Built-in AI chat, Agentic beta       |
+| Bind.ai        | Full-stack focus    | Multi-model integration options      |
+| Firebase Studio| Firebase stack      | Narrower scope, Firebase ecosystem   |
 
 ### Specialized Tools
 
 | Tool           | Functionality       | Notes                        |
 |----------------|---------------------|------------------------------|
-| v0 by Vercel   | UI builder          | React/Tailwind components     |
-| Tempo          | React scaffolding   | Rapid scaffolding             |
-| Lovable        | No/low-code builder | Non-technical app creation    |
-| Creatr         | No/low-code builder | AI-powered app creation       |
-| n8n            | Workflow automation | Open source, AI + automation  |
+| Tempo          | React scaffolding   | Rapid React structural gen   |
+| Creatr         | No/low-code builder | AI-powered app creation      |
+| Kiro           | Spec-driven         | Specifies requirements & tests|
+| n8n            | Workflow automation | Open source, AI + automation |
+| Make.com       | Workflow automation | Integration & automation platform |
+| Zapier         | Workflow automation | Popular enterprise integration tool |
+
+### Agent Frameworks
+
+| Tool           | Description                                  |
+|----------------|----------------------------------------------|
+| LangChain      | Popular framework for developing LLM apps    |
+| AutoGen        | Multi-agent conversation framework by MS     |
+| CrewAI         | Role-playing multi-agent framework           |
+| Flowise        | Drag & drop UI to build LLM flows            |
+| AgentOps       | Agent building & monitoring platform         |
+| Haystack       | NLP framework for search & RAG               |
+| Semantic Kernel| Microsoft's SDK for AI integration           |
+| Superagent     | Open-source agent API                        |
+| LlamaIndex     | Data framework for LLM applications          |
+
+### Vector Stores & Memory
+
+| Tool           | Description                                  |
+|----------------|----------------------------------------------|
+| Pinecone       | Managed, cloud-native vector database        |
+| Weaviate       | Open-source AI-native vector database        |
+| Chroma         | Open-source embedding database               |
+| FAISS          | Facebook AI Similarity Search library        |
+
+### Deployment & Serving
+
+| Tool           | Description                                  |
+|----------------|----------------------------------------------|
+| FastAPI        | Modern Python web framework for APIs         |
+| Streamlit      | Fast way to build and share data apps        |
+| Gradio         | Build UI for machine learning models         |
+| Docker         | Containerization platform                    |
+| Kubernetes     | Container orchestration system               |
+
+### Monitoring & Evaluation
+
+| Tool           | Description                                  |
+|----------------|----------------------------------------------|
+| LangSmith      | Tracing & evaluation for LLM apps (LangChain)|
+| Prometheus     | Monitoring system & time series database     |
+| Grafana        | Observability dashboards                     |
+| OpenTelemetry  | High-quality, ubiquitous telemetry standard  |
 
 ## Product Design Tools
 
@@ -76,35 +126,70 @@ One thing is clear having now attempted to use Agentic Coding is that the tools 
 
 ## Tool References and Resources
 
-### IDE-Based Tools
+### IDE-Based Tools & Agentic Extensions
 
+- Antigravity: [Antigravity](internal/antigravity)
 - Windsurf: [Windsurf Official](https://windsurf.ai)
 - Cursor: [Cursor AI](https://cursor.so)
-- Kiro: [Kiro AI](https://kiro.ai)
+- Cline: [Cline](https://github.com/cline/cline)
+- Roo Code: [Roo Code](https://github.com/RooVetGit/Roo-Code)
 - Cody (Sourcegraph): [Sourcegraph Cody](https://sourcegraph.com/cody)
 - GitHub Copilot: [GitHub Copilot](https://copilot.github.com)
 - GitLab Duo: [GitLab AI](https://about.gitlab.com/solutions/ai/)
 
-### Terminal-Based Tools
+### Terminal-Based CLI Agents
 
+- Aider: [Aider](https://aider.chat)
 - Claude Code: [Claude AI](https://claude.ai)
+- OpenHands: [OpenHands](https://github.com/All-Hands-AI/OpenHands)
 - Amazon Q Developer: [Amazon Q](https://aws.amazon.com/q/)
 
-### Browser-Based Tools
+### Browser-Based Tools & Generators
 
-- Firebase Studio: [Firebase Studio](https://firebase.google.com/studio)
+- v0 by Vercel: [v0](https://v0.vercel.app)
+- Lovable: [Lovable](https://lovable.ai)
 - Bolt.new: [Bolt.new](https://bolt.new)
 - Replit: [Replit](https://replit.com)
+- Firebase Studio: [Firebase Studio](https://firebase.google.com/studio)
+- Bind.ai: [Bind.ai](https://bind.ai)
 
 ### Specialized Tools
 
-- v0 by Vercel: [v0](https://v0.vercel.app)
 - Tempo: [Tempo](https://tempo.io)
-- Lovable: [Lovable](https://lovable.ai)
 - Creatr: [Creatr](https://creatr.ai)
+- Kiro: [Kiro AI](https://kiro.ai)
 - n8n: [n8n](https://n8n.io)
-- uizard: [uizard](https://uizard.io)
-- galileo.ai: [galileo.ai](https://galileo.ai)
+- Make.com: [Make](https://make.com)
+- Zapier: [Zapier](https://zapier.com)
+
+### Agent Frameworks
+
+- LangChain: [LangChain](https://langchain.com)
+- AutoGen: [AutoGen](https://microsoft.github.io/autogen/)
+- CrewAI: [CrewAI](https://crewai.com)
+- Flowise: [Flowise](https://flowiseai.com)
+- AgentOps: [AgentOps](https://agentops.ai)
+- Haystack: [Haystack](https://haystack.deepset.ai)
+- Semantic Kernel: [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+- Superagent: [Superagent](https://superagent.sh)
+- LlamaIndex: [LlamaIndex](https://llamaindex.ai)
+
+### Vector Stores
+
+- Pinecone: [Pinecone](https://pinecone.io)
+- Weaviate: [Weaviate](https://weaviate.io)
+- Chroma: [Chroma](https://trychroma.com)
+- FAISS: [FAISS](https://github.com/facebookresearch/faiss)
+
+### Deployment & Monitoring
+
+- FastAPI: [FastAPI](https://fastapi.tiangolo.com)
+- Streamlit: [Streamlit](https://streamlit.io)
+- Gradio: [Gradio](https://gradio.app)
+- LangSmith: [LangSmith](https://smith.langchain.com)
+- Prometheus: [Prometheus](https://prometheus.io)
+- Grafana: [Grafana](https://grafana.com)
+- OpenTelemetry: [OpenTelemetry](https://opentelemetry.io)
 
 ### Design Tools
 
