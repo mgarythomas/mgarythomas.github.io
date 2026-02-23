@@ -31,11 +31,13 @@ graph TD
     subgraph Parallel Execution
         Build["4. Building Code<br/>(Agent Workbench)"]
         Test["5. Automated Tests"]
-        Security["6. Cyber/Security Agent"]
+        SAST["6. SAST<br/>(Static Analysis)"]
     end
     
     Review["7. Code Review & Auditing<br/>(GitLab MR)"]
     Deploy["8. Lean Deployment<br/>(Kanban to Prod)"]
+    DAST["9. DAST & Monitoring<br/>(Dynamic Analysis)"]
+    Operate["10. Operate & Observability<br/>(Production)"]
     
     %% Center / Repository / Audit
     GitLab[("GitLab Repository<br/>(Source of Truth)")]
@@ -52,33 +54,43 @@ graph TD
     %% The Fork
     TaskGen -->|Decomposed| Build
     TaskGen -->|Decomposed| Test
-    TaskGen -->|Decomposed| Security
+    TaskGen -->|Decomposed| SAST
     
     %% Convergence to Review
     Build -->|MR| Review
     Test -->|MR| Review
-    Security -->|Clearance| Review
+    SAST -->|Clearance| Review
     
     %% Iterative Feedback Loops
     Review -.->|Logic Flaw| TaskGen
     Review -.->|Bug/Fix Required| Build
     Review -.->|Missing Coverage| Test
-    Review -.->|Vulnerability Found| Security
+    Review -.->|Vulnerability Found| SAST
     
-    %% Final deployment
+    %% Parallel post-review
     Review -->|Approved| Deploy
+    Review -->|Approved| DAST
+    
+    %% Operate Phase
+    Deploy --> Operate
+    DAST --> Operate
+    Operate -->|New Feature Ideas| Spec
     
     %% Audit & GitLab links
     Build -.-> GitLab
     Test -.-> GitLab
-    Security -.-> GitLab
+    SAST -.-> GitLab
     Review -.-> GitLab
+    DAST -.-> GitLab
+    Operate -.-> GitLab
     
     Spec ===>|Logs| Audit
     Arch ===>|Logs| Audit
     TaskGen ===>|Logs| Audit
     GitLab ===>|Commits/Revisions| Audit
     Deploy ===>|Release Tags| Audit
+    DAST ===>|Scan Reports| Audit
+    Operate ===>|Usage Metrics| Audit
 ```
 
 ---
@@ -123,11 +135,11 @@ Code and the tests that validate it are generated synchronously by agents. Test-
 * **Agentic Tools Used**: Windsurf, GitHub Copilot.
 * **Deep Dive**: [Agent-Driven TDD and Test Generation](test_generation.md) (Coming Soon)
 
-## 6. Cyber / Security Agent (Parallel Track C)
+## 6. SAST Agent (Parallel Track C)
 
-As soon as a task is generated, security tools begin evaluating the proposed dependencies, architecture, and code snippets.
+As soon as a task is generated, static analysis tools begin evaluating the proposed dependencies, architecture, and code snippets during the build phase.
 
-* **The Goal**: A specialized **Cyber/Security Agent** (e.g., SAST, DAST, dependency scanners) automatically audits the work for vulnerabilities, hardcoded secrets, and compliance violations before it can be merged.
+* **The Goal**: A specialized **SAST Agent** automatically audits the work for vulnerabilities, hardcoded secrets, and compliance violations before it can be merged.
 * **Agentic Tools Used**: GitLab CI/CD, LLM Security Scanners.
 * **Deep Dive**: [Securing and Validating Agentic Code in CI/CD](ci_cd_security.md) (Coming Soon)
 
@@ -145,3 +157,19 @@ We prioritize continuous delivery of validated, bite-sized tasks over massive sp
 
 * **The Goal**: Utilize a Lean, Kanban-style flow where tickets move from Specification directly through to Production the moment they clear the Code Review and pipeline. This ensures AI-generated features are shipped iteratively and incrementally, drastically reducing integration risk and time-to-market.
 * **Deep Dive**: [Lean Deployments in an Agentic Workflow](lean_deployment.md) (Coming Soon)
+
+## 9. DAST (Post-Deployment Monitoring)
+
+After the code is deployed to a live environment, Dynamic Application Security Testing (DAST) agents simulate real-world attacks.
+
+* **The Goal**: Continuously monitor the running application for exploitable vulnerabilities that static analysis might have missed. If a vulnerability is found, it automatically generates a new task in the backlog.
+* **Agentic Tools Used**: Automated DAST scanners, Attack Simulation Agents.
+* **Deep Dive**: [Continuous Monitoring and DAST](dast_monitoring.md) (Coming Soon)
+
+## 10. Operate & Observability (Production)
+
+Once code is safely deployed and continuously scanned, the system enters the long-term Operate phase.
+
+* **The Goal**: Measure application performance and gather user usage metrics to feed new ideas back into the Specification phase. Agentic observability tools analyze log data to uncover scaling bottlenecks and preemptively draft new feature or refactor specifications.
+* **Agentic Tools Used**: AI-Assisted APM tools (Datadog Watchdog, New Relic AI).
+* **Deep Dive**: [AI Observability and Operations](operations.md) (Coming Soon)
