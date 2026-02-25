@@ -46,7 +46,7 @@
   <circle cx="882" cy="208" r="70" fill="#2563eb" stroke="#bfdbfe" stroke-width="4" />
   <text x="882" y="208" fill="#ffffff" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">
     <tspan x="882" dy="-10">Architecture</tspan>
-    <tspan x="882" dy="20">& Design</tspan>
+    <tspan x="882" dy="20">&amp; Design</tspan>
   </text>
   <circle cx="1000" cy="420" r="70" fill="#2563eb" stroke="#bfdbfe" stroke-width="4" />
   <text x="1000" y="420" fill="#ffffff" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">
