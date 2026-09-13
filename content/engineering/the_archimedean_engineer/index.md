@@ -35,11 +35,11 @@ And I believe the answer is surprisingly simple.
 
 **AI is an accelerator, not an anchor.**
 
-It amplifies whatever engineering system we put underneath it.
+It amplifies whatever engineering system we put underneath it. I heard permutations on this theme - "AI is a great accelerator and a terrible crutch" - I am sure you can think of others. The key sense is that AI will help us move engineering forward more quickly, but it will not fix bad engineering practices. If anything, it will expose them more starkly.
 
 If our architecture is clear, our specifications are precise, our tests are trustworthy and our feedback loops are fast, AI gives us extraordinary leverage.
 
-If our requirements are vague, our architecture is coupled, our tests are unreliable and our feedback loops are slow, AI doesn't fix those problems.
+If our requirements are vague, our architecture is tightly coupled, our tests are unreliable and our feedback loops are slow, AI doesn't fix those problems.
 
 **It makes them bigger, faster.**
 
