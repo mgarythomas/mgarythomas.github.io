@@ -16,7 +16,7 @@ Dylan Thomas begins his play *Under Milk Wood* with the line: **“To begin at t
 
 With time, I’ve grown more aware of what I’ve done, and more irritatingly, of what I’ve left undone. Nothing like the ticking clock to keep score. There’s an urgency now, a pressure to make the most of limited time. That brings to mind another of Thomas’ lines: **“Do not go gentle into that good night.”** For me, it isn’t just about raging against the dying of the light; it’s a reminder to use whatever energy remains, to persist until the last.
 
-This restlessness is also echoed in Tennyson’s *Ulysses*, where the hero in old age longs to strive once more, the famouse line being:
+This restlessness is also echoed in Tennyson’s *Ulysses*, where the hero in old age longs to strive once more, the famous line being:
 >“Some work of noble note, may yet be done,
 Not unbecoming men that strove with Gods.”
 
