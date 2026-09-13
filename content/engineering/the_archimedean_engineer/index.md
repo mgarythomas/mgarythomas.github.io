@@ -3,7 +3,7 @@ title: "The Archimedean Engineer"
 summary: "Using AI Tools as a Lever"
 description: "How to provide structure to the leverage that AI engineering tools provide to the"
 draft: true
-tags: ["kiro", "agent", "gemini", "claude", "AWS]
+tags: ["kiro", "agent", "gemini", "claude", "AWS"]
 categories: ["engineering"]
 author: "Gary Thomas"
 date: 2026-08-28
