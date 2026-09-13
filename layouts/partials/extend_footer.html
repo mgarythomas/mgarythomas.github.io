@@ -1,0 +1,51 @@
+{{- if or (.Params.mermaid) (.Page.Store.Get "hasMermaid") (.Store.Get "hasMermaid") }}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  function getMermaidTheme() {
+    const html = document.querySelector("html");
+    const isDark = (html && html.dataset.theme === 'dark') || 
+                   (!html?.dataset?.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    return isDark ? 'dark' : 'default';
+  }
+
+  const mermaidElements = Array.from(document.querySelectorAll('.mermaid'));
+  const originalMermaidCode = new Map();
+  mermaidElements.forEach((el) => {
+    originalMermaidCode.set(el, el.textContent.trim());
+  });
+
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: getMermaidTheme(),
+    securityLevel: 'loose',
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
+  });
+
+  const themeToggle = document.getElementById("theme-toggle");
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      setTimeout(async () => {
+        const theme = getMermaidTheme();
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: theme,
+          securityLevel: 'loose',
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
+        });
+
+        for (const el of mermaidElements) {
+          const rawCode = originalMermaidCode.get(el);
+          if (rawCode) {
+            el.removeAttribute('data-processed');
+            el.innerHTML = rawCode;
+          }
+        }
+        await mermaid.run({
+          nodes: mermaidElements
+        });
+      }, 100);
+    });
+  }
+</script>
+{{- end }}

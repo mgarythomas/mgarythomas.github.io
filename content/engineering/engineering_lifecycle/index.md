@@ -41,7 +41,7 @@ graph TD
     
     %% Center / Repository / Audit
     GitLab[("GitLab Repository<br/>(Source of Truth)")]
-    Audit[("Audit Trail\n(Regulatory Compliance)")]
+    Audit[("Audit Trail<br/>(Regulatory Compliance)")]
     
     style Audit fill:#f9f,stroke:#333,stroke-width:2px
     style GitLab fill:#fc6d26,stroke:#333,stroke-width:2px,color:#fff

@@ -7,6 +7,8 @@ tags: ["kiro", "agent", "gemini", "claude", "AWS"]
 categories: ["engineering"]
 author: "Gary Thomas"
 date: 2026-08-28
+cover:
+  image: "the_archimedean_engineer.svg"
 ---
 
 # The Archimedean Engineer

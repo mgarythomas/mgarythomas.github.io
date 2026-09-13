@@ -10,8 +10,6 @@ cover:
   image: "ai_engineering_roadmap.svg"
 ---
 
-![AI Engineering Roadmap Layout](ai_engineering_roadmap_cover.png)
-
 # How to move AI Engineering from Current State to Target State
 
 ## Current State
