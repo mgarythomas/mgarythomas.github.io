@@ -2,7 +2,7 @@
 title: "The Red Queen"
 summary: "Running faster just to stand still"
 description: "Expectations, tooling, risk and threats are all accelerating. An engineer has to accelerate just to stand still."
-draft: true
+draft: false
 tags: ["agent-engineering", "generative-ai", "cyber", "risks"]
 categories: ["engineering"]
 author: "Gary Thomas"

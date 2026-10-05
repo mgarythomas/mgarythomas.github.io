@@ -10,7 +10,7 @@ TocOpen: false
 
 ## Background
 
-If you are not already bored or overwhelmed I have added a little more detail about me here [Background](/background/).
+If you are not already bored or overwhelmed I have added a little more detail about me here - [Background](/background/).
 
 {{< json-resume "basics" >}}
 
