@@ -1,0 +1,158 @@
+<svg width="1080" height="720" viewBox="0 0 1080 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg_grad" x1="540" y1="0" x2="540" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1C2541"/>
+    </linearGradient>
+
+    <linearGradient id="target_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#064E3B" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#022C22" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="trap_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7F1D1D" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#450A0A" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <linearGradient id="moat_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78350F" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#451A03" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="baseline_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="card_shadow" x="-8" y="-4" width="116%" height="116%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Marker Arrow -->
+    <marker id="axis_arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1080" height="720" rx="16" fill="url(#bg_grad)"/>
+  <rect width="1080" height="720" rx="16" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Subtle Grid Lines -->
+  <line x1="80" y1="130" x2="1000" y2="130" stroke="#334155" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Header Section -->
+  <text x="540" y="54" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#F8FAFC" letter-spacing="-0.5">The Four Paths: Navigating the Red Queen Dynamic</text>
+  <text x="540" y="86" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#94A3B8">Balancing Delivery Velocity with Scalable Assurance and Governance</text>
+
+  <!-- Matrix Canvas Dimensions: Left 140, Right 980, Top 150, Bottom 640 -->
+  <!-- Horizontal Axis at y=395 -->
+  <!-- Vertical Axis at x=560 -->
+
+  <!-- ==================== QUADRANT 2: Top-Left (Option 2: Defensive Moat) ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="150" y="160" width="380" height="215" rx="12" fill="url(#moat_grad)" stroke="#D97706" stroke-width="1.5" stroke-opacity="0.8"/>
+  </g>
+  <!-- Badge -->
+  <rect x="170" y="178" width="80" height="22" rx="4" fill="#B45309" fill-opacity="0.4" stroke="#F59E0B" stroke-width="1"/>
+  <text x="210" y="193" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#FDE68A" letter-spacing="0.5">OPTION 2</text>
+  <!-- Quadrant Title -->
+  <text x="170" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">The Defensive Moat</text>
+  <text x="170" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13.5" fill="#FBBF24">Bunker Down &amp; Gatekeep</text>
+  <!-- Bullet Points -->
+  <circle cx="178" cy="275" r="3" fill="#F59E0B"/>
+  <text x="190" y="279" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#E2E8F0">Pre-AI compliance frameworks &amp; manual review gates</text>
+  <circle cx="178" cy="301" r="3" fill="#F59E0B"/>
+  <text x="190" y="305" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#E2E8F0">Paralysis: shadow AI grows while defenders freeze</text>
+  <circle cx="178" cy="327" r="3" fill="#F59E0B"/>
+  <text x="190" y="331" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#CBD5E1">Attacker speed accelerates; gap steadily widens</text>
+  <!-- Outcome Pill -->
+  <rect x="170" y="348" width="138" height="18" rx="9" fill="#78350F" fill-opacity="0.8"/>
+  <text x="239" y="361" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#FDE68A">Risk: Stagnant &amp; Fragile</text>
+
+  <!-- ==================== QUADRANT 3 & 4: Top-Right (Options 3 & 4: Target) ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="580" y="160" width="380" height="215" rx="12" fill="url(#target_grad)" stroke="#10B981" stroke-width="2"/>
+  </g>
+  <!-- Badge -->
+  <rect x="600" y="178" width="128" height="22" rx="4" fill="#047857" fill-opacity="0.4" stroke="#34D399" stroke-width="1"/>
+  <text x="664" y="193" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#A7F3D0" letter-spacing="0.5">OPTIONS 3 &amp; 4 (TARGET)</text>
+  <!-- Quadrant Title -->
+  <text x="600" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Platform Leverage &amp; Assurance</text>
+  <text x="600" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13.5" fill="#34D399">Changing the Terrain &amp; the Runner</text>
+  <!-- Bullet Points -->
+  <circle cx="608" cy="275" r="3" fill="#10B981"/>
+  <text x="620" y="279" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#E2E8F0">Declarative policy-as-code &amp; automated evidence</text>
+  <circle cx="608" cy="301" r="3" fill="#10B981"/>
+  <text x="620" y="305" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#E2E8F0">Control scales with platform, not headcount</text>
+  <circle cx="608" cy="327" r="3" fill="#10B981"/>
+  <text x="620" y="331" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#CBD5E1">Graduated autonomous agent repair &amp; patching</text>
+  <!-- Outcome Pill -->
+  <rect x="600" y="348" width="168" height="18" rx="9" fill="#065F46" fill-opacity="0.9"/>
+  <text x="684" y="361" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#D1FAE5">Outcome: Compounding Value</text>
+
+  <!-- ==================== QUADRANT Baseline: Bottom-Left (Legacy Baseline) ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="150" y="415" width="380" height="215" rx="12" fill="url(#baseline_grad)" stroke="#475569" stroke-width="1.5" stroke-opacity="0.8"/>
+  </g>
+  <!-- Badge -->
+  <rect x="170" y="433" width="70" height="22" rx="4" fill="#334155" fill-opacity="0.6" stroke="#64748B" stroke-width="1"/>
+  <text x="205" y="448" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#CBD5E1" letter-spacing="0.5">BASELINE</text>
+  <!-- Quadrant Title -->
+  <text x="170" y="481" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" fill="#E2E8F0">Legacy Drag &amp; Friction</text>
+  <text x="170" y="503" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13.5" fill="#94A3B8">The Pre-AI Status Quo</text>
+  <!-- Bullet Points -->
+  <circle cx="178" cy="530" r="3" fill="#64748B"/>
+  <text x="190" y="534" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#CBD5E1">Manual compliance spreadsheets &amp; ticket handoffs</text>
+  <circle cx="178" cy="556" r="3" fill="#64748B"/>
+  <text x="190" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#CBD5E1">Slow cycle times, high toil, bespoke architectures</text>
+  <circle cx="178" cy="582" r="3" fill="#64748B"/>
+  <text x="190" y="586" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94A3B8">Unsustainable as industry baselines accelerate</text>
+  <!-- Outcome Pill -->
+  <rect x="170" y="603" width="138" height="18" rx="9" fill="#1E293B"/>
+  <text x="239" y="616" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#94A3B8">Status: Falling Behind</text>
+
+  <!-- ==================== QUADRANT 1: Bottom-Right (Option 1: Throughput Trap) ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="580" y="415" width="380" height="215" rx="12" fill="url(#trap_grad)" stroke="#EF4444" stroke-width="1.5" stroke-opacity="0.8"/>
+  </g>
+  <!-- Badge -->
+  <rect x="600" y="433" width="80" height="22" rx="4" fill="#991B1B" fill-opacity="0.4" stroke="#F87171" stroke-width="1"/>
+  <text x="640" y="448" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#FECACA" letter-spacing="0.5">OPTION 1</text>
+  <!-- Quadrant Title -->
+  <text x="600" y="481" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">The Throughput Trap</text>
+  <text x="600" y="503" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13.5" fill="#F87171">Velocity without Direction</text>
+  <!-- Bullet Points -->
+  <circle cx="608" cy="530" r="3" fill="#EF4444"/>
+  <text x="620" y="534" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#E2E8F0">AI gains absorbed entirely into sprint throughput KPIs</text>
+  <circle cx="608" cy="556" r="3" fill="#EF4444"/>
+  <text x="620" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#E2E8F0">Review queues explode; engineering burnout mounts</text>
+  <circle cx="608" cy="582" r="3" fill="#EF4444"/>
+  <text x="620" y="586" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#CBD5E1">Accumulates unassured code &amp; operational inventory</text>
+  <!-- Outcome Pill -->
+  <rect x="600" y="603" width="158" height="18" rx="9" fill="#7F1D1D" fill-opacity="0.8"/>
+  <text x="679" y="616" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#FCA5A5">Risk: The Treadmill Speeds Up</text>
+
+  <!-- ==================== AXES & LABELS ==================== -->
+  <!-- Horizontal Axis Line -->
+  <line x1="140" y1="395" x2="970" y2="395" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="140" y1="655" x2="975" y2="655" stroke="#94A3B8" stroke-width="2" marker-end="url(#axis_arrow)"/>
+  <text x="555" y="682" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#E2E8F0" letter-spacing="1">VELOCITY &amp; AI ADOPTION →</text>
+  <text x="145" y="675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">Low Velocity</text>
+  <text x="965" y="675" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">High Velocity</text>
+
+  <!-- Vertical Axis Line -->
+  <line x1="555" y1="150" x2="555" y2="640" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="125" y1="645" x2="125" y2="150" stroke="#94A3B8" stroke-width="2" marker-end="url(#axis_arrow)"/>
+  
+  <!-- Vertical Axis Label (Rotated) -->
+  <g transform="translate(100, 395) rotate(-90)">
+    <text x="0" y="0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#E2E8F0" letter-spacing="1">GOVERNANCE &amp; ASSURANCE →</text>
+  </g>
+  <text x="110" y="635" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">Low</text>
+  <text x="110" y="165" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">High</text>
+
+</svg>
