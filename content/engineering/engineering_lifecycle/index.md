@@ -7,7 +7,7 @@ categories: ["engineering", "ai"]
 author: "Gary Thomas"
 date: 2026-02-23
 cover:
-  image: "agentic_lifecycle_diagram.png"
+  image: "ai_engineering_lifecycle.svg"
 ---
 
 # The Agentic Engineering Lifecycle
