@@ -16,6 +16,8 @@ Traditional Software Development Life Cycles (SDLC) assume human engineers writi
 
 This document outlines our **Specification-Led Delivery** lifecycle. It acts as a hub pointing forward to how we leverage agentic tools at every phase of product development to generate, test, and review software.
 
+![Agentic Engineering Lifecycle](agentic_lifecycle_diagram.svg)
+
 ---
 
 *(The flowchart below details the parallel task execution paths captured in the diagram above)*
