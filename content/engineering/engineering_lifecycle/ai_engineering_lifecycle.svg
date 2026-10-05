@@ -1,23 +1,23 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="paint0_linear_0_1" x1="600" y1="0" x2="600" y2="630" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#1A1A2E"/>
-      <stop offset="100%" stop-color="#16213E"/>
+    <linearGradient id="lifecycle_grad" x1="600" y1="0" x2="600" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect width="1200" height="630" fill="#F5F5F5"/>
-  <rect width="1200" height="630" fill="url(#paint0_linear_0_1)"/>
+  <rect width="1200" height="630" fill="url(#lifecycle_grad)"/>
 
   <!-- Top Decorative Line -->
-  <line x1="550" y1="108" x2="650" y2="108" stroke="#AAAAAA" stroke-width="1.5"/>
+  <line x1="550" y1="108" x2="650" y2="108" stroke="#38BDF8" stroke-width="2"/>
 
   <!-- Main Title -->
-  <text x="600" y="270" text-anchor="middle" font-family="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="54" fill="#FFFFFF" letter-spacing="-0.5">The Archimedean Engineer</text>
+  <text x="600" y="270" text-anchor="middle" font-family="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="52" fill="#FFFFFF" letter-spacing="-0.5">Agentic Engineering Lifecycle</text>
 
   <!-- Subtitle -->
-  <text x="600" y="348" text-anchor="middle" font-family="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="24" fill="#CBD5E1" letter-spacing="0.2">Engineering in the Age of AI: Using AI Tools as a Lever</text>
+  <text x="600" y="348" text-anchor="middle" font-family="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="24" fill="#CBD5E1" letter-spacing="0.2">How to Use Agentic Tools for Specification-Led Delivery</text>
 
   <!-- Author Byline -->
   <text x="600" y="520" text-anchor="middle" font-family="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" letter-spacing="0.5">By Gary Thomas</text>

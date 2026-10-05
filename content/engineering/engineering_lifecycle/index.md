@@ -1,7 +1,7 @@
 ---
 title: "Agentic Engineering Lifecycle"
 summary: "How to use agentic tools for specification-led delivery"
-draft: false
+draft: true
 tags: ["vibe", "coding", "agentic", "lifecycle"]
 categories: ["engineering", "ai"]
 author: "Gary Thomas"
