@@ -1,0 +1,212 @@
+<svg width="1120" height="920" viewBox="0 0 1120 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="canvas_bg" x1="560" y1="0" x2="560" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#141E33"/>
+    </linearGradient>
+
+    <!-- Layer Gradients -->
+    <linearGradient id="layer1_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="layer2_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2738" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0C1D2E" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="layer3_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#241B35" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#130D24" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Connector Badges -->
+    <linearGradient id="mcp_badge_grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
+    <linearGradient id="api_badge_grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#9333EA"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="card_shadow" x="-8" y="-4" width="116%" height="116%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Arrow Marker -->
+    <marker id="conn_arrow_down" viewBox="0 0 10 10" refX="5" refY="6" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1 L 5 7 L 9 1 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="conn_arrow_down_purple" viewBox="0 0 10 10" refX="5" refY="6" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1 L 5 7 L 9 1 z" fill="#C084FC"/>
+    </marker>
+  </defs>
+
+  <!-- Main Canvas -->
+  <rect width="1120" height="920" rx="16" fill="url(#canvas_bg)"/>
+  <rect width="1120" height="920" rx="16" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Header Section -->
+  <text x="560" y="52" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="26" fill="#F8FAFC" letter-spacing="-0.5">The Decoupled AI Coding Stack</text>
+  <text x="560" y="80" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#94A3B8">Separating Developer Orchestration from Enterprise Runtime and Model Governance</text>
+
+  <!-- ==================== LAYER 1: THE HARNESS ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="70" y="115" width="980" height="215" rx="12" fill="url(#layer1_grad)" stroke="#38BDF8" stroke-width="1.5"/>
+  </g>
+  <!-- Layer 1 Header & Badge -->
+  <rect x="95" y="132" width="180" height="24" rx="4" fill="#0284C7" fill-opacity="0.3" stroke="#38BDF8" stroke-width="1"/>
+  <text x="185" y="148" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#E0F2FE" letter-spacing="0.5">LAYER 1: THE HARNESS</text>
+  <text x="290" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF">Developer Workspace &amp; Tool Orchestration</text>
+
+  <!-- Tool Pills / Badges -->
+  <g transform="translate(95, 172)">
+    <!-- Cursor -->
+    <rect x="0" y="0" width="70" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="35" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Cursor</text>
+    <!-- Windsurf -->
+    <rect x="78" y="0" width="80" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="118" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Windsurf</text>
+    <!-- Amp -->
+    <rect x="166" y="0" width="85" height="22" rx="4" fill="#0369A1" fill-opacity="0.4" stroke="#38BDF8"/>
+    <text x="208" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#BAE6FD">Amp (Orbs)</text>
+    <!-- Claude Code -->
+    <rect x="259" y="0" width="95" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="306" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Claude Code</text>
+    <!-- AWS Kiro -->
+    <rect x="362" y="0" width="80" height="22" rx="4" fill="#0369A1" fill-opacity="0.4" stroke="#38BDF8"/>
+    <text x="402" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#BAE6FD">AWS Kiro</text>
+    <!-- Cline / Roo -->
+    <rect x="450" y="0" width="115" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="507" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Cline / Roo Code</text>
+    <!-- Devin -->
+    <rect x="573" y="0" width="60" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="603" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Devin</text>
+    <!-- Aider -->
+    <rect x="641" y="0" width="55" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="668" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Aider</text>
+    <!-- Codex CLI -->
+    <rect x="704" y="0" width="80" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="744" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Codex CLI</text>
+    <!-- Copilot -->
+    <rect x="792" y="0" width="135" height="22" rx="4" fill="#1E293B" stroke="#475569"/>
+    <text x="859" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Copilot Coding Agent</text>
+  </g>
+
+  <!-- Layer 1 Feature Columns -->
+  <g transform="translate(95, 214)">
+    <!-- Column 1 -->
+    <circle cx="6" cy="6" r="3" fill="#38BDF8"/>
+    <text x="18" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">AST &amp; Repository Mapping:</text>
+    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Codebase indexing, semantic graphs, SWE-grep</text>
+
+    <circle cx="6" cy="56" r="3" fill="#38BDF8"/>
+    <text x="18" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">Context Window Management:</text>
+    <text x="18" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Token pruning, prompt caching, thread sessions</text>
+
+    <!-- Column 2 -->
+    <circle cx="480" cy="6" r="3" fill="#38BDF8"/>
+    <text x="492" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">Multi-File Diffing &amp; Execution:</text>
+    <text x="492" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Surgical patch application, linter loops, test suites</text>
+
+    <circle cx="480" cy="56" r="3" fill="#38BDF8"/>
+    <text x="492" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">Steering &amp; Repo Invariants:</text>
+    <text x="492" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">CLAUDE.md, .cursorrules, .kiro/steering/ standards</text>
+  </g>
+
+  <!-- ==================== CONNECTOR 1: MCP ==================== -->
+  <line x1="560" y1="330" x2="560" y2="385" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 560 382 L 560 388" marker-end="url(#conn_arrow_down)"/>
+  
+  <g transform="translate(350, 342)">
+    <rect x="0" y="0" width="420" height="34" rx="17" fill="url(#mcp_badge_grad)" stroke="#7DD3FC" stroke-width="1.5" filter="url(#card_shadow)"/>
+    <text x="210" y="21" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">MODEL CONTEXT PROTOCOL (MCP)</text>
+  </g>
+  <text x="560" y="394" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#7DD3FC">Secure Tool Brokerage • Postgres Schemas • Jira / GitLab • Internal APIs • Telemetry</text>
+
+  <!-- ==================== LAYER 2: ENTERPRISE RUNTIME & GOVERNANCE ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="70" y="415" width="980" height="215" rx="12" fill="url(#layer2_grad)" stroke="#10B981" stroke-width="1.5"/>
+  </g>
+  <!-- Layer 2 Header & Badge -->
+  <rect x="95" y="432" width="230" height="24" rx="4" fill="#065F46" fill-opacity="0.4" stroke="#34D399" stroke-width="1"/>
+  <text x="210" y="448" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#D1FAE5" letter-spacing="0.5">LAYER 2: ENTERPRISE RUNTIME</text>
+  <text x="340" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF">AWS Bedrock AgentCore &amp; Enterprise Gateways</text>
+
+  <!-- 4 Feature Cards inside Layer 2 -->
+  <g transform="translate(95, 474)">
+    <!-- Card 1: Runtime -->
+    <rect x="0" y="0" width="220" height="130" rx="8" fill="#0F172A" stroke="#334155"/>
+    <rect x="12" y="12" width="70" height="18" rx="3" fill="#064E3B"/>
+    <text x="47" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34D399">RUNTIME</text>
+    <text x="12" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Isolated MicroVMs</text>
+    <text x="12" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Serverless execution of agent code off local laptops in safe cloud sandboxes.</text>
+
+    <!-- Card 2: Memory -->
+    <rect x="236" y="0" width="220" height="130" rx="8" fill="#0F172A" stroke="#334155"/>
+    <rect x="248" y="12" width="65" height="18" rx="3" fill="#064E3B"/>
+    <text x="280" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34D399">MEMORY</text>
+    <text x="248" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Persistent State</text>
+    <text x="248" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Multi-turn thread context, task history &amp; architectural knowledge recall.</text>
+
+    <!-- Card 3: Gateway & Identity -->
+    <rect x="472" y="0" width="220" height="130" rx="8" fill="#0F172A" stroke="#334155"/>
+    <rect x="484" y="12" width="80" height="18" rx="3" fill="#064E3B"/>
+    <text x="524" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34D399">GATEWAY</text>
+    <text x="484" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">IAM &amp; Credentials</text>
+    <text x="484" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Fine-grained role binding. Agents only access tools scoped to authenticated identity.</text>
+
+    <!-- Card 4: Policy & Audit -->
+    <rect x="708" y="0" width="220" height="130" rx="8" fill="#0F172A" stroke="#334155"/>
+    <rect x="720" y="12" width="60" height="18" rx="3" fill="#064E3B"/>
+    <text x="750" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34D399">POLICY</text>
+    <text x="720" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Deterministic Control</text>
+    <text x="720" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">CloudWatch tracing, guardrails against destructive edits &amp; CPS 234 audit evidence.</text>
+  </g>
+
+  <!-- ==================== CONNECTOR 2: CONVERSE API ==================== -->
+  <line x1="560" y1="630" x2="560" y2="685" stroke="#C084FC" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 560 682 L 560 688" marker-end="url(#conn_arrow_down_purple)"/>
+
+  <g transform="translate(325, 642)">
+    <rect x="0" y="0" width="470" height="34" rx="17" fill="url(#api_badge_grad)" stroke="#D8B4FE" stroke-width="1.5" filter="url(#card_shadow)"/>
+    <text x="235" y="21" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">BEDROCK CONVERSE API &amp; BEDROCK MANTLE</text>
+  </g>
+  <text x="560" y="694" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#D8B4FE">Unified Multi-Model Routing • VPC Endpoints • Zero Data Retention (ZDR) • Cross-Region Profiles</text>
+
+  <!-- ==================== LAYER 3: FOUNDATION MODELS ==================== -->
+  <g filter="url(#card_shadow)">
+    <rect x="70" y="715" width="980" height="170" rx="12" fill="url(#layer3_grad)" stroke="#A855F7" stroke-width="1.5"/>
+  </g>
+  <!-- Layer 3 Header & Badge -->
+  <rect x="95" y="732" width="220" height="24" rx="4" fill="#6B21A8" fill-opacity="0.4" stroke="#C084FC" stroke-width="1"/>
+  <text x="205" y="748" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#F3E8FF" letter-spacing="0.5">LAYER 3: FOUNDATION MODELS</text>
+  <text x="330" y="750" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF">High-Reasoning Frontier Inference</text>
+
+  <!-- Model Columns -->
+  <g transform="translate(95, 774)">
+    <!-- Anthropic Claude -->
+    <rect x="0" y="0" width="300" height="85" rx="8" fill="#130D24" stroke="#4C1D95"/>
+    <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F3E8FF">Anthropic Claude</text>
+    <text x="16" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#C084FC">Opus 5.5 • Sonnet 5 • Haiku 4.5</text>
+    <text x="16" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Gold standard reasoning, refactoring &amp; coding</text>
+
+    <!-- Amazon Nova -->
+    <rect x="315" y="0" width="300" height="85" rx="8" fill="#130D24" stroke="#4C1D95"/>
+    <text x="331" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F3E8FF">Amazon Nova</text>
+    <text x="331" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#C084FC">Nova Pro • Nova Lite • Nova Premier</text>
+    <text x="331" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Ultra-low latency, high throughput &amp; cost efficiency</text>
+
+    <!-- Multi-Model & Open Weights -->
+    <rect x="630" y="0" width="300" height="85" rx="8" fill="#130D24" stroke="#4C1D95"/>
+    <text x="646" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F3E8FF">OpenAI &amp; Open Weights</text>
+    <text x="646" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#C084FC">GPT-5.6 • Mistral Large • Llama</text>
+    <text x="646" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Zero Data Retention (ZDR) via AWS PrivateLink</text>
+  </g>
+
+</svg>

@@ -5,7 +5,9 @@ draft: false
 tags: ["ai-coding", "agentic-engineering", "bedrock", "amp", "kiro", "mcp"]
 categories: ["engineering", "ai"]
 author: "Gary Thomas"
-date: 2026-10-05
+date: 2026-08-04
+cover:
+  image: "ai_coding.svg"
 ---
 
 The landscape of AI-assisted software development has shifted dramatically over the past eighteen months. What began as glorified autocomplete has matured into full agentic engineering: autonomous multi-file refactoring, background reasoning threads, spec-driven planning, and self-hosted execution sandboxes.
@@ -42,35 +44,7 @@ In enterprise and regulated environments (particularly under governance framewor
 
 Today, the leading architectural pattern separates the AI coding stack into three distinct layers:
 
-```text
-┌──────────────────────────────────────────────────────────────────┐
-│                      1. THE HARNESS                              │
-│  (Cursor, Windsurf, Amp, Claude Code, Kiro, Cline, Roo Code,      │
-│   Aider, Devin, Codex CLI, GitHub Copilot)                       │
-│   • AST & Repo Mapping       • Context Window Management         │
-│   • Multi-file Diffing       • Terminal / Linter Execution       │
-└────────────────────────────────┬─────────────────────────────────┘
-                                 │
-                 Model Context Protocol (MCP)
-                                 │
-┌────────────────────────────────┴─────────────────────────────────┐
-│              2. THE ENTERPRISE RUNTIME & GATEWAY                 │
-│              (AWS Bedrock AgentCore / API Gateways)              │
-│   • Isolated MicroVMs        • Persistent Thread Memory          │
-│   • Deterministic Policy     • IAM Identity & Audit Trails       │
-│   • Unified Observability                                        │
-└────────────────────────────────┬─────────────────────────────────┘
-                                 │
-                      Bedrock Converse API
-                                 │
-┌────────────────────────────────┴─────────────────────────────────┐
-│                   3. THE FOUNDATION MODELS                       │
-│  (Claude Opus 5.5 / Sonnet 5 / Haiku 4.5, Amazon Nova, GPT-5.6,  │
-│                    Mistral, Llama)                                │
-│   • Deep Reasoning           • Zero Data Retention (default)     │
-│   • VPC-Isolated Inference   • Enterprise SLA & Quotas           │
-└──────────────────────────────────────────────────────────────────┘
-```
+![The Decoupled AI Coding Stack](decoupled_harness_architecture.svg)
 
 ### Layer 1: The Agent Harness
 The harness is the execution environment running on your machine or in an orchestration container. It owns the developer user experience, parses repository Abstract Syntax Trees (ASTs), constructs the context window, executes shell commands, runs test suites, and applies diffs to disk.
